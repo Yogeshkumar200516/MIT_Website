@@ -1,0 +1,157 @@
+/* General Container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(148, 244, 172, 0.7), rgba(216, 248, 219, 0.7), rgba(169, 241, 187, 0.7)), 
+                url('../../assets/images/home-back1.svg') no-repeat center center; 
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+/* Overlay */
+.home-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5); /* Adjust opacity as needed */
+    z-index: -1;
+}
+
+/* Animation for sliding from the bottom */
+@keyframes slideFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Text animation wrapper */
+.text-slide-animation {
+  opacity: 0; /* Initially hidden */
+  animation: slideFromBottom 1s ease-out forwards;
+}
+
+.text-slide-delay-1 {
+  animation-delay: 0.2s; /* Delay for each text element */
+}
+
+.text-slide-delay-2 {
+  animation-delay: 0.4s;
+}
+
+.text-slide-delay-3 {
+  animation-delay: 0.6s;
+}
+
+.text-slide-delay-4 {
+  animation-delay: 0.8s;
+}
+
+/* Image Slider */
+.static-image {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+    max-height: 500px;
+    z-index: 1;
+}
+
+/* Scrolling Logos */
+.scrolling-logos {
+    margin-top: 50px;
+}
+
+.marquee-row1 {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.marquee-row2 {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo-image1 {
+    margin: 20px 70px;
+    height: 90px;
+}
+
+.logo-image2 {
+    margin: 0 70px;
+    height: 50px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .static-image {
+      max-height: 200px;
+      display: none;
+    }
+  
+    .logo-image {
+      height: 40px;
+      margin: 0 10px;
+    }
+  
+    .home-container {
+      padding: 20px;
+    }
+    
+    .logo-image1 {
+        margin: 8px 20px;
+        height: 70px;
+    }
+    
+    .logo-image2 {
+        margin: 0 40px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 960px) {
+    .static-image {
+      max-height: 250px;
+    }
+  
+    .logo-image {
+      height: 45px;
+      margin: 0 15px;
+    }
+  
+    .home-container {
+      padding: 30px;
+    }
+    .scrolling-logos {
+        margin-top: 30px;
+    }
+    
+    .marquee-row1 {
+        padding: 0px;
+    }
+    
+    .marquee-row2 {
+        padding: 10px 0;
+    }
+    
+    .logo-image1 {
+        margin: 10px 40px;
+        height: 90px;
+    }
+    
+    .logo-image2 {
+        margin: 0 50px;
+        height: 50px;
+    }
+}

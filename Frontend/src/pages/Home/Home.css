@@ -1,0 +1,64 @@
+/* Home.css */
+
+/* Scroll-to-top button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #197929; /* Dark background */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.4s ease-in-out, bottom 0.4s ease-in-out, right 0.4s ease-in-out;
+}
+
+/* Style the up arrow icon */
+.up-arrow-icon {
+  font-size: 24px;
+}
+
+/* Change size and position for smaller screens */
+@media (max-width: 768px) {
+  .scroll-to-top {
+    bottom: 20px;
+    right: 20px;
+    padding: 8px;
+  }
+  .up-arrow-icon {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-to-top {
+    bottom: 15px;
+    right: 15px;
+    padding: 6px;
+  }
+  .up-arrow-icon {
+    font-size: 18px;
+  }
+}
+
+/* Hover effect for larger screens */
+.scroll-to-top:hover {
+  background-color: white; /* Slightly lighter on hover */
+  color: #197929;
+}
+
+/* Hide the button when it's not visible */
+.scroll-to-top.hidden {
+  opacity: 0;
+  pointer-events: none; /* Prevent clicking when hidden */
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+}

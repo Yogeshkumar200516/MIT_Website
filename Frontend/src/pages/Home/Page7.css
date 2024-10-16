@@ -1,0 +1,117 @@
+/* General Styles */
+.page7-wrapper {
+    background-color: #fff9e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/images/home-back7.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 5rem;
+    flex-direction: row;
+    font-family: 'Excon';
+    gap: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  /* Animation classes */
+  .fade-in {
+    opacity: 1;
+  }
+  
+  .slide-from-top {
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: transform 1.3s ease-in-out, opacity 0.7s ease-in-out;
+  }
+  
+  .slide-from-left {
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: transform 1.3s ease-in-out, opacity 0.7s ease-in-out;
+  }
+  
+  .slide-from-right {
+    transform: translateX(50px);
+    opacity: 0;
+    transition: transform 1.3s ease-in-out, opacity 0.7s ease-in-out;
+  }
+  
+  /* When 'animate' class is added, reset the transform to its original position */
+  .animate {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+  
+  /* Content styling */
+  .page7-content {
+    max-width: 50%;
+    margin-right: 2rem;
+  }
+  
+  .page7-content h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #001a33;
+  }
+  
+  .page7-feature h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #001a33;
+  }
+  
+  .page7-feature p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Illustration styling */
+  .page7-illustration {
+    max-width: 35%;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive Styles */
+  
+  /* For tablets (768px and below) */
+  @media (max-width: 1024px) {
+    .page7-wrapper {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+    }
+  
+    .page7-content {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 1.5rem;
+    }
+  
+    .page7-illustration {
+      max-width: 80%;
+    }
+  }
+  
+  /* For mobile devices (480px and below) */
+  @media (max-width: 480px) {
+    .page7-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .page7-feature h2 {
+      font-size: 1.2rem;
+    }
+  
+    .page7-feature p {
+      font-size: 0.9rem;
+    }
+  
+    .page7-illustration {
+      max-width: 90%;
+    }
+  }
+  

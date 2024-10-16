@@ -1,0 +1,244 @@
+/* General container styles */
+.page6-container {
+    padding: 40px 50px;
+    margin: 0 auto;
+    font-family: 'Excon', sans-serif;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50% 50%;
+    background: linear-gradient(-320deg, #8bf794, #eff8f0, white, white, white);
+  }
+  
+  /* Left Section (Header) */
+  .page6-left {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .page6-left h1 {
+    font-size: 2rem;
+    color: #263238;
+    margin-bottom: 25px;
+    font-weight: bold;
+    border-bottom: 1px solid #07880F;
+    border-top: 1px solid #07880F;
+    border-bottom-right-radius: 90px;
+    border-top-left-radius: 90px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+  }
+  
+  .page6-left p {
+    font-size: 1rem;
+    color: #4a5357;
+    line-height: 1.75;
+    max-width: 90%;
+    margin-top: 10px;
+  }
+  
+  /* Features Section */
+  .page6-features {
+    display: grid;
+    border-radius: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #e8f5e9;
+  }
+  
+  .feature-box {
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 15px;
+  }
+  
+  /* New class to align icons with heading */
+  .feature-icon-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .feature-box h3 {
+    font-size: 1.2rem;
+    color: #263238;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .feature-box p {
+    font-size: 1rem;
+    color: #6b6b6b;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+
+  /* Animation for sliding from the bottom */
+.slide-in-bottom {
+    animation: slideInBottom 1.2s forwards;
+    opacity: 0;
+  }
+  
+  @keyframes slideInBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Animation for sliding from the right */
+  .slide-in-right {
+    animation: slideInRight 1,2s forwards;
+    opacity: 0;
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* Animation for sliding from the bottom */
+.slide-in-bottom {
+    animation: slideInBottom 1.2s forwards;
+    opacity: 0;
+  }
+  
+  @keyframes slideInBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Animation for sliding from the right */
+  .slide-in-right {
+    animation: slideInRight 1.2s forwards;
+    opacity: 0;
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Animation for sliding feature boxes */
+  .slide-in-feature {
+    animation: slideInFeature 1.2s forwards;
+    opacity: 0;
+  }
+  
+  @keyframes slideInFeature {
+    0% {
+      transform: scale(0.95);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .page6-container {
+      grid-template-columns: 100%;
+      padding: 20px;
+    }
+  
+    .page6-left {
+      text-align: center;
+      align-items: center;
+    }
+  
+    .page6-left h1 {
+      font-size: 2.2rem;
+      padding: 8px 35px 8px 35px;
+    }
+  
+    .page6-left p {
+      font-size: 1.1rem;
+    }
+  
+    .page6-features {
+      padding: 30px;
+    }
+  
+    .feature-box {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .page6-left h1 {
+      font-size: 1.8rem;
+      padding: 8px 35px 8px 35px;
+    }
+  
+    .page6-left p {
+      font-size: 1rem;
+      max-width: 100%;
+    }
+  
+    .feature-box h3 {
+      font-size: 1.4rem;
+    }
+  
+    .feature-box p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  /* Add responsiveness for mobile screens */
+  @media (max-width: 480px) {
+    .page6-left h1 {
+      font-size: 1.3rem;
+    }
+  
+    .page6-left p {
+      font-size: 0.9rem;
+    }
+  
+    .page6-features {
+      padding: 20px;
+    }
+  
+    .feature-box {
+      padding: 15px;
+    }
+  
+    .feature-box h3 {
+      font-size: 1.2rem;
+    }
+  
+    .feature-box p {
+      font-size: 0.85rem;
+    }
+  }
+  
