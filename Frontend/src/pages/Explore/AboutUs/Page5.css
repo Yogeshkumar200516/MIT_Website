@@ -1,0 +1,227 @@
+/* Common Transition Settings */
+.unique-hidden {
+    opacity: 0;
+    transform: translateY(0);
+    transition: all 0.8s ease-out;
+}
+
+/* Animations */
+.unique-slide-in-right {
+    transform: translateX(50%);
+}
+
+.unique-slide-in-left {
+    transform: translateX(-50%);
+}
+
+.unique-slide-in-bottom {
+    transform: translateY(100%);
+}
+
+.unique-slide-in-top {
+    transform: translateY(-100%);
+}
+
+.unique-visible {
+    opacity: 1;
+    transform: translateX(0);
+    transform: translateY(0);
+}
+
+/* Additional styling */
+.unique-aboutus-wrapper {
+    margin: 0 auto;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: row; /* Default layout for mobile responsiveness */
+    gap: 50px;
+    font-family: 'Excon';
+    background-color: #e7f3e3;
+}
+
+.unique-intro-section {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.unique-journey-heading {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+    font-family: 'Excon';
+}
+
+.unique-main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #242424;
+    margin-bottom: 20px;
+    font-family: 'Excon';
+}
+
+.unique-description-text {
+    font-size: 1rem;
+    color: #6c6c6c;
+    line-height: 1.6;
+    font-family: 'Excon';
+}
+
+.unique-vision-mission-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Allows boxes to wrap on smaller screens */
+}
+
+.unique-vision-box,
+.unique-mission-box {
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.unique-vision-icon {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.unique-mission-icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.unique-vision-title,
+.unique-mission-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #242424;
+    margin-bottom: 10px;
+    font-family: 'Excon';
+}
+
+.unique-vision-description,
+.unique-mission-description {
+    font-size: 1rem;
+    color: #6c6c6c;
+    line-height: 1.6;
+    font-family: 'Excon';
+}
+
+/* Tablet responsiveness */
+@media (max-width: 1024px) {
+    .unique-aboutus-wrapper {
+        padding: 30px 20px;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .unique-main-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .unique-journey-heading {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .unique-description-text {
+        font-size: 0.95rem;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .unique-vision-mission-container {
+        flex-direction: row; /* Stack vision and mission vertically */
+        align-items: center;
+    }
+
+    .unique-vision-box,
+    .unique-mission-box {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .unique-vision-icon,
+    .unique-mission-icon {
+        width: 70px;
+    }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .unique-aboutus-wrapper {
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .unique-main-heading {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .unique-journey-heading {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .unique-description-text {
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .unique-vision-mission-container {
+        flex-direction: column; /* Stack vertically */
+        align-items: center;
+    }
+
+    .unique-vision-box,
+    .unique-mission-box {
+        width: 100%;
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .unique-vision-icon,
+    .unique-mission-icon {
+        width: 60px;
+    }
+
+    .unique-vision-title,
+    .unique-mission-title {
+        font-size: 1.2rem;
+    }
+
+    .unique-vision-description,
+    .unique-mission-description {
+        font-size: 0.9rem;
+    }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+    .unique-main-heading {
+        font-size: 1.5rem;
+    }
+
+    .unique-description-text {
+        font-size: 0.85rem;
+    }
+
+    .unique-vision-box,
+    .unique-mission-box {
+        margin: 10px 0;
+    }
+
+    .unique-vision-title,
+    .unique-mission-title {
+        font-size: 1.1rem;
+    }
+
+    .unique-vision-description,
+    .unique-mission-description {
+        font-size: 0.85rem;
+    }
+}

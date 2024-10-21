@@ -88,17 +88,19 @@ const Navbar = () => {
   const exploreItems = [
     { text: 'About Us', link: '/about-us' },
     { text: 'Our Team', link: '/our-team' },
-    { text: 'Our Products', link: '/our-products' },
-    { text: 'Happy Customers', link: '/happy-customers' },
+    // { text: 'Our Products', link: '/our-products' },
+    // { text: 'Happy Customers', link: '/happy-customers' },
   ];
 
   const serviceItems = [
-    { text: 'Software Development', link: '/software-development' },
     { text: 'Website Development', link: '/website-development' },
     { text: 'Digital Marketing', link: '/digital-marketing' },
-    { text: 'Graphic Design', link: '/graphic-design' },
     { text: 'Mobile Applications', link: '/mobile-applications' },
-    { text: 'E-Commerce Solutions', link: '/e-commerce' },
+    { text: 'Billing Software', link: '/billing-software' },
+    // { text: 'Software Development', link: '/software-development' },
+    // { text: 'Graphic Design', link: '/graphic-design' },
+    // { text: 'Mobile Applications', link: '/mobile-applications' },
+    // { text: 'E-Commerce Solutions', link: '/e-commerce' },
   ];
 
   // Slider content - Categories for the slider with icons

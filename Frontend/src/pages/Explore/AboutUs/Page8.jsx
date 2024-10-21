@@ -1,31 +1,32 @@
 import React, { useEffect, useRef, useState } from 'react';
-import image1 from '../../assets/images/template1.png';
-import image2 from '../../assets/images/template2.png';
-import image3 from '../../assets/images/template3.png';
-import image4 from '../../assets/images/template4.png';
-import image5 from '../../assets/images/template5.png';
-import image6 from '../../assets/images/template6.png';
-import './Page10.css'; // For custom styles
+import image1 from '../../../assets/images/template1.png';
+import image2 from '../../../assets/images/template2.png';
+import image3 from '../../../assets/images/template3.png';
+import image4 from '../../../assets/images/template4.png';
+import image5 from '../../../assets/images/template5.png';
+import image6 from '../../../assets/images/template6.png';
+import './Page8.css'; // For custom styles
 
-const Page10 = () => {
+const Page8 = () => {
   const pageRef = useRef(null);
   const [animationTriggered, setAnimationTriggered] = useState(false); // Track if animation has been triggered
 
   // Website names to be displayed in the slider
-  const websiteNames = [
-    'Design Agency Website',
-    'Digital Marketing Website',
-    'University/College Website',
-    'Educational Website',
-    'E-Commerce Website',
-    'Travel Agency Website',
-    'Hospital Website',
-    'Tourism Website',
-    'Real Estate Website',
+  const aboutUsOptions = [
+    'Our Story',
+    'Our Mission',
+    'Our Values',
+    'Meet the Team',
+    'Company History',
+    'Careers',
+    'Testimonials',
+    'Press and Media',
+    'Community Involvement',
+    'Sustainability Efforts',
   ];
 
   // Join the names with a gap in between for better readability
-  const slidingText = websiteNames.join(' ✦ ');
+  const slidingText = aboutUsOptions.join(' ✦ ');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -78,4 +79,4 @@ const Page10 = () => {
   );
 }
 
-export default Page10;
+export default Page8;

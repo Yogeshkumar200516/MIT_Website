@@ -1,0 +1,50 @@
+/* General page styles (if needed) */
+
+/* Styles for the scroll-to-top button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #4CAF50; /* Green background */
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the button is on top of other elements */
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #388E3C; /* Darker green when hovered */
+  }
+  
+  .scroll-to-top svg {
+    color: white; /* Icon color */
+    font-size: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .scroll-to-top {
+      bottom: 20px;
+      right: 20px;
+      padding: 8px;
+    }
+    .up-arrow-icon {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .scroll-to-top {
+      bottom: 15px;
+      right: 15px;
+      padding: 6px;
+    }
+    .up-arrow-icon {
+      font-size: 18px;
+    }
+  }

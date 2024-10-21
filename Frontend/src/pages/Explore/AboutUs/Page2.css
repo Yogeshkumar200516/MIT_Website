@@ -1,0 +1,118 @@
+.about-container-unique {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 180px 100px 100px;
+    background-color: #fff;
+    font-family: 'Excon';
+    flex-wrap: wrap; /* Allow wrapping to prevent overflow */
+  }
+  
+  .about-content-unique {
+    max-width: 50%;
+    flex: 1 1 45%; /* Allow flexibility for resizing */
+  }
+  
+  .about-heading-unique,
+  .about-description-unique,
+  .about-image-unique {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .about-heading-unique {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #222;
+    word-wrap: break-word; /* Prevent text overflow */
+  }
+  
+  .about-description-unique {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .about-button-unique {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #1d1e1f;
+    border-radius: 70px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Add transition for hover effects */
+}
+
+/* Hover effects */
+.about-button-unique:hover {
+    background-color: #1d1e1f; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+  .about-image-container-unique {
+    max-width: 45%;
+    flex: 1 1 45%; /* Allow flexibility for resizing */
+  }
+  
+  .about-image-unique {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Transition classes to reveal the elements */
+  .slide-in-left {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .slide-in-bottom {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .slide-in-right {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 1024px) {
+    .about-container-unique {
+      padding: 50px 30px; /* Reduce padding for medium screens */
+    }
+  
+    .about-heading-unique {
+      font-size: 2rem; /* Reduce heading font size for medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-container-unique {
+      flex-direction: column;
+      text-align: center;
+      padding: 30px;
+    }
+  
+    .about-content-unique,
+    .about-image-container-unique {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .about-heading-unique {
+      font-size: 1.8rem; /* Further reduce heading font size for small screens */
+    }
+  
+    .about-description-unique {
+      font-size: 1rem;
+    }
+  
+    .about-button-unique {
+      margin-top: 20px;
+    }
+  }
+  

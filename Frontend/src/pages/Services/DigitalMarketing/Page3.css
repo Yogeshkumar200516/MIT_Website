@@ -1,0 +1,81 @@
+/* Page4Web.css */
+.page3-container-web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../../assets/images/web-back1.png') no-repeat center center/cover;
+    padding: 0px;
+    position: relative;
+    font-family: 'Excon';
+    overflow: hidden; /* To ensure the overlay stays within the container */
+}
+
+.page3-container-web::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the opacity for desired darkness */
+    z-index: 1;
+}
+
+/* Content styles */
+.page3-content-web {
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    position: relative;
+    z-index: 2; /* Ensures content appears above the overlay */
+}
+
+.page3-content-web.slide-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.page3-title-web {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.page3-subtitle-web {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .page3-title-web {
+        font-size: 2em;
+    }
+
+    .page3-subtitle-web {
+        font-size: 1em;
+    }
+
+    .page3-container-web {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page3-content-web {
+        padding: 20px;
+    }
+    
+    .page3-title-web {
+        font-size: 1.8em;
+    }
+
+    .page3-subtitle-web {
+        font-size: 0.9em;
+    }
+}
