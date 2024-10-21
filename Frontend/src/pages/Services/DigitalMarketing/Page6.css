@@ -1,0 +1,164 @@
+.branding-container-unique {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 20px;
+    font-family: 'Excon';
+    background-image: url("../../../assets/images/footer-logo2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: auto; /* Ensure height adjusts to content */
+  }
+  
+  .branding-content-unique {
+    text-align: center;
+  }
+  
+  .branding-heading-unique {
+    font-size: 36px;
+    font-family: 'Excon';
+    color: #f1f1f1;
+    margin-bottom: 16px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .branding-heading-unique::after {
+    content: '';
+    position: absolute;
+    width: 50%; /* Half the width of the title */
+    height: 2px; /* Thickness of the underline */
+    background-color: #4CAF50; /* Green color */
+    bottom: -8px; /* Distance below the title */
+    left: 25%; /* Center the underline relative to the title */
+  }
+  
+  .branding-description-unique {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #f1f1f1;
+    max-width: 800px;
+    margin: 10px auto 40px;
+  }
+  
+  .branding-icons-wrapper-unique {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .branding-icon-unique {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease;
+  }
+  
+  .branding-icon-unique:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  
+  /* Keyframes for sliding animations */
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromBottom {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Initial state: elements are hidden and positioned for sliding */
+  .branding-heading-unique,
+  .branding-description-unique,
+  .branding-icon-unique {
+    opacity: 0;
+    transform: translateX(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .branding-heading-unique.active {
+    animation: slideInFromLeft 0.8s ease forwards;
+  }
+  
+  .branding-description-unique.active {
+    animation: slideInFromRight 0.8s ease forwards;
+  }
+  
+  .branding-icons-wrapper-unique.active .branding-icon-unique {
+    animation: slideInFromBottom 0.8s ease forwards;
+  }
+  
+  /* Responsive styles remain the same as before */
+  
+  /* Responsive styles for tablets and smaller screens */
+  @media (max-width: 1024px) { /* Tablets */
+    .branding-container-unique {
+      padding: 40px 20px;
+    }
+  
+    .branding-heading-unique {
+      font-size: 32px;
+    }
+  
+    .branding-description-unique {
+      font-size: 16px;
+      max-width: 90%; /* Make the text container narrower */
+    }
+  
+    .branding-icon-unique {
+      width: 60px; /* Reduce icon size */
+      height: 60px;
+    }
+  }
+  
+  /* Responsive styles for mobile devices */
+  @media (max-width: 768px) { /* Mobile screens */
+    .branding-container-unique {
+      padding: 30px 20px;
+    }
+  
+    .branding-heading-unique {
+      font-size: 28px;
+    }
+  
+    .branding-description-unique {
+      font-size: 14px;
+      max-width: 100%; /* Full width for mobile */
+    }
+  
+    .branding-icons-wrapper-unique {
+      gap: 20px;
+    }
+  
+    .branding-icon-unique {
+      width: 50px; /* Further reduce icon size */
+      height: 50px;
+    }
+  }
+  

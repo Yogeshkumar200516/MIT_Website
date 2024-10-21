@@ -1,0 +1,144 @@
+/* General container for content */
+.content-wrapper-unique {
+    background: linear-gradient(135deg, #eef8e8, #e3f9d5, #d2f3be);
+    padding: 40px 20px;
+    font-family: 'Excon';
+}
+  
+.content-header-unique {
+    text-align: left;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+  
+.content-title-unique {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 16px;
+    position: relative;
+    display: inline-block;
+    opacity: 0; /* Initially hidden for animation */
+    transform: translateX(-100px); /* Initial position for sliding animation */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Transition for animation */
+}
+  
+.content-title-unique.slide-in-left {
+    opacity: 1; /* Fully visible */
+    transform: translateX(0); /* Slide to original position */
+}
+  
+.content-title-unique::after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    background-color: #86cb8a; /* Light green underline */
+    bottom: -10px;
+    left: 0%;
+}
+  
+.content-description-unique {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin: 20px auto;
+    opacity: 0; /* Initially hidden for animation */
+    transform: translateX(100px); /* Initial position for sliding animation */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Transition for animation */
+}
+  
+.content-description-unique.slide-in-right {
+    opacity: 1; /* Fully visible */
+    transform: translateX(0); /* Slide to original position */
+}
+  
+/* Scrolling quotes container */
+.scrolling-quotes-wrapper-unique {
+    overflow: hidden; /* Hide the content overflow */
+    margin-top: 40px;
+}
+  
+.scrolling-quotes-content-unique {
+    display: flex;
+    gap: 20px;
+    animation: scroll-quotes 10s linear infinite; /* Animation to scroll from right to left */
+}
+  
+/* Keyframes for scrolling animation */
+@keyframes scroll-quotes {
+    0% {
+        transform: translateX(0%); /* Start off-screen */
+    }
+    100% {
+        transform: translateX(-10%); /* Scroll all the way off-screen */
+    }
+}
+  
+/* Individual quote cards */
+.quote-card-unique {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 350px; /* Fixed width for each card */
+    flex-shrink: 0; /* Prevent cards from shrinking */
+}
+  
+.quote-text-unique {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+.quote-author-unique {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    text-align: right;
+}
+  
+/* Responsive styles for tablets and smaller screens */
+@media (max-width: 1024px) { /* Tablets */
+    .quote-card-unique {
+        min-width: 220px; /* Reduce width for smaller screens */
+    }
+  
+    .content-title-unique {
+        font-size: 32px;
+    }
+  
+    .content-description-unique {
+        font-size: 16px;
+    }
+}
+  
+@media (max-width: 768px) { /* Mobile */
+    .quote-card-unique {
+        min-width: 180px; /* Further reduce width for mobile */
+    }
+  
+    .content-title-unique {
+        font-size: 28px;
+    }
+  
+    .content-description-unique {
+        font-size: 14px;
+    }
+  
+    .content-wrapper-unique {
+        padding: 30px 15px;
+    }
+}
+
+/* Animation trigger */
+@keyframes slide-in {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

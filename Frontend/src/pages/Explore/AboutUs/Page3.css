@@ -1,0 +1,55 @@
+/* Full container for the About Us section */
+.about-us-container {
+    background-color: #3ea341; /* Match the green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px; /* Slight padding for responsiveness */
+    font-family: 'Excon';
+  }
+  
+  /* Centered content */
+  .about-us-content {
+    text-align: center;
+    max-width: 1000px;
+  }
+  
+  /* Subtext styling (the smaller paragraph) */
+  .about-us-subtext {
+    font-size: 1.2rem;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+  }
+  
+  /* Main title styling (the larger text) */
+  .about-us-title {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  /* Responsive adjustments for tablets */
+  @media (max-width: 1024px) {
+    .about-us-subtext {
+      font-size: 1.1rem;
+    }
+  
+    .about-us-title {
+      font-size: 2.5rem;
+    }
+  }
+  
+  /* Responsive adjustments for mobile */
+  @media (max-width: 768px) {
+    .about-us-subtext {
+      font-size: 1rem;
+    }
+  
+    .about-us-title {
+      font-size: 2rem;
+    }
+  }
+  

@@ -15,11 +15,12 @@ import {
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../../assets/images/logo1.svg';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 
 const Navbar = () => {
+  const location = useLocation();
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [exploreOpen, setExploreOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
@@ -42,6 +43,8 @@ const Navbar = () => {
 
   const handleNavItemClick = () => {
     setDrawerOpen(false);
+    setExploreOpen(false);
+  setServicesOpen(false);
   };
 
   const toggleMobileServicesDropdown = (e) => {
@@ -71,6 +74,11 @@ const Navbar = () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [exploreOpen]);
+
+  const isActive = (path) => location.pathname === path;
+  const isExploreActive = () => exploreItems.some((item) => location.pathname === item.link);
+  const isServicesActive = () => serviceItems.some((item) => location.pathname === item.link);
+
 
   const navItems = [
     { text: 'Home', link: '/' },
@@ -107,14 +115,15 @@ const Navbar = () => {
     <>
       {/* Slider at the top of the Navbar */}
       <Box
+      position="fixed"
         sx={{
           width: '100%',
           overflow: 'hidden',
           backgroundImage: 'linear-gradient(to right, #ffc107, #ffca28, #ffd54f, #ffca28, #ffc107)',
           padding: '6px 0',
           whiteSpace: 'nowrap', // Ensure content doesn't wrap to the next line
-          position: 'fixed',
           top: 0,
+          zIndex: 1200,
         }}
       >
         {/* Slider Content */}
@@ -122,9 +131,8 @@ const Navbar = () => {
           sx={{
             whiteSpace: 'nowrap',
             animation: 'scroll 40s linear infinite', // Keyframe for continuous scroll
-            marginTop: '0px',
             display: 'flex',
-            fontFamily: 'Roboto, sans-serif',
+            fontFamily: 'Excon',
           }}
         >
           {/* Duplicate items to make a continuous loop */}
@@ -133,7 +141,7 @@ const Navbar = () => {
               key={index}
               sx={{
                 marginRight: '20px',
-                fontSize: '1rem',
+                fontSize: '0.9rem',
                 color: '#08083B',
                 fontWeight: '500',
                 alignItems: 'center',
@@ -154,8 +162,9 @@ const Navbar = () => {
         sx={{
           backgroundImage: 'linear-gradient(to right, #141E30, #243B55)',
           height: '80px',
-          fontFamily: 'Roboto, sans-serif', // Roboto font applied to the entire navbar
+          fontFamily: 'Excon',
           marginTop: '41px',
+          zIndex: 1100,
         }}
       >
         <Toolbar
@@ -204,6 +213,9 @@ const Navbar = () => {
                 sx={{
                   textTransform: 'none',
                   fontSize: '1.1rem',
+                  color: isActive(item.link) ? '#00e676' : 'inherit',
+                  fontFamily: 'Excon',
+                  fontWeight: '400',
                   '&:hover': {
                     color: '#00e676',
                   },
@@ -224,8 +236,10 @@ const Navbar = () => {
                 color="inherit"
                 sx={{
                   textTransform: 'none',
-                  fontWeight: '500',
+                  fontWeight: '400',
                   fontSize: '1.1rem',
+                  color: isExploreActive() ? '#00e676' : 'inherit',
+                  fontFamily: 'Excon',
                   '&:hover': {
                     color: '#00e676',
                   },
@@ -255,9 +269,11 @@ const Navbar = () => {
                     key={item.text}
                     component={Link}
                     to={item.link}
+                    onClick={handleNavItemClick}
                     sx={{
                       color: '#fff',
                       padding: '10px 20px',
+                      fontFamily: 'Excon',
                       '&:hover': {
                         backgroundColor: '#0C0C6D',
                         borderRadius: '4px',
@@ -281,8 +297,10 @@ const Navbar = () => {
                 color="inherit"
                 sx={{
                   textTransform: 'none',
-                  fontWeight: '500',
+                  fontWeight: '400',
                   fontSize: '1.1rem',
+                  color: isServicesActive() ? '#00e676' : 'inherit',
+                  fontFamily: 'Excon',
                   '&:hover': {
                     color: '#00e676',
                   },
@@ -297,7 +315,7 @@ const Navbar = () => {
                   top: '100%',
                   left: 0,
                   backgroundImage: 'linear-gradient(to right, #141E30, #243B55)',
-                  width: '200px',
+                  width: '240px',
                   zIndex: 10,
                   padding: '8px 0',
                   maxHeight: servicesOpen ? '300px' : '0',
@@ -312,9 +330,11 @@ const Navbar = () => {
                     key={service.text}
                     component={Link}
                     to={service.link}
+                    onClick={handleNavItemClick}
                     sx={{
                       color: '#fff',
                       padding: '10px 20px',
+                      fontFamily: 'Excon',
                       '&:hover': {
                         backgroundColor: '#0C0C6D',
                         borderRadius: '4px',
@@ -341,6 +361,7 @@ const Navbar = () => {
                 border: '2px solid white',
                 color: '#020220',
                 borderRadius: '30px',
+                fontFamily: 'Excon',
                 transition: 'background-color 0.3s, color 0.3s, box-shadow 0.3s',
                 '&:hover': {
                   backgroundColor: '#020220',
@@ -388,7 +409,7 @@ const Navbar = () => {
                     fontWeight: '600',
                   }}
                 >
-                  <ListItemText primary={item.text} />
+                  <ListItemText primary={item.text}/>
                 </Link>
               </ListItem>
             ))}
@@ -446,7 +467,7 @@ const Navbar = () => {
                         borderRadius: '10px',
                       }}
                     >
-                      <ListItemText primary={service.text} />
+                      <ListItemText primary={service.text}/>
                     </Link>
                   </ListItem>
                 ))}
@@ -464,6 +485,7 @@ const Navbar = () => {
                   border: '1px solid white',
                   color: '#020220',
                   backgroundColor: 'white',
+                  fontFamily: 'Excon',
                   '&:hover': {
                     backgroundColor: '#08083B',
                     color: '#FFFFFF',

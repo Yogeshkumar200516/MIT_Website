@@ -1,0 +1,218 @@
+/* Full page container */
+.design-page-container {
+    background-color: #f1f8e9; /* Light green background */
+    padding: 70px 20px 70px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Excon';
+  }
+  
+  /* Content section */
+  .design-page-content {
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  /* Page title */
+  .design-page-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1d1e1f;
+    margin-bottom: 1rem;
+  }
+  
+  /* Subtext below the title */
+  .design-page-subtext {
+    font-size: 1.2rem;
+    color: #4a4b4d;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+  }
+  
+  /* Service card grid */
+  .design-service-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+  }
+  
+/* Individual service card */
+.design-service-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px 20px;
+  width: 100%;
+  max-width: 690px;
+  text-align: left;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid #001a33;
+  color: #001a33;
+  position: relative;
+  overflow: hidden; /* To make sure the pseudo-element does not overflow */
+}
+
+/* Pseudo-element for the background image */
+.design-service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: bottom right;
+  background-size: 30%; /* Size of the image */
+  background-repeat: no-repeat;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth opacity and transform transition */
+  z-index: 0; /* Behind the card content */
+}
+
+/* Add hover effect with background image opacity */
+.design-service-card:hover::before {
+  opacity: 0.3; /* Set desired opacity here */
+  transform: translateY(-5px); /* Optional: same hover movement as the card */
+}
+
+/* Specific background images for each card */
+.design-service-card:nth-child(1)::before {
+  background-image: url("../../../assets/images/digitalmarketing.svg");
+}
+
+.design-service-card:nth-child(2)::before {
+  background-image: url("../../../assets/images/webdevelopment.svg");
+}
+
+.design-service-card:nth-child(3)::before {
+  background-image: url("../../../assets/images/graphicdesign.svg");
+}
+
+.design-service-card:nth-child(4)::before {
+  background-image: url("../../../assets/images/digitalmarketing.svg");
+}
+
+.design-service-card:nth-child(5)::before {
+  background-image: url("../../../assets/images/webdevelopment.svg");
+}
+
+.design-service-card:nth-child(6)::before {
+  background-image: url("../../../assets/images/graphicdesign.svg");
+}
+
+/* Ensure other elements (like text) are above the background */
+.design-service-card .service-info {
+  position: relative;
+  z-index: 1;
+}
+
+
+.design-service-card img {
+  position: relative;
+  z-index: 2;
+}
+
+  
+  /* Service title */
+  .service-title {
+    font-size: 1.5rem;
+    color: #1d1e1f;
+    margin-bottom: 10px;
+  }
+  
+  /* Service description */
+  .service-description {
+    font-size: 1rem;
+    color: #4a4b4d;
+    line-height: 1.5;
+  }
+  
+  /* Hidden elements before animation */
+  .hidden {
+    opacity: 0;
+  }
+  
+  /* Slide up animation */
+  @keyframes slideUp {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Slide left animation */
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Trigger slide-up animation when element is in view */
+  .animate-slide-up {
+    animation: slideUp 1s ease-in-out forwards;
+  }
+  
+  /* Trigger slide-left animation when element is in view */
+  .animate-slide-left {
+    animation: slideLeft 1s ease-in-out forwards;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 1024px) {
+    .design-service-cards {
+      grid-template-columns: repeat(2, 1fr); /* Two cards per row for tablets */
+      gap: 15px;
+    }
+  
+    .design-page-title {
+      font-size: 2.5rem;
+    }
+  
+    .design-page-subtext {
+      font-size: 1.1rem;
+    }
+  
+    .service-title {
+      font-size: 1.3rem;
+    }
+  
+    .service-description {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .design-service-cards {
+      grid-template-columns: repeat(1, 1fr); /* Stack cards vertically on mobile */
+    }
+  
+    .design-page-title {
+      font-size: 2rem;
+    }
+  
+    .design-page-subtext {
+      font-size: 1rem;
+    }
+  
+    .service-title {
+      font-size: 1.2rem;
+    }
+  
+    .service-description {
+      font-size: 0.85rem;
+    }
+  }
+  

@@ -1,0 +1,209 @@
+/* Full page container */
+.design-page-container {
+  background-color: #eef7e8; /* Match the light green background */
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Excon', sans-serif;
+}
+
+/* Content section */
+.design-page-content {
+  max-width: 1200px;
+  text-align: center;
+}
+
+/* Page title */
+.design-page-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #001a33; /* Match dark heading color */
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+/* Subtext below the title */
+.design-page-subtext {
+  font-size: 1.2rem;
+  color: #4a4b4d;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Service card grid */
+.design-service-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: start;
+}
+
+/* Individual service card with fixed height and width */
+.design-service-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  color: #001a33;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.design-service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  width: 50px;
+  height: auto;
+}
+
+/* Service title */
+.service-title {
+  font-size: 1.4rem;
+  color: #001a33;
+  margin-bottom: 10px;
+}
+
+/* Service description */
+.service-description {
+  font-size: 1rem;
+  color: #4a4b4d;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Hidden elements before animation */
+.hidden {
+  opacity: 0;
+}
+
+/* Slide up animation */
+@keyframes slideUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Slide left animation */
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Trigger slide-up animation when element is in view */
+.animate-slide-up {
+  animation: slideUp 1s ease-in-out forwards;
+}
+
+/* Trigger slide-left animation when element is in view */
+.animate-slide-left {
+  animation: slideLeft 1s ease-in-out forwards;
+}
+
+/* Responsive design for tablets */
+@media (max-width: 1024px) {
+  .design-service-cards {
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row for tablets */
+    gap: 15px;
+  }
+
+  .design-page-title {
+    font-size: 2rem;
+  }
+
+  .design-page-subtext {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .service-title {
+    font-size: 1.3rem;
+  }
+
+  .service-description {
+    font-size: 0.9rem;
+  }
+
+  .design-service-card {
+    width: 250px; /* Adjust width for tablets */
+    height: auto; /* Let the height auto-adjust */
+    padding: 25px;
+  }
+
+  .design-page-container {
+    padding: 40px 20px; /* Adjust padding for better spacing */
+  }
+}
+
+/* Responsive design for mobile phones */
+@media (max-width: 768px) {
+  .design-service-cards {
+    grid-template-columns: 1fr; /* Stack cards vertically on mobile */
+    gap: 10px;
+  }
+
+  .design-page-title {
+    font-size: 1.8rem;
+  }
+
+  .design-page-subtext {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .service-title {
+    font-size: 1.2rem;
+  }
+
+  .service-description {
+    font-size: 0.85rem;
+  }
+
+  .design-service-card {
+    width: 90%; /* Adjust width for mobile */
+    height: auto; /* Let height adjust automatically */
+    padding: 20px;
+    margin: 0;
+  }
+
+  .design-page-container {
+    padding: 30px 15px; /* Reduce padding on mobile */
+  }
+
+  .service-icon {
+    max-width: 40px; /* Slightly smaller icons on mobile */
+  }
+  
+  .service-title, .service-description {
+    text-align: left; /* Center-align text on mobile */
+  }
+}
+
+/* Adjust animations for mobile performance */
+@media (max-width: 768px) {
+  .animate-slide-up, .animate-slide-left {
+    animation-duration: 0.7s; /* Faster animations on mobile */
+  }
+}

@@ -1,0 +1,185 @@
+/* src/Page1.css */
+
+/* Full-page container - No transition on background */
+.webdev-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #13894a, #09612c); /* Background without transition */
+    color: white;
+    font-family: 'Excon';
+    padding: 100px 20px 30px 20px;
+  }
+  
+  /* Content section styling */
+  .webdev-content-section {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  /* Initially hidden state for content (before animation) */
+  .webdev-title,
+  .webdev-subtext,
+  .webdev-button-group {
+    opacity: 0;
+    transform: translateY(250px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  /* When the animate class is applied, trigger the content animation */
+  .webdev-page-container.animate .webdev-title {
+    opacity: 1;
+    transform: translateY(0); /* Slide into place */
+  }
+  
+  .webdev-page-container.animate .webdev-subtext {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .webdev-page-container.animate .webdev-button-group {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Styling for the text */
+  .webdev-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .webdev-subtext {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    padding: 10px 100px 10px 100px;
+  }
+  
+  /* Buttons container */
+  .webdev-button-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  /* Styling for buttons */
+  .webdev-explore-btn,
+  .webdev-special-btn {
+    padding: 0.75rem 2rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .webdev-explore-btn, .webdev-special-btn {
+    background: none;
+    border: 2px solid white;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .webdev-explore-btn:hover, .webdev-special-btn:hover {
+    background-color: white;
+    color: #09612c;
+    transform: scale(1.05); /* Scale down to 90% of original size */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Scrolling text */
+  .webdev-scrolling-text {
+    margin-top: 4rem;
+    white-space: nowrap;
+    font-size: 2rem;
+    animation: webdev-scroll 20s linear infinite;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  /* Keyframes for scrolling effect */
+  @keyframes webdev-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* MEDIA QUERIES */
+  
+  /* Tablets and smaller devices (max-width: 1024px) */
+  @media (max-width: 1024px) {
+    .webdev-title {
+      font-size: 3rem; /* Reduce title size */
+    }
+  
+    .webdev-subtext {
+      font-size: 1.1rem; /* Adjust subtext size */
+    }
+  
+    .webdev-explore-btn,
+    .webdev-special-btn {
+      padding: 1.2rem 1.6rem; /* Adjust button padding */
+      font-size: 1.1rem;
+    }
+  
+    .webdev-button-group {
+      gap: 0.75rem; /* Stack buttons vertically */
+    }
+  }
+  
+  /* Mobile screens (max-width: 768px) */
+  @media (max-width: 768px) {
+    .webdev-page-container {
+        padding: 60px 20px 30px 20px
+    }
+    .webdev-title {
+      font-size: 2.5rem; /* Further reduce title size */
+    }
+  
+    .webdev-subtext {
+      font-size: 1rem; /* Adjust subtext size */
+      padding: 10px 50px 10px 50px;
+    }
+  
+    .webdev-explore-btn,
+    .webdev-special-btn {
+      padding: 1rem 1.5rem; /* Adjust button padding */
+      font-size: 1rem;
+    }
+  
+    .webdev-scrolling-text {
+      font-size: 1.2rem; /* Reduce scrolling text size */
+    }
+  }
+  
+  /* Small mobile screens (max-width: 480px) */
+  @media (max-width: 480px) {
+    .webdev-page-container {
+        padding: 50px 20px 30px 20px;
+    }
+
+    .webdev-title {
+      font-size: 1.8rem; /* Smaller title for small mobile screens */
+    }
+  
+    .webdev-subtext {
+      font-size: 0.9rem; /* Smaller subtext */
+      padding: 10px 0px 10px 0px;
+    }
+  
+    .webdev-explore-btn,
+    .webdev-special-btn {
+      padding: 0.6rem 1.2rem; /* Further adjust button padding */
+      font-size: 1rem;
+    }
+  
+    .webdev-scrolling-text {
+      font-size: 1rem; /* Further reduce scrolling text size */
+    }
+  }
+  
