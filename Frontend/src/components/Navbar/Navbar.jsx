@@ -82,12 +82,12 @@ const Navbar = () => {
 
   const navItems = [
     { text: 'Home', link: '/' },
-    { text: 'Career', link: '/career' },
   ];
 
   const exploreItems = [
     { text: 'About Us', link: '/about-us' },
     { text: 'Our Team', link: '/our-team' },
+    // { text: 'Career', link: '/career' },
     // { text: 'Our Products', link: '/our-products' },
     // { text: 'Happy Customers', link: '/happy-customers' },
   ];
