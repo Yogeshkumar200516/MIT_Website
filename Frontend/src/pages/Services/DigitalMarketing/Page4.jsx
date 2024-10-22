@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import image1 from '../../../assets/images/linkedin.svg';
 import image2 from '../../../assets/images/google.svg';
 import image3 from '../../../assets/images/instagram.svg';

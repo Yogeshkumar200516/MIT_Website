@@ -1,205 +1,176 @@
-/* General container styles */
-.about-section-container {
-  background-color: #ffffff; /* White background */
-  padding: 60px 40px;
+/* General container styling */
+.page4-container-digital-unique {
+  background-color: #ffffff;
+  padding: 60px 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Excon';
-  opacity: 0; /* Initial hidden state for animation */
-  transform: translateY(100px); /* Slide from the bottom initially */
-  transition: all 0.6s ease-out;
-}
-
-/* Transition Styles */
-.about-title-container, 
-.about-description-container, 
-.about-card {
-  opacity: 0; /* Initially hidden */
-  transition: all 0.6s ease-out; /* Apply transition to all elements */
-}
-
-.about-title-container {
-  transform: translateX(100px); /* Slide from the right for title */
-}
-
-.about-description-container {
-  transform: translateX(-100px); /* Slide from the left for description */
-}
-
-.about-card {
-  transform: translateY(100px); /* Slide from the bottom for cards */
-}
-
-/* Active class when section is visible */
-.active .about-title-container {
-  opacity: 1;
-  transform: translateX(0); /* Move to the original position */
-}
-
-.active .about-description-container {
-  opacity: 1;
-  transform: translateX(0); /* Move to the original position */
-}
-
-.active .about-card {
-  opacity: 1;
-  transform: translateY(0); /* Move to the original position */
-}
-
-.active {
-  opacity: 1; /* Make the section fully visible */
-  transform: translateY(0); /* Move the section to its original position */
-}
-
-/* Header container */
-.about-header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-  max-width: 1200px;
-  margin-bottom: 50px;
-}
-
-.about-title-container {
-  flex: 1;
-  padding-right: 20px;
-}
-
-.about-title {
-  font-size: 40px; /* Large header text */
-  font-weight: 700;
-  color: #1A1F36; /* Darker color */
-  line-height: 1.2;
-}
-
-.about-description-container {
-  flex: 1;
-}
-
-.about-description {
-  font-size: 18px;
-  color: #6F7A92; /* Slightly lighter text color */
-  line-height: 1.6;
-}
-
-/* Card container */
-.about-cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  padding: 40px;
-  width: 100%;
-  max-width: 1200px;
-  border-radius: 20px;
-  background-color: #ccf3cd;
-}
-
-/* Individual card styling */
-.about-card {
-  background-color: #F9FFF7; /* Light background color */
-  border-radius: 10px;
-  padding: 30px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
-  text-align: left;
-}
-
-.special-card {
-  background-color: #4CAF50; /* Green card */
-  color: white;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../../../assets/images/digital-back1.jpg'); /* Add background pattern if available */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Excon';
+  position: relative;
 }
 
-.card-title {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 20px 0 10px 0;
-  color: #1A1F36;
+/* Add a darker overlay on the container */
+.page4-container-digital-unique::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Increased opacity for more contrast */
+  z-index: 1; /* Ensure it's behind the content */
 }
 
-.special-card .card-title {
-  color: white;
+/* Ensure the content is above the overlay */
+.content-digital-unique {
+  position: relative;
+  z-index: 2;
+  max-width: 1000px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.8); /* Slightly opaque white to make the text pop more */
+  padding: 30px;
+  border-radius: 20px;
 }
 
-.card-description {
-  font-size: 16px;
-  color: #6F7A92;
-  line-height: 1.5;
-}
-
-.special-card .card-description {
-  color: white;
-}
-
-/* Icon Styling */
-.about-icon {
-  height: 60px;
-  width: 60px;
-  background-size: contain;
-  background-repeat: no-repeat;
+h1.heading-digital-unique {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333; /* Maintain the original text color */
   margin-bottom: 20px;
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  transform: translateY(50px); /* Initial offscreen position */
+  position: relative; /* Needed for the underline positioning */
+  display: inline-block;
 }
 
-.achievement-icon {
-  background-image: url('../../../assets/images/achievement.svg');
+h1.heading-digital-unique::after {
+  content: '';
+  position: absolute;
+  width: 50%; /* Half the width of the title */
+  height: 2px; /* Thickness of the underline */
+  background-color: green; /* Green color */
+  bottom: -8px; /* Distance below the title */
+  left: 0%; /* Center the underline relative to the title */
 }
 
-.startup-icon {
-  background-image: url('../../../assets/images/rocket.svg');
+h1.slide-in-bottom {
+  opacity: 1;
+  transform: translateY(0); /* Slide into view */
 }
 
-.motto-icon {
-  background-image: url('../../../assets/images/moto.svg');
+p.paragraph-digital-unique {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333; /* Keep the original text color */
+  opacity: 0;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  transform: translateX(50px); /* Slide from right initially */
 }
 
-.approach-icon {
-  background-image: url('../../../assets/images/approach.svg');
+p.slide-in-right {
+  opacity: 1;
+  transform: translateX(0); /* Slide into view */
+}
+
+/* Social media stats container */
+.social-stats-digital-unique {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  transform: translateX(-50px); /* Slide from left initially */
+  margin-top: 50px;
+}
+
+.social-stats-digital-unique.slide-in-left {
+  opacity: 1;
+  transform: translateX(0); /* Slide into view */
+}
+
+.stat-item-digital-unique {
+  text-align: left;
+  margin: 10px;
+  display: flex;
+}
+
+.stat-item-digital-unique img.icon-digital-unique {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.stat-text-digital-unique {
+  font-size: 16px;
+  color: #333; /* Keep the original stats text color */
+  font-weight: 500;
+  margin-left: 15px;
 }
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-  .about-header-container {
-      flex-direction: column;
-      align-items: flex-start;
+  .page4-container-digital-unique {
+    padding: 40px 10px;
   }
 
-  .about-cards {
-      grid-template-columns: repeat(2, 1fr);
+  .h1.heading-digital-unique {
+    font-size: 32px;
+  }
+
+  .p.paragraph-digital-unique {
+    font-size: 16px;
+  }
+
+  .content-digital-unique {
+    padding: 20px;
   }
 }
 
 @media (max-width: 768px) {
-  .about-header-container {
-      align-items: center;
+  .h1.heading-digital-unique {
+    font-size: 28px;
   }
 
-  .about-section-container {
-      align-items: center;
-      padding: 20px;
+  .p.paragraph-digital-unique {
+    font-size: 16px;
   }
 
-  .about-cards {
-      grid-template-columns: 1fr;
-      padding: 10px;
+  .social-stats-digital-unique {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .about-title {
-      font-size: 32px;
-      text-align: center;
+  .stat-item-digital-unique {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .h1.heading-digital-unique {
+    font-size: 24px;
   }
 
-  .about-description {
-      font-size: 16px;
-      margin-top: 20px;
+  .p.paragraph-digital-unique {
+    font-size: 14px;
   }
 
-  .about-card {
-      padding: 50px;
+  .social-stats-digital-unique {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .special-card {
-      padding: 40px;
+  .stat-item-digital-unique img.icon-digital-unique {
+    width: 40px;
+  }
+
+  .stat-text-digital-unique {
+    font-size: 14px;
   }
 }
