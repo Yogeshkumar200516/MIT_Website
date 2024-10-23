@@ -11,7 +11,7 @@ html, body {
     background-position: center;
     background-size: cover;
     color: #ffffff;
-    padding: 20px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
     font-family: 'Excon';
     position: relative;
     width: 100%; /* Ensures no overflow */
@@ -74,6 +74,7 @@ html, body {
     margin: 60px auto 30px auto;
     gap: 40px;
     font-family: 'Excon';
+    padding: 10px 40px 10px 40px;
 }
 
 .company-info {
@@ -262,7 +263,7 @@ html, body {
 }
 
 /* For Extra Small Devices: less than 350px */
-@media (max-width: 350px) {
+@media (max-width: 480px) {
     .footer {
         padding: 10px 15px;  /* Reduce padding to avoid overflowing */
     }
@@ -284,6 +285,7 @@ html, body {
     .footer-middle {
         gap: 20px;  /* Reduce gap between sections */
         margin: 40px auto 20px auto;
+        padding: 10px;
     }
 
     .company-info, .footer-contact {

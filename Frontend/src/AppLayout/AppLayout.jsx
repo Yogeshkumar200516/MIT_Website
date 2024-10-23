@@ -10,29 +10,25 @@ import WebsiteDevelopment from '../pages/Services/WebDevelopment/WebDevelopment'
 import MobileApplications from '../pages/Services/MobileApplication/Mobile';
 import BillingSoftware from '../pages/Services/BillingSoftware/Billing';
 import AboutUs from '../pages/Explore/AboutUs/AboutUs';
-
+import ScrollToTop from '../components/ScrollToTop/ScrollToTop';
 
 function AppLayout() {
   return (
     <Router>
+      <ScrollToTop /> {/* This ensures that the page scrolls to the top on route change */}
       <Navbar />
-      <div className='contents' style={{marginTop: '121px', width: '100%'}}>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/career' element={<Career />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/our-team" element={<OurTeam />} />
-        <Route path="/our-products" element={<OurProducts />} />
-        <Route path='/digital-marketing' element={<DigitalMarketing />} />
-        <Route path='/website-development' element={<WebsiteDevelopment />} />
-        <Route path='/mobile-applications' element={<MobileApplications />} />
-        <Route path='/billing-software' element={<BillingSoftware />} />
-        {/* <Route path='/happy-customers' element={<HappyCustomers />} />
-        <Route path='/software-development' element={<SoftwareDevelopment />} />
-        <Route path='/mobile-applications' element={<MobileApplications />} />
-        <Route path='/graphic-design' element={<GraphicDesign />} />
-        <Route path='/e-commerce' element={<ECommerceSolutions />} /> */}
-      </Routes>
+      <div className='contents' style={{ marginTop: '121px', width: '100%' }}>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/career' element={<Career />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/our-team" element={<OurTeam />} />
+          <Route path="/our-products" element={<OurProducts />} />
+          <Route path='/digital-marketing' element={<DigitalMarketing />} />
+          <Route path='/website-development' element={<WebsiteDevelopment />} />
+          <Route path='/mobile-applications' element={<MobileApplications />} />
+          <Route path='/billing-software' element={<BillingSoftware />} />
+        </Routes>
       </div>
     </Router>
   );
