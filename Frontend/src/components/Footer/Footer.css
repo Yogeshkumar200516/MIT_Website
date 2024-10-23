@@ -10,6 +10,7 @@ html, body {
     background-image: url("../../assets/images/footer-logo.jpg");
     background-position: center;
     background-size: cover;
+    /* background: linear-gradient(to right, #141E30, #243B55); */
     color: #ffffff;
     padding: 40px 0px 0px 0px;
     font-family: 'Excon';
