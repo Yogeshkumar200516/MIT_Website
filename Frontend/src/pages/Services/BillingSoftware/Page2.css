@@ -1,0 +1,138 @@
+.billing-software-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    font-family: 'Excon';
+    color: #1d1e1f;
+    gap: 30px;
+}
+  
+.billing-software-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.billing-software-icon {
+    max-width: 100%;
+    height: auto;
+    opacity: 0; /* Start with 0 opacity */
+    transform: translateX(-100px); /* Slide in from the left */
+    transition: opacity 1s ease, transform 1s ease;
+}
+  
+.billing-software-right {
+    flex: 2;
+    padding-left: 20px;
+}
+  
+.billing-software-heading {
+    font-size: 36px;
+    margin-bottom: 8px;
+    opacity: 0; /* Start with 0 opacity */
+    transform: translateY(-50px); /* Slide in from the top */
+    transition: opacity 1s ease, transform 1s ease;
+}
+  
+.billing-software-divider {
+    width: 50px;
+    height: 4px;
+    background-color: #1ea35c;
+    margin-bottom: 16px;
+}
+  
+.billing-software-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #1d1e1f;
+    opacity: 0; /* Start with 0 opacity */
+    transform: translateX(100px); /* Slide in from the right */
+    transition: opacity 1s ease, transform 1s ease;
+}
+  
+.billing-software-steps-container {
+    display: flex;
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+  
+.billing-software-step {
+    padding: 15px 30px;
+    background: transparent;
+    color: #1d1e1f;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+  
+.billing-software-step.active {
+    background-color: #1d7a3a;
+    color: white;
+}
+  
+.billing-software-step-description {
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+  
+/* When the elements are visible */
+.visible {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+}
+  
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .billing-software-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+  
+    .billing-software-right {
+        padding-left: 0;
+        text-align: center;
+    }
+  
+    .billing-software-step {
+        margin-bottom: 10px;
+    }
+}
+  
+@media screen and (max-width: 480px) {
+    .billing-software-heading {
+        font-size: 28px;
+    }
+  
+    .billing-software-steps-container {
+        flex-direction: column;
+    }
+  
+    .billing-software-description {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+  
+    .billing-software-step {
+        padding: 10px;
+    }
+}
+  
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .billing-software-heading {
+        font-size: 32px;
+    }
+  
+    .billing-software-description {
+        font-size: 17px;
+    }
+  
+    .billing-software-step {
+        padding: 12px 25px;
+    }
+}

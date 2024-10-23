@@ -2,14 +2,15 @@ import React, { useEffect, useState } from "react";
 import "./Page1.css";
 
 const Page1 = () => {
-  // Array for website names
-  const digitalMarketingNames = [
-    'Social Media Management',
-    'Content Marketing',
-    'Email Marketing',
-    'SEO Services',
-    'Personal Branding',
-    '&nbspSocial Media Marketing ',
+  // Array for key features of billing software
+  const billingSoftwareFeatures = [
+    'Invoice Generation',
+    'Automated Billing',
+    'Payment Tracking',
+    'Tax Calculation',
+    'Expense Management',
+    'Real-time Reporting',
+    'Extended Producer Responsibility (EPR)',
   ];
 
   // State to trigger animations on page load
@@ -23,21 +24,22 @@ const Page1 = () => {
   return (
     <div className={`webdev-page-container ${inView ? "animate" : ""}`}>
       <div className="webdev-content-section">
-        <h1 className="webdev-title">Billing Software</h1>
+        <h1 className="webdev-title">Billing Software Solutions</h1>
         <p className="webdev-subtext">
-        Powering Your Digital Success with Unlock Your Digital Potential.Drive growth and maximize your online presence with strategic digital marketing solutions that deliver measurable results.
+          Streamline your billing processes with our advanced software. Our solution provides everything from invoice generation to real-time reporting, ensuring efficiency and accuracy in managing your finances. 
+          Automate your billing operations and focus on growing your business while we handle the numbers.
         </p>
         <div className="webdev-button-group">
-          <button className="webdev-explore-btn">Explore Now</button>
+          <button className="webdev-explore-btn">Try Free Demo</button>
           {/* <button className="webdev-special-btn">Special Offer!</button> */}
         </div>
       </div>
 
       <div className="webdev-scrolling-text">
         &nbsp;
-        {digitalMarketingNames.map((name, index) => (
+        {billingSoftwareFeatures.map((feature, index) => (
           <span key={index}>
-            {name} ✦&nbsp;
+            {feature} ✦&nbsp;
           </span>
         ))}
       </div>
