@@ -10,6 +10,7 @@ import Page8 from './Page8';
 import Footer from '../../../components/Footer/Footer';
 import './WebDevelopment.css'; // Import the CSS file
 import { FaArrowUp } from 'react-icons/fa';
+import Page9 from './Page9';
 
 function WebsiteDevelopment() {
   const [showScroll, setShowScroll] = useState(false);
@@ -42,6 +43,7 @@ function WebsiteDevelopment() {
       <div className="page4-web"><Page4 /></div>
       <div className="page5-web"><Page5 /></div>
       <div className="page6-web"><Page6 /></div>
+      <div className="page9-web"><Page9 /></div>
       <div className="page7-web"><Page7 /></div>
       <div className="page8-web"><Page8 /></div>
       <div className="footer-web"><Footer /></div>

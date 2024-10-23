@@ -1,0 +1,101 @@
+.mobile-app-container {
+    padding: 40px 20px;
+    text-align: center;
+    background: url('../../../assets/images/home-back6.jpg') no-repeat center center/cover; /* Update with your background image path */
+    position: relative;
+    font-family: 'Excon';
+    color: white; /* Ensure text is visible on dark background */
+    overflow: hidden;
+}
+
+.mobile-app-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    z-index: 1;
+}
+
+.mobile-app-container h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.technology-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.technology-card {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    border: 1px solid gray;
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.technology-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.technology-image {
+    height: 60px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.technology-info {
+    padding: 20px;
+}
+
+.technology-info h2 {
+    font-size: 1.5em;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.technology-info p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+.slide-in-right {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.slide-in-left {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .technology-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mobile-app-container h1 {
+        font-size: 2em;
+    }
+}

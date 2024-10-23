@@ -1,0 +1,191 @@
+/* Prevent overflow on the entire page */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+  /* Main container for the home page */
+  .custom-homepage-wrapper {
+    background: linear-gradient(135deg, #096718, #528459, #197929);
+    background-image: url("../../../assets/images/home-back3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Excon';
+    
+    /* Ensure full viewport height and prevent vertical scroll */
+  }
+  
+  /* Layout for the content */
+  .custom-homepage-layout {
+    display: grid;
+    grid-template-columns: 40% 60%; /* Two columns: one for images and one for text */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Ensure content doesn't exceed viewport width */
+    box-sizing: border-box; /* Prevent overflow due to padding */
+    gap: 50px;
+  }
+  
+  /* Image section */
+  .custom-images-section {
+    position: relative; /* For absolutely positioning the images */
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    
+  }
+  
+  .custom-mobile-view {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    z-index: 0;
+    border-radius: 8px; /* Adds smooth corners to the image */
+  }
+  
+  /* Text section */
+  .custom-text-section {
+    color: #001a33;
+    text-align: left;
+    padding: 0px 20px 0px 0px;
+  }
+  
+  /* Sliding text effect */
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Initially hide the text elements */
+  .custom-heading-text,
+  .custom-description-text {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 2s ease-in-out;
+    overflow: hidden; /* Prevent text overflow during animation */
+  }
+  
+  /* Class that triggers the animation */
+  .slide-up {
+    opacity: 1;
+    transform: translateY(0);
+    animation: slideUp 0.8s ease-in-out forwards;
+  }
+  
+  /* Custom styles for the text */
+  .custom-heading-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    font-family: 'Excon';
+    letter-spacing: 3px;
+  }
+  
+  .custom-description-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  .custom-button-group {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .custom-primary-button {
+    border: 1px solid #197929;
+    color: #197929;
+    padding: 15px 28px;
+    font-weight: bold;
+    font-family: 'Excon';
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    background: none;
+  }
+  
+  .custom-primary-button:hover {
+    background-color: #197929;
+    color: white;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .custom-homepage-layout {
+      grid-template-columns: 1fr;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .custom-heading-text {
+      font-size: 2rem;
+    }
+  
+    .custom-description-text {
+      font-size: 1rem;
+    }
+  
+    .custom-button-group {
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .custom-primary-button {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .custom-homepage-wrapper {
+      padding: 40px 0px; /* Less padding on smaller screens */
+    }
+  
+    .custom-homepage-layout {
+      grid-template-columns: 1fr; /* Stack everything in one column */
+      text-align: center;
+    }
+  
+    .custom-images-section {
+      margin-bottom: 20px; /* Add margin between image and text */
+    }
+  
+    .custom-mobile-view {
+      max-width: 300px; /* Adjust image size for small screens */
+    }
+  
+    .custom-text-section {
+      padding: 0 10px; /* Less padding for text on small screens */
+    }
+  
+    .custom-heading-text {
+      font-size: 1.8rem; /* Smaller font size for headings */
+      margin-bottom: 20px;
+    }
+  
+    .custom-description-text {
+      font-size: 0.9rem; /* Smaller font for better readability on small screens */
+      margin-bottom: 15px;
+    }
+  
+    .custom-button-group {
+      gap: 10px; /* Reduce button gaps */
+      flex-direction: column; /* Stack buttons vertically */
+    }
+  
+    .custom-primary-button {
+      width: 100%; /* Full width buttons */
+      padding: 12px 20px; /* Adjust button padding for smaller screens */
+    }
+  }
+  

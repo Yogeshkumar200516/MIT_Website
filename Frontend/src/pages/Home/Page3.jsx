@@ -26,7 +26,7 @@ const Page3 = () => {
 
         useEffect(() => {
             let start = 0;
-            const duration = 500; // 1 second
+            const duration = 1000; // 1 second
             const increment = endValue / duration;
 
             const timer = setInterval(() => {

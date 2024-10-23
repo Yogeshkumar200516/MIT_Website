@@ -1,0 +1,184 @@
+/* Page5Web.css */
+.page5-container-web {
+    width: 100%;
+    padding: 0px;
+    background-color: #f5f5f5;
+    font-family: 'Excon';
+    position: relative;
+}
+
+.page5-content-web {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 50px 50px 50px 50px;
+}
+
+.page5-left-web {
+    flex: 1;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.page5-left-web.slide-in-bottom {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.page5-illustration-web {
+    max-width: 100%;
+    height: auto;
+}
+
+.page5-right-web {
+    flex: 1;
+    padding-left: 30px;
+}
+
+.page5-title-web {
+    font-size: 2.5em; /* Use your existing font size */
+    font-weight: bold; /* Use your existing bold styling */
+    color: #001a33; /* Use the specified color */
+    margin-bottom: 20px; /* Space between the title and underline */
+    font-family: 'Excon'; /* Use your custom font */
+    position: relative; /* Needed for the underline positioning */
+    display: inline-block; /* To limit the width of the underline to the text width */
+}
+
+.page5-title-web::after {
+    content: '';
+    position: absolute;
+    width: 50%; /* Half the width of the title */
+    height: 2px; /* Thickness of the underline */
+    background-color: #4CAF50; /* Green color */
+    bottom: -8px; /* Distance below the title */
+    left: 25%; /* Center the underline relative to the title */
+}
+
+.page5-description-web {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #001a33;
+    margin-bottom: 30px;
+    font-family: 'Excon';
+}
+
+.page5-button-web {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #16871a; /* Change this to your desired background color */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 70px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Excon';
+    font-weight: bold;
+}
+
+.page5-button-web:hover {
+    background: none;
+    border: 2px solid #001a33;
+    color: #001a33;
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.page5-gallery-web {
+    position: relative;
+}
+
+.page5-gallery-content-web {
+    display: flex;
+    animation: slide-left-web 20s linear infinite;
+}
+
+.page5-sample-web {
+    width: 30%;
+    border-radius: 15px;
+    margin-right: 50px;
+}
+
+.webdev-scrolling-text-web1 {
+    color: white; /* Text color */
+    background: linear-gradient(135deg, #094a0b, #1c7b21); /* Green gradient background */
+    padding: 10px; /* Add padding */
+    font-size: 2rem; /* Adjust font size */
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* Position for child absolute elements */
+    width: 100%; /* Ensure full width */
+    margin-bottom: 50px;
+}
+
+/* Container for scrolling text */
+.scrolling-container {
+    display: flex; /* Use flex to create a row of text */
+    animation: scroll 20s linear infinite; /* Longer duration for smooth scrolling */
+}
+
+/* Add keyframes for scrolling effect */
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Keyframes for continuous sliding */
+@keyframes slide-left-web {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .page5-content-web {
+        display: grid;
+    }
+
+    .page5-right-web {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .page5-gallery-web {
+        height: 150px;
+    }
+
+    .page5-sample-web {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .page5-title-web {
+        font-size: 1.8em;
+    }
+    .page5-content-web {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .page5-content-web {
+        display: grid;
+        padding: 30px;
+    }
+
+    .page5-button-web {
+        padding: 10px 20px;
+        font-size: 0.8em;
+    }
+}

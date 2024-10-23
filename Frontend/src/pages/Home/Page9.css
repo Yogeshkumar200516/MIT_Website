@@ -114,19 +114,19 @@
 .slide-from-bottom {
     opacity: 0;
     transform: translateY(30px);
-    transition: opacity 1.3s ease-out, transform 1.3s ease-out;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
 .slide-from-right {
     opacity: 0;
     transform: translateX(50%);
-    transition: opacity 1.3s ease-out, transform 1.3s ease-out;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
 .slide-from-left {
     opacity: 0;
     transform: translateX(-30px);
-    transition: opacity 1.3s ease-out, transform 1.3s ease-out;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
 .animate {
@@ -136,20 +136,20 @@
 
 /* Targeting specific elements */
 .service-section-title.slide-from-bottom {
-    transition-delay: 1s;
+    transition-delay: 0.4s;
 }
 
 .service-section-description.slide-from-right {
-    transition-delay: 1s;
+    transition-delay: 0.4s;
 }
 
 .service-item-title.slide-from-left,
 .service-item-description.slide-from-right {
-    transition-delay: 1.3s;
+    transition-delay: 0.4s;
 }
 
 .service-explore-button.slide-from-bottom {
-    transition-delay: 1.3s;
+    transition-delay: 0.4s;
 }
 
 
