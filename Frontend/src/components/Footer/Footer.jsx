@@ -85,7 +85,7 @@ const Footer = () => {
             </p>
             <p>
               <WhatsAppIcon style={{ marginRight: '10px', fontSize: '1.2rem', color: '#07880F' }} />
-              +91 87789 93293
+              +91 81108 18281
             </p>
           </div>
         </div>
