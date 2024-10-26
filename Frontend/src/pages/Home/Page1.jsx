@@ -21,10 +21,10 @@ import codeigniterLogo from '../../assets/images/codeigniter.svg';
 import typescriptLogo from '../../assets/images/typescript.svg';
 import androidLogo from '../../assets/images/android.svg';
 import image1 from '../../assets/images/home-img1.svg';
-import image2 from '../../assets/images/home-img2.svg';
+import image2 from '../../assets/images/home-back-img1.svg';
 import image3 from '../../assets/images/home-img3.svg';
 import image4 from '../../assets/images/home-img4.svg';
-import image5 from '../../assets/images/home-img5.svg';
+import image5 from '../../assets/images/home-back-img2.svg';
 
 const logos1 = [
    mysqlLogo,  mongodbLogo, jqueryLogo, wordpressLogo, flutterLogo, pythonLogo, typescriptLogo, nodeLogo,

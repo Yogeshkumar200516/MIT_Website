@@ -1,0 +1,244 @@
+/* src/Page2.css */
+.page2-container-unique {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #a2ebae, #dbeedd, #f2f6f2, #a2ebae);
+  font-family: 'Excon';
+}
+
+.page2-title-unique {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #001a33;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.page2-intro-unique {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.page2-grid-unique {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Card Styles */
+.page2-card-unique {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  background: linear-gradient(210deg, #e8f5e9, #d4e8d8);
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.page2-card-hover-unique {
+  outline: none; /* Remove focus outline */
+}
+
+.page2-card-hover-unique:hover {
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+
+.page2-profile-image-unique {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  transition: transform 0.3s;
+}
+
+.page2-card-hover-unique:hover .page2-profile-image-unique {
+  transform: scale(1.05);
+}
+
+.page2-member-info-unique {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.page2-name-unique {
+  font-size: 1.5rem;
+  color: #001a33;
+  margin: 8px 0;
+  font-weight: 600;
+  text-transform: capitalize;
+  outline: none;
+}
+
+.page2-role-unique {
+  font-size: 1.1rem;
+  color: #777;
+  font-weight: 500;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+/* Modal Styles */
+.page2-modal-overlay-unique {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  font-family: 'Excon';
+}
+
+.page2-modal-content-unique {
+  background: linear-gradient(210deg, #aeebb8, #eaf6eb, #749579);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  text-align: center;
+}
+
+.page2-close-button-unique {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.page2-modal-image-unique {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.page2-modal-header-unique {
+  font-size: 1.8rem;
+  color: #001a33;
+  margin-bottom: 15px;
+}
+
+.page2-modal-details-unique {
+  font-size: 1rem;
+  color: #555;
+  margin: 10px 0;
+  line-height: 1.6;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px
+}
+
+.page2-modal-details-unique strong {
+  width: 100px;
+  color: #001a33;
+  font-weight: 600;
+}
+
+.page2-modal-separator {
+  width: 80%;
+  height: 1px;
+  background: #e0e0e0;
+  margin: 15px auto;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .page2-title-unique {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .page2-card-unique {
+    padding: 20px;
+  }
+
+  .page2-name-unique {
+    font-size: 1.25rem;
+  }
+
+  .page2-role-unique {
+    font-size: 1rem;
+  }
+
+  .page2-modal-content-unique {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .page2-modal-details-unique strong {
+    width: 90px;
+  }
+
+  .page2-modal-header-unique {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page2-container-unique {
+    padding: 20px;
+  }
+
+  .page2-card-unique {
+    padding: 10px;
+  }
+
+  .page2-title-unique {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .page2-profile-image-unique {
+    width: 120px;
+    height: 120px;
+  }
+
+  .page2-modal-image-unique {
+    width: 120px;
+    height: 120px;
+  }
+
+  .page2-name-unique {
+    font-size: 1.2rem;
+  }
+
+  .page2-role-unique {
+    font-size: 0.95rem;
+  }
+
+  .page2-modal-details-unique {
+    font-size: 0.9rem;
+  }
+
+  .page2-modal-content-unique {
+    padding: 15px;
+  }
+
+  .page2-modal-details-unique strong {
+    width: 80px;
+  }
+}
+
