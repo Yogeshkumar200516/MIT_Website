@@ -15,6 +15,17 @@ const Page1 = () => {
     'Real Estate Website',
   ];
 
+  const handleQuoteClick = (e) => {
+    e.preventDefault();
+    window.location.href = "mailto:mahishaindiatechnologies@gmail.com?subject=Get%20a%20Quote&body=Hi%20Mahisha%20India%20Technologies,";
+  };
+
+  const handleWhatsAppClick = (e) => {
+    e.preventDefault();
+    window.open('https://wa.me/918110818281', '_blank'); // Opens WhatsApp with the given number in a new tab
+  };
+
+
   // State to trigger animations on page load
   const [inView, setInView] = useState(false);
 
@@ -32,8 +43,8 @@ const Page1 = () => {
           online presence into a captivating and high-performance platform.
         </p>
         <div className="webdev-button-group">
-          <button className="webdev-explore-btn">Explore Now</button>
-          <button className="webdev-special-btn">Special Offer!</button>
+          <button className="webdev-explore-btn" onClick={handleQuoteClick}>Explore Now</button>
+          <button className="webdev-special-btn" onClick={handleWhatsAppClick}>Special Offer!</button>
         </div>
       </div>
 

@@ -38,6 +38,11 @@ const images = [
   image1, image2, image3, image4, image5,
 ];
 
+const handleWhatsAppClick = (e) => {
+  e.preventDefault();
+  window.open('https://wa.me/918110818281', '_blank'); // Opens WhatsApp with the given number in a new tab
+};
+
 const Page1 = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -81,6 +86,7 @@ const Page1 = () => {
           
           <Button 
             className="text-slide-animation text-slide-delay-4"
+            onClick={handleWhatsAppClick}
             sx={{
               textTransform: 'none', border: '2px solid #001a33', color: '#001a33', fontFamily: 'Excon', 
               padding: '12px 24px', borderRadius: '50px', gap: '10px', textAlign: {xs: 'center', md: 'left'},

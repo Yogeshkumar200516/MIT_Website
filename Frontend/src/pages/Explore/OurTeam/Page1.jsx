@@ -13,6 +13,11 @@ const Page1 = () => {
     'Continuous Learning & Growth',
   ];
 
+  const handleQuoteClick = (e) => {
+    e.preventDefault();
+    window.location.href = "mailto:mahishaindiatechnologies@gmail.com?subject=Get%20a%20Quote&body=Hi%20Mahisha%20India%20Technologies,";
+  };
+
   // State to trigger animations on page load
   const [inView, setInView] = useState(false);
 
@@ -29,7 +34,7 @@ const Page1 = () => {
           Our team is united by a shared vision and a strong commitment to excellence. We bring together diverse skill sets to create impactful solutions and drive success for our clients.
         </p>
         <div className="digital-button-group">
-          <button className="digital-explore-btn">Join Us</button>
+          <button className="digital-explore-btn" onClick={handleQuoteClick}>Join Us</button>
           {/* <button className="webdev-special-btn">Special Offer!</button> */}
         </div>
       </div>

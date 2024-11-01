@@ -20,6 +20,11 @@ const Page1 = () => {
     setInView(true); // Trigger animations immediately on mount
   }, []);
 
+  const handleQuoteClick = (e) => {
+    e.preventDefault();
+    window.location.href = "mailto:mahishaindiatechnologies@gmail.com?subject=Get%20a%20Quote&body=Hi%20Mahisha%20India%20Technologies,";
+  };
+
   return (
     <div className={`digital-page-container ${inView ? "animate" : ""}`}>
       <div className="digital-content-section">
@@ -28,7 +33,7 @@ const Page1 = () => {
         Powering Your Digital Success with Unlock Your Digital Potential.Drive growth and maximize your online presence with strategic digital marketing solutions that deliver measurable results.
         </p>
         <div className="digital-button-group">
-          <button className="digital-explore-btn">Explore Now</button>
+          <button className="digital-explore-btn" onClick={handleQuoteClick}>Explore Now</button>
           {/* <button className="webdev-special-btn">Special Offer!</button> */}
         </div>
       </div>

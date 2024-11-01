@@ -88,13 +88,13 @@ const Page9 = () => {
                         alt="Graphic Design"
                         className="service-image"
                     />
-                    <h3 className="service-item-title slide-from-left">Graphic Design</h3>
+                    <h3 className="service-item-title slide-from-left">Billing Software</h3>
                     <p className="service-item-description slide-from-right">
-                        We create eye-catching designs that make your brand stand out and leave a lasting impression with high quality responsive layouts.
+                    Simplify billing with fast, accurate, and user-friendly software designed to streamline and enhance your business efficiency.
                     </p>
                     <button
                         className="service-explore-button slide-from-bottom"
-                        onClick={() => handleNavigate('/graphic-design')}
+                        onClick={() => handleNavigate('/billing-software')}
                     >
                         Explore <ArrowForwardIcon style={{ marginLeft: '5px' }} />
                     </button>

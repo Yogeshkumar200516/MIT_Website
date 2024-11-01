@@ -29,6 +29,11 @@ function Page2() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleQuoteClick = (e) => {
+    e.preventDefault();
+    window.location.href = "mailto:mahishaindiatechnologies@gmail.com?subject=Get%20a%20Quote&body=Hi%20Mahisha%20India%20Technologies,";
+  };
+
   return (
     <div className="about-container-unique">
       <div className="about-content-unique">
@@ -36,10 +41,10 @@ function Page2() {
           Young team driving digital innovation and creativity
         </h1>
         <p className="about-description-unique" ref={descriptionRef}>
-          At Nexus Info, we’re a dynamic team of young minds passionate about digital innovation and creativity.
+          At Mahisha India Technologies, we’re a dynamic team of young minds passionate about digital innovation and creativity.
           With fresh perspectives and boundless energy, we tackle every project with enthusiasm and dedication.
         </p>
-        <button className="about-button-unique">Our Story</button>
+        <button className="about-button-unique" onClick={handleQuoteClick}>Join Us</button>
       </div>
       <div className="about-image-container-unique">
         <img

@@ -13,6 +13,11 @@ const Page1 = () => {
     'Extended Producer Responsibility (EPR)',
   ];
 
+  const handleQuoteClick = (e) => {
+    e.preventDefault();
+    window.location.href = "mailto:mahishaindiatechnologies@gmail.com?subject=Get%20a%20Quote&body=Hi%20Mahisha%20India%20Technologies,";
+  };
+
   // State to trigger animations on page load
   const [inView, setInView] = useState(false);
 
@@ -30,7 +35,7 @@ const Page1 = () => {
           Automate your billing operations and focus on growing your business while we handle the numbers.
         </p>
         <div className="webdev-button-group">
-          <button className="webdev-explore-btn">Try Free Demo</button>
+          <button className="webdev-explore-btn" onClick={handleQuoteClick}>Try Free Demo</button>
           {/* <button className="webdev-special-btn">Special Offer!</button> */}
         </div>
       </div>

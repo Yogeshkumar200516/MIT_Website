@@ -25,6 +25,11 @@ const Page1 = () => {
     setInView(true); // Trigger animations immediately on mount
   }, []);
 
+  const handleWhatsAppClick = (e) => {
+    e.preventDefault();
+    window.open('https://wa.me/918110818281', '_blank'); // Opens WhatsApp with the given number in a new tab
+  };
+
   return (
     <div className={`digital-page-container ${inView ? "animate" : ""}`}>
       <div className="digital-content-section">
@@ -33,7 +38,7 @@ const Page1 = () => {
         Embark on a journey with Nexus Info, where innovation meets expertise, and discover how we transform ideas into impactful digital solutions for your business.
         </p>
         <div className="digital-button-group">
-          <button className="digital-explore-btn">Explore Now</button>
+          <button className="digital-explore-btn" onClick={handleWhatsAppClick}>Explore Now</button>
           {/* <button className="webdev-special-btn">Special Offer!</button> */}
         </div>
       </div>

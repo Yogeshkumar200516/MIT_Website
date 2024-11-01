@@ -84,6 +84,11 @@ const Navbar = () => {
     { text: 'Home', link: '/' },
   ];
 
+  const handleWhatsAppClick = (e) => {
+    e.preventDefault();
+    window.open('https://wa.me/918110818281', '_blank'); // Opens WhatsApp with the given number in a new tab
+  };
+
   const exploreItems = [
     { text: 'About Us', link: '/about-us' },
     { text: 'Our Team', link: '/our-team' },
@@ -355,6 +360,7 @@ const Navbar = () => {
             <Button
               variant="contained"
               color="primary"
+              onClick={handleWhatsAppClick}
               sx={{
                 marginLeft: 'auto',
                 textTransform: 'none',
@@ -372,7 +378,7 @@ const Navbar = () => {
                 },
               }}
             >
-              Join Us
+              Contact Us
             </Button>
           </Box>
 
