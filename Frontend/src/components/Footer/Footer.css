@@ -98,7 +98,32 @@ html, body {
     margin-top: 20px;
 }
 
-.social-icons a {
+.icon-circle1 img {
+    height: 40px;
+    width: 40px
+}
+
+.icon-circle2 img {
+    height: 43px;
+    width: 43px
+}
+
+.icon-circle3 img {
+    height: 43px;
+    width: 43px
+}
+
+.icon-circle4 img {
+    height: 40px;
+    width: 40px
+}
+
+.icon-circle5 img {
+    height: 38px;
+    width: 38px
+}
+
+/* .social-icons a {
     color: #ffffff;
     font-size: 1.2rem;
     border: 1px solid white;
@@ -110,7 +135,7 @@ html, body {
 .social-icons a:hover {
     color: black;
     background-color: white;
-}
+} */
 
 .footer-links {
     display: flex;
@@ -312,8 +337,7 @@ html, body {
         font-size: 0.9rem;  /* Adjust font size for footer bottom */
     }
 
-    .social-icons a {
-        font-size: 1rem;  /* Scale down the social icons */
-        padding: 5px 8px 1px 8px;  /* Adjust the padding inside icons */
+    .social-icons {
+        gap: 15px;
     }
 }
