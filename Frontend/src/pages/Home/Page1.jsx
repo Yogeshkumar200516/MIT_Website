@@ -25,6 +25,8 @@ import image2 from '../../assets/images/home-back-img1.svg';
 import image3 from '../../assets/images/home-img3.svg';
 import image4 from '../../assets/images/home-img4.svg';
 import image5 from '../../assets/images/home-back-img2.svg';
+import { useTranslation } from 'react-i18next';
+
 
 const logos1 = [
    mysqlLogo,  mongodbLogo, jqueryLogo, wordpressLogo, flutterLogo, pythonLogo, typescriptLogo, nodeLogo,
@@ -45,6 +47,7 @@ const handleWhatsAppClick = (e) => {
 
 const Page1 = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const { t, i18n } = useTranslation();
 
   // Image rotation logic
   useEffect(() => {
@@ -65,7 +68,7 @@ const Page1 = () => {
             className="text-slide-animation text-slide-delay-1"
             sx={{ fontSize: { xs: '0.8rem', md: '1.2rem' }, color: '#001a33', fontFamily: 'Excon', marginBottom: '15px', textAlign: {xs: 'center', md: 'left'} }}
           >
-            Web Development and Digital Marketing Firm
+            {t('home1.title')}
           </Typography>
           
           <Typography 
@@ -73,7 +76,7 @@ const Page1 = () => {
             className="text-slide-animation text-slide-delay-2"
             sx={{ fontSize: { xs: '2.2rem', md: '4rem' }, fontWeight: 'bold', color: '#001a33', fontFamily: 'Excon', textAlign: {xs: 'center', md: 'left'} }}
           >
-            Grow your Business with Mahisha India Technologies
+            {t('home1.subtitle')}
           </Typography>
           
           <Typography 
@@ -81,7 +84,7 @@ const Page1 = () => {
             className="text-slide-animation text-slide-delay-3"
             sx={{ fontSize: { xs: '1rem', md: '1.2rem' }, margin: '20px 0', fontFamily: 'Excon', textAlign: {xs: 'center', md: 'left'} }}
           >
-            Get a professional website and digital marketing support for your business within your budget.
+            {t('home1.description')}
           </Typography>
           
           <Button 
@@ -94,7 +97,7 @@ const Page1 = () => {
               '&:hover': { backgroundColor: '#001a33', color: 'white', transform: 'scale(1.1)', transition: 'all 0.3s ease-in-out' }
             }}
           >
-            Let's Talk
+            {t('home1.button')}
             <FaArrowRight />
           </Button>
         </Grid>

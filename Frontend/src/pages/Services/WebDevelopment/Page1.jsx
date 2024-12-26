@@ -1,18 +1,21 @@
 import React, { useEffect, useState } from "react";
 import "./Page1.css";
+import { useTranslation } from "react-i18next";
 
 const Page1 = () => {
-  // Array for website names
+  const { t } = useTranslation();
+
+  // Array for website names based on translation keys
   const websiteNames = [
-    'Design Agency Website',
-    'Digital Marketing Website',
-    'University/College Website',
-    'Educational Website',
-    'E-Commerce Website',
-    'Travel Agency Website',
-    'Hospital Website',
-    'Tourism Website',
-    'Real Estate Website',
+    t("web1.websiteNames.designAgency"),
+    t("web1.websiteNames.digitalMarketing"),
+    t("web1.websiteNames.universityCollege"),
+    t("web1.websiteNames.educational"),
+    t("web1.websiteNames.ecommerce"),
+    t("web1.websiteNames.travelAgency"),
+    t("web1.websiteNames.hospital"),
+    t("web1.websiteNames.tourism"),
+    t("web1.websiteNames.realEstate"),
   ];
 
   const handleQuoteClick = (e) => {
@@ -22,9 +25,8 @@ const Page1 = () => {
 
   const handleWhatsAppClick = (e) => {
     e.preventDefault();
-    window.open('https://wa.me/918110818281', '_blank'); // Opens WhatsApp with the given number in a new tab
+    window.open("https://wa.me/918110818281", "_blank"); // Opens WhatsApp with the given number in a new tab
   };
-
 
   // State to trigger animations on page load
   const [inView, setInView] = useState(false);
@@ -37,14 +39,15 @@ const Page1 = () => {
   return (
     <div className={`webdev-page-container ${inView ? "animate" : ""}`}>
       <div className="webdev-content-section">
-        <h1 className="webdev-title">Website Development</h1>
-        <p className="webdev-subtext">
-          Our Web Design and Development services are crafted to transform your
-          online presence into a captivating and high-performance platform.
-        </p>
+        <h1 className="webdev-title">{t("web1.title")}</h1>
+        <p className="webdev-subtext">{t("web1.subtext")}</p>
         <div className="webdev-button-group">
-          <button className="webdev-explore-btn" onClick={handleQuoteClick}>Explore Now</button>
-          <button className="webdev-special-btn" onClick={handleWhatsAppClick}>Special Offer!</button>
+          <button className="webdev-explore-btn" onClick={handleQuoteClick}>
+            {t("web1.exploreButton")}
+          </button>
+          <button className="webdev-special-btn" onClick={handleWhatsAppClick}>
+            {t("web1.specialOfferButton")}
+          </button>
         </div>
       </div>
 

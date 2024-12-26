@@ -1,8 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import image1 from '../../../assets/images/bill-img4.svg'; // Update the path to the relevant Billing Software image
 import './Page3.css';
+import { useTranslation } from "react-i18next";
 
 const Page3 = () => {
+
+  const { t } = useTranslation();
   const billingHeaderRef = useRef(null);
   const [hasAnimated, setHasAnimated] = useState(false); // State to track if the animation has occurred
 
@@ -34,14 +37,10 @@ const Page3 = () => {
     <div className="seo-page9-container">
       <div className="seo-flex-row">
         <div className="seo-header" ref={billingHeaderRef}>
-          <h1>Advanced Billing Software Solutions</h1>
+          <h1>{t('billing3.pageTitle')}</h1>
           <hr />
           <p>
-            Streamline your business operations with our advanced billing software. Our solution offers seamless 
-            invoicing, payment tracking, and financial reporting to ensure your business stays organized and efficient. 
-            With features like automated reminders, customizable invoice templates, and multi-currency support, 
-            our billing software is designed to meet the needs of businesses of all sizes. Let us help you simplify 
-            your billing process and focus more on growing your business.
+          {t('billing3.description')}
           </p>
         </div>
         <div className="seo-image">
@@ -49,9 +48,25 @@ const Page3 = () => {
         </div>
       </div>
       <div className="seo-tags-container">
-        {['INVOICING', 'PAYMENTS', 'AUTOMATION', 'REPORTS', 'EXPENSES', 'FINANCE', 'TAX', 'RECURRING BILLING', 
-          'CLOUD BASED', 'TRACKING', 'EFFICIENCY', 'SCALABILITY', 'SUPPORT', 'ANALYTICS', 'CUSTOMIZATION', 
-          'MULTI-CURRENCY', 'INTEGRATIONS', 'SECURITY'].map((tag, index) => (
+        {[t('billing3.tags.tag1'),
+          t('billing3.tags.tag2'),
+          t('billing3.tags.tag3'),
+          t('billing3.tags.tag4'),
+          t('billing3.tags.tag5'),
+          t('billing3.tags.tag6'),
+          t('billing3.tags.tag7'),
+          t('billing3.tags.tag8'),
+          t('billing3.tags.tag9'),
+          t('billing3.tags.tag10'),
+          t('billing3.tags.tag11'),
+          t('billing3.tags.tag12'),
+          t('billing3.tags.tag13'),
+          t('billing3.tags.tag14'),
+          t('billing3.tags.tag15'),
+          t('billing3.tags.tag16'),
+          t('billing3.tags.tag17'),
+          t('billing3.tags.tag18'),
+        ].map((tag, index) => (
           <button key={index} className="seo-tag-button">
             {tag}
           </button>

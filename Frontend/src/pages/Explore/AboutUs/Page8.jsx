@@ -6,27 +6,32 @@ import image4 from '../../../assets/images/template4.png';
 import image5 from '../../../assets/images/template5.png';
 import image6 from '../../../assets/images/template6.png';
 import './Page8.css'; // For custom styles
+import { useTranslation } from 'react-i18next';
 
 const Page8 = () => {
   const pageRef = useRef(null);
   const [animationTriggered, setAnimationTriggered] = useState(false); // Track if animation has been triggered
 
-  // Website names to be displayed in the slider
-  const aboutUsOptions = [
-    'Our Story',
-    'Our Mission',
-    'Our Values',
-    'Meet the Team',
-    'Company History',
-    'Careers',
-    'Testimonials',
-    'Press and Media',
-    'Community Involvement',
-    'Sustainability Efforts',
+  const { t } = useTranslation();
+
+  // Pull data from the translated strings
+  const home8Title = t('home8.title');
+  const home8Description = t('home8.description');
+
+  const websiteNames = [
+    t('home8.websiteNames.designAgencyWebsite'),
+    t('home8.websiteNames.digitalMarketingWebsite'),
+    t('home8.websiteNames.universityCollegeWebsite'),
+    t('home8.websiteNames.educationalWebsite'),
+    t('home8.websiteNames.eCommerceWebsite'),
+    t('home8.websiteNames.travelAgencyWebsite'),
+    t('home8.websiteNames.hospitalWebsite'),
+    t('home8.websiteNames.tourismWebsite'),
+    t('home8.websiteNames.realEstateWebsite')
   ];
 
   // Join the names with a gap in between for better readability
-  const slidingText = aboutUsOptions.join(' ✦ ');
+  const slidingText = websiteNames.join(' ✦ ');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -49,13 +54,8 @@ const Page8 = () => {
   return (
     <div className="page-container" ref={pageRef}>
       <div className="hero-section">
-        <h1>We Help Brands Increase Their Online Presence</h1>
-        <p>
-          At Mahisha India Technologies, we specialize in boosting your brand’s visibility and engagement online.
-          Our expert team crafts tailored digital strategies to enhance your website, optimize social media,
-          and drive targeted traffic. We focus on your unique goals to attract new customers and build lasting loyalty.
-          Let us help you navigate the digital landscape and grow your online presence effectively.
-        </p>
+        <h1>{home8Title}</h1>
+        <p>{home8Description}</p>
       </div>
 
       <div className="image-grid">

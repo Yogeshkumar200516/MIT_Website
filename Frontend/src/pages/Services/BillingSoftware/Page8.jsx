@@ -1,7 +1,10 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './Page8.css';
+import { useTranslation } from "react-i18next";
 
 const Page8 = () => {
+
+  const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null); // Create a reference to the section
 
@@ -27,41 +30,41 @@ const Page8 = () => {
     >
       <div className="about-header-container">
         <div className="about-title-container">
-          <h1 className="about-title">Driving Operational Efficiency Through Real-time Insights and Compliance.</h1>
+          <h1 className="about-title">{t('billing4.pageTitle')}</h1>
         </div>
         <div className="about-description-container">
+          {t('billing4.description')}
           <p className="about-description">
-          At Mahisha India Technologies, we provide innovative solutions that streamline financial operations and ensure regulatory compliance. With our tools for real-time reporting, payment tracking, and Extended Producer Responsibility (EPR) management, we help businesses stay efficient, compliant, and ahead of the curve.
           </p>
         </div>
       </div>
       <div className="about-cards">
         <div className="about-card">
           <div className="about-icon achievement-icon"></div>
-          <h2 className="card-title">Real-time Reporting</h2>
+          <h2 className="card-title">{t('billing4.cards.card1.title')}</h2>
           <p className="card-description">
-          Stay on top of your business data with our real-time reporting tools. Monitor financial performance, expenses, and revenues as they happen, ensuring you have accurate data to make informed decisions and drive operational success.
+          {t('billing4.cards.card1.description')}
           </p>
         </div>
         <div className="about-card">
           <div className="about-icon startup-icon"></div>
-          <h2 className="card-title">Payment Tracking</h2>
+          <h2 className="card-title">{t('billing4.cards.card2.title')}</h2>
           <p className="card-description">
-          Simplify your financial workflow with our automated payment tracking system. Easily monitor incoming and outgoing transactions, and ensure all payments are processed and recorded efficiently for better cash flow management.
+          {t('billing4.cards.card2.description')}
           </p>
         </div>
         <div className="about-card special-card">
           <div className="about-icon motto-icon"></div>
-          <h2 className="card-title">Extended Producer Responsibility (EPR)</h2>
+          <h2 className="card-title">{t('billing4.cards.card3.title')}</h2>
           <p className="card-description">
-          Our EPR solutions help you manage waste responsibly, ensuring compliance with environmental regulations. Track your production impact and stay compliant with EPR requirements, contributing to a sustainable future.
+          {t('billing4.cards.card3.description')}
           </p>
         </div>
         <div className="about-card">
           <div className="about-icon approach-icon"></div>
-          <h2 className="card-title">Our Approach</h2>
+          <h2 className="card-title">{t('billing4.cards.card4.title')}</h2>
           <p className="card-description">
-          We combine innovative technology with industry expertise to deliver solutions that meet your business needs. Our approach focuses on streamlining operations, ensuring compliance, and driving growth through real-time insights and efficient management.
+          {t('billing4.cards.card4.description')}
           </p>
         </div>
       </div>

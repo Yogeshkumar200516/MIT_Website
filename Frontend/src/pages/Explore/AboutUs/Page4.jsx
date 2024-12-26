@@ -1,9 +1,12 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './Page4.css';
+import { useTranslation } from "react-i18next";
 
 const Page4 = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null); // Create a reference to the section
+
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,48 +30,41 @@ const Page4 = () => {
     >
       <div className="about-header-container">
         <div className="about-title-container">
-          <h1 className="about-title">Empowering Growth Through Collaborative Innovation and Dedication.</h1>
+          <h1 className="about-title">{t('about4.aboutTitle')}</h1>
         </div>
         <div className="about-description-container">
           <p className="about-description">
-            Mahisha India Technologies not only concentrates on the website, we are your strategic partner in expanding your digital footprint.
-            With a keen eye on the latest trends, we navigate the dynamic landscape of online growth, ensuring your business
-            thrives in the digital era. Let us elevate your brand and reach new heights together.
+          {t('about4.aboutDescription')}
           </p>
         </div>
       </div>
       <div className="about-cards">
         <div className="about-card">
           <div className="about-icon achievement-icon"></div>
-          <h2 className="card-title">Our Achievements</h2>
+          <h2 className="card-title">{t('about4.card1Title')}</h2>
           <p className="card-description">
-            Over the years, we've successfully completed 100+ websites for clients ranging from startups to multinational
-            corporations. Each project showcases our commitment to quality and client satisfaction.
+          {t('about4.card1Description')}
           </p>
         </div>
         <div className="about-card">
           <div className="about-icon startup-icon"></div>
-          <h2 className="card-title">Empowering Startups</h2>
+          <h2 className="card-title">{t('about4.card2Title')}</h2>
           <p className="card-description">
-            We specialize in helping startups thrive in the digital landscape. From crafting their online presence to
-            implementing strategic digital marketing initiatives, we're dedicated to fueling their growth and success.
+          {t('about4.card2Description')}
           </p>
         </div>
         <div className="about-card special-card">
           <div className="about-icon motto-icon"></div>
-          <h2 className="card-title">Our Motto</h2>
+          <h2 className="card-title">{t('about4.card3Title')}</h2>
           <p className="card-description">
-            "Growing together" isn't just a tagline for us; it's our guiding principle. We believe in fostering collaborative
-            partnerships with our clients, growing alongside them, and celebrating shared successes along the way.
-            Together, we're shaping a brighter digital future.
+          {t('about4.card3Description')}
           </p>
         </div>
         <div className="about-card">
           <div className="about-icon approach-icon"></div>
-          <h2 className="card-title">Our Approach</h2>
+          <h2 className="card-title">{t('about4.card4Title')}</h2>
           <p className="card-description">
-            We approach every project with a blend of creativity, innovation, and strategic thinking. By understanding our
-            clients' unique needs and goals, we tailor solutions that deliver tangible results and drive long-term success.
+          {t('about4.card4Description')}
           </p>
         </div>
       </div>

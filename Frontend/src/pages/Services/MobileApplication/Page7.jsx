@@ -2,20 +2,23 @@ import React, { useEffect, useRef } from 'react';
 import image from '../../../assets/images/mobile-back3.svg';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './Page7.css'; // Import the CSS file for styling
+import { useTranslation } from "react-i18next";
 
 const Page7 = () => {
 
+    const { t } = useTranslation();
+
     // Key points for mobile app maintenance and support
     const mobileAppMaintenancePoints = [
-        'Regular app updates and new feature integration',
-        'Monitoring app performance and uptime',
-        'Ensuring app security with timely patches',
-        'Bug fixing and technical issue resolution',
-        'Optimizing app for latest OS versions and devices',
-        'User feedback analysis and continuous improvements',
-        'Managing backend services and database updates',
-        'App store listing maintenance and optimization',
-        'Providing ongoing support and troubleshooting',
+        t('mobile8.mobileAppMaintenancePoints.point1'),
+        t('mobile8.mobileAppMaintenancePoints.point2'),
+        t('mobile8.mobileAppMaintenancePoints.point3'),
+        t('mobile8.mobileAppMaintenancePoints.point4'),
+        t('mobile8.mobileAppMaintenancePoints.point5'),
+        t('mobile8.mobileAppMaintenancePoints.point6'),
+        t('mobile8.mobileAppMaintenancePoints.point7'),
+        t('mobile8.mobileAppMaintenancePoints.point8'),
+        t('mobile8.mobileAppMaintenancePoints.point9'),
     ];
     
     const imageRef = useRef(null);
@@ -40,12 +43,9 @@ const Page7 = () => {
         <div className="page8-container-web">
             <div className="page8-content-web">
                 <div className="page8-left-web">
-                    <h2 className="page8-title-web">Mobile App Maintenance & Support</h2>
+                    <h2 className="page8-title-web">{t('mobile8.heroSection.title')}</h2>
                     <p className="page8-description-web">
-                        At Mahisha India Technologies, we provide comprehensive maintenance and support services to ensure your mobile app remains up-to-date, secure, and fully functional. 
-                        Our expert team handles everything from regular updates and bug fixes to performance optimization and feature enhancements. 
-                        We ensure that your app remains compatible with the latest operating systems and devices, while continuously improving the user experience based on feedback and data analysis. 
-                        With our proactive app management, you can focus on growing your business while we handle the technical aspects of your app’s upkeep.
+                    {t('mobile8.heroSection.description')}
                     </p>
 
                     <button className="page8-button-web">

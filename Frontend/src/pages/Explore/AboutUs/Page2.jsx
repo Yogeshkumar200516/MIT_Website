@@ -1,11 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 import image1 from '../../../assets/images/slide2.jpeg';
 import './Page2.css';
+import { useTranslation } from "react-i18next";
 
 function Page2() {
   const headingRef = useRef(null);
   const descriptionRef = useRef(null);
   const imageRef = useRef(null);
+
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,13 +41,12 @@ function Page2() {
     <div className="about-container-unique">
       <div className="about-content-unique">
         <h1 className="about-heading-unique" ref={headingRef}>
-          Young team driving digital innovation and creativity
+          {t('about2.aboutHeading')}
         </h1>
         <p className="about-description-unique" ref={descriptionRef}>
-          At Mahisha India Technologies, we’re a dynamic team of young minds passionate about digital innovation and creativity.
-          With fresh perspectives and boundless energy, we tackle every project with enthusiasm and dedication.
+          {t('about2.aboutDescription')}
         </p>
-        <button className="about-button-unique" onClick={handleQuoteClick}>Join Us</button>
+        <button className="about-button-unique" onClick={handleQuoteClick}>{t('about2.buttonText')}</button>
       </div>
       <div className="about-image-container-unique">
         <img

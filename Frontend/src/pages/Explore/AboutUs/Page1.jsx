@@ -1,21 +1,24 @@
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./Page1.css";
 
 const Page1 = () => {
-  // Array for website names
+  // First call the `useTranslation` hook to get the `t` function
+  const { t } = useTranslation();
+
+  // Array for website names, use `t` function to translate them
   const aboutUsOptions = [
-    'Our Story',
-    'Our Mission',
-    'Our Values',
-    'Meet the Team',
-    'Company History',
-    'Careers',
-    'Testimonials',
-    'Press and Media',
-    'Community Involvement',
-    'Sustainability Efforts',
+    t('about1.scrollingOptions.ourStory'),
+    t('about1.scrollingOptions.ourMission'),
+    t('about1.scrollingOptions.ourValues'),
+    t('about1.scrollingOptions.meetTheTeam'),
+    t('about1.scrollingOptions.companyHistory'),
+    t('about1.scrollingOptions.careers'),
+    t('about1.scrollingOptions.testimonials'),
+    t('about1.scrollingOptions.pressAndMedia'),
+    t('about1.scrollingOptions.communityInvolvement'),
+    t('about1.scrollingOptions.sustainabilityEfforts'),
   ];
-  
 
   // State to trigger animations on page load
   const [inView, setInView] = useState(false);
@@ -33,13 +36,12 @@ const Page1 = () => {
   return (
     <div className={`digital-page-container ${inView ? "animate" : ""}`}>
       <div className="digital-content-section">
-        <h1 className="digital-title">About Us</h1>
-        <p className="digital-subtext">
-        Embark on a journey with Nexus Info, where innovation meets expertise, and discover how we transform ideas into impactful digital solutions for your business.
-        </p>
+        <h1 className="digital-title">{t('about1.title')}</h1>
+        <p className="digital-subtext">{t('about1.subtext')}</p>
         <div className="digital-button-group">
-          <button className="digital-explore-btn" onClick={handleWhatsAppClick}>Explore Now</button>
-          {/* <button className="webdev-special-btn">Special Offer!</button> */}
+          <button className="digital-explore-btn" onClick={handleWhatsAppClick}>
+            {t('about1.buttonExplore')}
+          </button>
         </div>
       </div>
 

@@ -4,8 +4,11 @@ import image2 from '../../../assets/images/google.svg';
 import image3 from '../../../assets/images/instagram.svg';
 import { useInView } from 'react-intersection-observer';
 import './Page4.css';
+import { useTranslation } from "react-i18next";
 
 const Page4 = () => {
+
+  const { t } = useTranslation();
   const { ref: headingRef, inView: headingInView } = useInView({ triggerOnce: true });
   const { ref: paragraphRef, inView: paragraphInView } = useInView({ triggerOnce: true });
   const { ref: socialRef, inView: socialInView } = useInView({ triggerOnce: true });
@@ -17,25 +20,18 @@ const Page4 = () => {
           ref={headingRef} 
           className={`heading-digital-unique ${headingInView ? 'slide-in-bottom' : ''}`}
         >
-          Social Media Marketing
+          {t('digital4.title')}
         </h1>
         <p 
           ref={paragraphRef} 
           className={`paragraph-digital-unique ${paragraphInView ? 'slide-in-right' : ''}`}
         >
-          In today’s digital world, social media isn’t just about sharing photos and updates; 
-          it’s a powerful tool for businesses to connect with their audience. Our social media 
-          marketing services are designed to elevate your brand’s presence across platforms like 
-          Facebook, Instagram, Twitter, and LinkedIn.
+          {t('digital4.paragraph1')}
         </p>
         <p 
           className={`paragraph-digital-unique ${paragraphInView ? 'slide-in-right' : ''}`}
         >
-          We craft engaging content, run targeted ad campaigns, and interact with your audience to 
-          build meaningful relationships and drive results. From increasing brand awareness to 
-          generating leads and boosting sales, we harness the full potential of social media to 
-          help your business thrive in the online landscape. Let’s make your brand shine in the 
-          digital spotlight together!
+          {t('digital4.paragraph2')}
         </p>
         <div 
           ref={socialRef} 
@@ -43,15 +39,15 @@ const Page4 = () => {
         >
           <div className="stat-item-digital-unique">
             <img src={image1} alt="LinkedIn" className="icon-digital-unique" />
-            <p className="stat-text-digital-unique">LinkedIn<br />9000+ Followers</p>
+            <p className="stat-text-digital-unique">{t('digital4.socialStats.linkedin.name')}<br />{t('digital4.socialStats.linkedin.followers')}</p>
           </div>
           <div className="stat-item-digital-unique">
             <img src={image2} alt="Google Reviews" className="icon-digital-unique" />
-            <p className="stat-text-digital-unique">Google Reviews<br />Rated 4.6/5 500+ Reviews</p>
+            <p className="stat-text-digital-unique">{t('digital4.socialStats.googleReviews.name')}<br />{t('digital4.socialStats.googleReviews.followers')}</p>
           </div>
           <div className="stat-item-digital-unique">
             <img src={image3} alt="Instagram" className="icon-digital-unique" />
-            <p className="stat-text-digital-unique">Instagram<br />10,000+ Followers</p>
+            <p className="stat-text-digital-unique">{t('digital4.socialStats.instagram.name')}<br />{t('digital4.socialStats.instagram.followers')}</p>
           </div>
         </div>
       </div>

@@ -1,8 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import image from '../../../assets/images/mobile-back5.svg';
 import './Page2.css'; // Updated CSS file with new class names
+import { useTranslation } from "react-i18next";
 
 const Page2 = () => {
+
+  const { t } = useTranslation();
   // Create refs for the text elements
   const headingRef = useRef(null);
   const descriptionRef = useRef(null);
@@ -45,19 +48,17 @@ const Page2 = () => {
         {/* Right side with the text and buttons */}
         <div className="custom-text-section">
           <h1 ref={headingRef} className="custom-heading-text">
-            Building Powerful Mobile Applications for Every Business Need
+            {t('mobile2.heading')}
           </h1>
           <p ref={descriptionRef} className="custom-description-text">
-            Our mobile applications are crafted to provide seamless user experiences, optimized for performance, and designed with cutting-edge technologies. 
-            Whether you're launching an e-commerce app, creating a social media platform, or building enterprise solutions, we offer full development services 
-            from design to deployment, ensuring that your app not only looks stunning but functions flawlessly across devices.
+          {t('mobile2.description')}
           </p>
 
           {/* Buttons */}
           <div className="custom-button-group">
-            <button className="custom-primary-button">APP DESIGN</button>
-            <button className="custom-primary-button">USER EXPERIENCE</button>
-            <button className="custom-primary-button">PERFORMANCE</button>
+            <button className="custom-primary-button">{t('mobile2.buttons.appDesign')}</button>
+            <button className="custom-primary-button">{t('mobile2.buttons.userExperience')}</button>
+            <button className="custom-primary-button">{t('mobile2.buttons.performance')}</button>
           </div>
         </div>
       </div>

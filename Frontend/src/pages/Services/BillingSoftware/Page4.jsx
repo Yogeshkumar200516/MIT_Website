@@ -3,8 +3,11 @@ import image1 from '../../../assets/images/linkedin.svg';
 import image2 from '../../../assets/images/instagram.svg';
 import image3 from '../../../assets/images/facebook.svg';
 import './Page4.css'; // External CSS file with unique classnames
+import { useTranslation } from "react-i18next";
 
 const Page4 = () => {
+
+  const { t } = useTranslation();
   const sectionRef = useRef(null); // Ref to observe the section
 
   useEffect(() => {
@@ -35,9 +38,9 @@ const Page4 = () => {
   return (
     <div ref={sectionRef} className="branding-container-unique">
       <div className="branding-content-unique">
-        <h1 className="branding-heading-unique">Automated Billing</h1>
+        <h1 className="branding-heading-unique">{t('billing5.pageTitle')}</h1>
         <p className="branding-description-unique">
-        In today’s competitive market, businesses are turning to automated generation tools to streamline their operations and enhance productivity. Instead of relying on manual processes, companies are utilizing advanced software and AI-driven solutions to automate tasks like invoicing, data analysis, and report generation. This approach not only reduces human error but also increases efficiency and scalability. Automated generation allows businesses to operate more smoothly, focus on strategic growth, and deliver consistent results with minimal effort. It’s a powerful way to optimize operations and maintain a competitive edge.
+          {t('billing5.description')}
         </p>
         <div className="branding-icons-wrapper-unique">
           <img src={image1} alt="LinkedIn" className="branding-icon-unique" />

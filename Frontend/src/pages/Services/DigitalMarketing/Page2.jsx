@@ -6,8 +6,11 @@ import image4 from '../../../assets/images/content-marketing.svg';
 import image5 from '../../../assets/images/email-marketing.svg';
 import image6 from '../../../assets/images/seo-services2.svg';
 import './Page2.css';
+import { useTranslation } from "react-i18next";
 
 const Page2 = () => {
+
+  const { t } = useTranslation();
   useEffect(() => {
     const handleScroll = () => {
       const title = document.querySelector('.design-page-title');
@@ -38,18 +41,18 @@ const Page2 = () => {
   return (
     <div className="design-page-container">
       <div className="design-page-content">
-        <h1 className="design-page-title hidden">Unlock Your Digital Potential</h1>
+        <h1 className="design-page-title hidden">{t('digital2.title')}</h1>
         <p className="design-page-subtext hidden">
-          Elevate your online presence with our strategic digital marketing solutions tailored to your business needs.
+        {t('digital2.subtext')}
         </p>
 
         <div className="design-service-cards">
           <div className="design-service-card hidden">
             <img src={image1} alt="Service 1" className="service-icon" />
             <div className="service-info">
-              <h3 className="service-title">Social Media Marketing</h3>
+              <h3 className="service-title">{t('digital2.services.service1.title')}</h3>
               <p className="service-description">
-                Boost engagement and reach with targeted social media.
+              {t('digital2.services.service1.description')}
               </p>
             </div>
           </div>
@@ -57,18 +60,19 @@ const Page2 = () => {
           <div className="design-service-card hidden">
             <img src={image2} alt="Service 2" className="service-icon" />
             <div className="service-info">
-              <h3 className="service-title">Social Media Management</h3>
+              <h3 className="service-title">{t('digital2.services.service2.title')}</h3>
               <p className="service-description">
-                Efficiently handle social media platforms for maximum impact.              </p>
+              {t('digital2.services.service2.description')}
+              </p>
             </div>
           </div>
 
           <div className="design-service-card hidden">
             <img src={image3} alt="Service 3" className="service-icon" />
             <div className="service-info">
-              <h3 className="service-title">Personal Branding</h3>
+              <h3 className="service-title">{t('digital2.services.service3.title')}</h3>
               <p className="service-description">
-                Founders use personal branding on social media to promote their brands.
+              {t('digital2.services.service3.description')}
               </p>
             </div>
           </div>
@@ -76,9 +80,9 @@ const Page2 = () => {
           <div className="design-service-card hidden">
             <img src={image4} alt="Service 4" className="service-icon" />
             <div className="service-info">
-              <h3 className="service-title">Content Marketing</h3>
+              <h3 className="service-title">{t('digital2.services.service4.title')}</h3>
               <p className="service-description">
-                Engage audiences with compelling and valuable content strategies.
+              {t('digital2.services.service4.description')}
               </p>
             </div>
           </div>
@@ -86,9 +90,9 @@ const Page2 = () => {
           <div className="design-service-card hidden">
             <img src={image5} alt="Service 5" className="service-icon" />
             <div className="service-info">
-              <h3 className="service-title">Email Marketing</h3>
+              <h3 className="service-title">{t('digital2.services.service5.title')}</h3>
               <p className="service-description">
-                Reach customers directly with personalized email campaigns.
+              {t('digital2.services.service5.description')}
               </p>
             </div>
           </div>
@@ -96,9 +100,9 @@ const Page2 = () => {
           <div className="design-service-card hidden">
             <img src={image6} alt="Service 6" className="service-icon" />
             <div className="service-info">
-              <h3 className="service-title">SEO Services</h3>
+              <h3 className="service-title">{t('digital2.services.service6.title')}</h3>
               <p className="service-description">
-                Increase online visibility and attract more organic traffic.
+              {t('digital2.services.service6.description')}
               </p>
             </div>
           </div>

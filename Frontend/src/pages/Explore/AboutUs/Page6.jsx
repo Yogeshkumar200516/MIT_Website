@@ -3,10 +3,13 @@ import image1 from '../../../assets/images/linkedin.svg';
 import image2 from '../../../assets/images/google.svg';
 import image3 from '../../../assets/images/instagram.svg';
 import './Page6.css';
+import { useTranslation } from "react-i18next";
 
 const Page6 = () => {
   const [isVisible, setIsVisible] = useState(false);
   const containerRef = useRef(null);
+
+  const { t } = useTranslation();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -35,31 +38,31 @@ const Page6 = () => {
   return (
     <div ref={containerRef} className={`unique-support-container ${isVisible ? 'visible' : ''}`}>
       <h1 className="unique-support-heading">
-        We are awarded by people's support through social medias
+        {t('about6.heading')}
       </h1>
 
       <div className="unique-social-icons-container">
         <div className="unique-social-box">
           <img src={image1} alt="LinkedIn" className="unique-social-icon" />
           <div className='unique2-grid'>
-            <p className="unique-social-platform">LinkedIn</p>
-            <p className="unique-social-info">Top Startup India 2023</p>
+            <p className="unique-social-platform">{t('about6.linkedin.platform')}</p>
+            <p className="unique-social-info">{t('about6.linkedin.info')}</p>
           </div>
         </div>
 
         <div className="unique-social-box">
           <img src={image2} alt="Google Reviews" className="unique-social-icon" />
           <div className='unique2-grid'>
-            <p className="unique-social-platform">Google Reviews</p>
-            <p className="unique-social-info">Rated 4.8/5 500+ Reviews</p>
+            <p className="unique-social-platform">{t('about6.google.platform')}</p>
+            <p className="unique-social-info">{t('about6.google.info')}</p>
           </div>
         </div>
 
         <div className="unique-social-box">
           <img src={image3} alt="Instagram" className="unique-social-icon" />
           <div className='unique2-grid'>
-            <p className="unique-social-platform">Instagram</p>
-            <p className="unique-social-info">35k+ Followers (Family)</p>
+            <p className="unique-social-platform">{t('about6.instagram.platform')}</p>
+            <p className="unique-social-info">{t('about6.instagram.info')}</p>
           </div>
         </div>
       </div>

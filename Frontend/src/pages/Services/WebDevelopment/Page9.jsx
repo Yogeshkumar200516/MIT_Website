@@ -11,65 +11,68 @@ import image9 from '../../../assets/images/graphql.svg';
 import image10 from '../../../assets/images/mongodb2.svg';
 import image11 from '../../../assets/images/java2.svg';
 import './Page9.css'; // Custom styling for transitions and cards
+import { useTranslation } from "react-i18next";
 
 const Page9 = () => {
+
+    const { t } = useTranslation();
     const [isVisible, setIsVisible] = useState(false);
     const pageRef = useRef(null);
 
     const webTechnologies = [
         {
-            name: "HTML",
-            description: "The standard markup language for creating the structure of web pages.",
+            name: t('web7.technology1.name'),
+            description: t('web7.technology1.description'),
             image: image1
         },
         {
-            name: "CSS",
-            description: "A style sheet language used for describing the look and formatting of a web document.",
+            name: t('web7.technology2.name'),
+            description: t('web7.technology2.description'),
             image: image2
         },
         {
-            name: "JavaScript",
-            description: "A versatile scripting language that enables dynamic behavior on web pages.",
+            name: t('web7.technology3.name'),
+            description: t('web7.technology3.description'),
             image: image3
         },
         {
-            name: "React",
-            description: "A JavaScript library for building fast and interactive user interfaces.",
+            name: t('web7.technology4.name'),
+            description: t('web7.technology4.description'),
             image: image4
         },
         {
-            name: "Angular",
-            description: "A platform and framework for building single-page client applications using HTML and TypeScript.",
+            name: t('web7.technology5.name'),
+            description: t('web7.technology5.description'),
             image: image5
         },
         {
-            name: "Node.js",
-            description: "A JavaScript runtime that allows server-side scripting, enabling JavaScript to run outside of a browser.",
+            name: t('web7.technology6.name'),
+            description: t('web7.technology6.description'),
             image: image6
         },
         {
-            name: "Express.js",
-            description: "A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
+            name: t('web7.technology7.name'),
+            description: t('web7.technology7.description'),
             image: image7
         },
         {
-            name: "MongoDB",
-            description: "A NoSQL database program that uses JSON-like documents with optional schemas to store data.",
+            name: t('web7.technology8.name'),
+            description: t('web7.technology8.description'),
             image: image8
         },
         {
-            name: "MySQL",
-            description: "A popular open-source relational database management system that uses SQL (Structured Query Language).",
+            name: t('web7.technology9.name'),
+            description: t('web7.technology9.description'),
             image: image9
         },
         {
-            name: "PostgreSQL",
-            description: "An open-source relational database system known for its advanced features and compliance with SQL standards.",
+            name: t('web7.technology10.name'),
+            description: t('web7.technology10.description'),
             image: image10
         },
         {
-            name: "Java",
-            description: "A high-level, class-based, object-oriented programming language used for building robust, portable applications.",
+            name: t('web7.technology11.name'),
+            description: t('web7.technology11.description'),
             image: image11
         }
     ];
@@ -94,7 +97,7 @@ const Page9 = () => {
 
     return (
         <div className="mobile-app-container" ref={pageRef}>
-            <h1 className={`title ${isVisible ? 'slide-in-right' : ''}`}>Web Application Technologies</h1>
+            <h1 className={`title ${isVisible ? 'slide-in-right' : ''}`}>{t('web7.title')}</h1>
             <div className="technology-grid">
                 {webTechnologies.map((tech, index) => (
                     <div key={index} className={`technology-card ${isVisible ? 'slide-in-left' : ''}`}>

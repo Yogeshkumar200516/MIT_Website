@@ -6,23 +6,26 @@ import image4 from '../../../assets/images/template4.png';
 import image5 from '../../../assets/images/template5.png';
 import image6 from '../../../assets/images/template6.png';
 import './Page6.css'; // For custom styles
+import { useTranslation } from "react-i18next";
 
 const Page6 = () => {
+
+  const { t } = useTranslation();
   const pageRef = useRef(null);
   const [animationTriggered, setAnimationTriggered] = useState(false); // Track if animation has been triggered
 
   // Key benefits of cross-platform development
   const crossPlatformOptions = [
-    'Develop Once, Deploy Anywhere',
-    'Cost-effective Development Process',
-    'Faster Time to Market',
-    'Native-like Performance on Multiple Platforms',
-    'Single Codebase for iOS and Android',
-    'Easier Maintenance and Updates',
-    'Wider Market Reach',
-    'Reduced Development Effort',
-    'Seamless Integration with APIs',
-    'Unified User Experience Across Devices',
+    t('mobile7.crossPlatformOptions.option1'),
+    t('mobile7.crossPlatformOptions.option2'),
+    t('mobile7.crossPlatformOptions.option3'),
+    t('mobile7.crossPlatformOptions.option4'),
+    t('mobile7.crossPlatformOptions.option5'),
+    t('mobile7.crossPlatformOptions.option6'),
+    t('mobile7.crossPlatformOptions.option7'),
+    t('mobile7.crossPlatformOptions.option8'),
+    t('mobile7.crossPlatformOptions.option9'),
+    t('mobile7.crossPlatformOptions.option10'),
   ];
 
   // Join the benefits with a gap in between for better readability
@@ -49,9 +52,9 @@ const Page6 = () => {
   return (
     <div className="page-container" ref={pageRef}>
       <div className="hero-section">
-        <h1>We Build Seamless Cross-platform Mobile Apps</h1>
+        <h1>{t('mobile7.heroSection.title')}</h1>
         <p>
-          At Mahisha India Technologies, our cross-platform app development services allow you to reach a wider audience by creating apps that run smoothly on both iOS and Android. Using technologies like React Native and Flutter, we ensure your app provides a consistent, native-like experience across devices, while reducing costs and time-to-market. From design to deployment, we deliver apps that are tailored to your business goals.
+        {t('mobile7.heroSection.description')}
         </p>
       </div>
 

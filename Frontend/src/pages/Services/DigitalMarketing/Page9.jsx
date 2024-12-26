@@ -1,8 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import image1 from '../../../assets/images/seo-services.svg';
 import './Page9.css';
+import { useTranslation } from "react-i18next";
 
 const Page9 = () => {
+
+  const { t } = useTranslation();
   const seoHeaderRef = useRef(null);
   const [hasAnimated, setHasAnimated] = useState(false); // State to track if the animation has occurred
 
@@ -34,13 +37,10 @@ const Page9 = () => {
     <div className="seo-page9-container">
       <div className="seo-flex-row">
         <div className="seo-header" ref={seoHeaderRef}>
-          <h1>Professional SEO Services</h1>
+          <h1>{t('digital9.header')}</h1>
           <hr />
           <p>
-            Elevate your online presence with our professional SEO services. We employ strategic tactics 
-            including keyword research, on-page optimization, and link building to improve your website’s 
-            visibility and attract more qualified leads. Let our team of experts optimize your digital 
-            presence and drive success in the digital realm.
+          {t('digital9.description')}
           </p>
         </div>
         <div className="seo-image">
@@ -48,9 +48,27 @@ const Page9 = () => {
         </div>
       </div>
       <div className="seo-tags-container">
-        {['CODE', 'DEVELOPMENT', 'INNOVATION', 'APP', 'NETWORKING', 'SUPPORT', 'INFRASTRUCTURE', 
-          'SEM', 'CYBERSECURITY', 'DESIGN', 'UX/UI', 'DOMAINS', 'HOSTING', 'SEO', 'SOCIAL MEDIA', 
-          'AI', 'ANALYTICS', 'CONTENT', 'KEYWORDS', 'TRAFFIC'].map((tag, index) => (
+        {[t('digital9.tags.CODE'),
+          t('digital9.tags.DEVELOPMENT'),
+          t('digital9.tags.INNOVATION'),
+          t('digital9.tags.APP'),
+          t('digital9.tags.NETWORKING'),
+          t('digital9.tags.SUPPORT'),
+          t('digital9.tags.INFRASTRUCTURE'),
+          t('digital9.tags.SEM'),
+          t('digital9.tags.CYBERSECURITY'),
+          t('digital9.tags.DESIGN'),
+          t('digital9.tags.UX/UI'),
+          t('digital9.tags.DOMAINS'),
+          t('digital9.tags.HOSTING'),
+          t('digital9.tags.SEO'),
+          t('digital9.tags.SOCIAL MEDIA'),
+          t('digital9.tags.AI'),
+          t('digital9.tags.ANALYTICS'),
+          t('digital9.tags.CONTENT'),
+          t('digital9.tags.KEYWORDS'),
+          t('digital9.tags.TRAFFIC'),
+        ].map((tag, index) => (
           <button key={index} className="seo-tag-button">
             {tag}
           </button>

@@ -1,0 +1,944 @@
+{
+    "navbar": {
+      "home": "主页",
+      "about_us": "关于我们",
+      "our_team": "我们的团队",
+      "website_development": "网站开发",
+      "digital_marketing": "数字营销",
+      "mobile_applications": "移动应用程序",
+      "billing_software": "计费软件",
+      "software_consultants": "软件顾问",
+      "responsive_websites": "高响应度网站",
+      "ui_ux_design": "吸引人的用户界面/用户体验",
+      "active_learners": "50+ 活跃学习者",
+      "free_idea": "致电我们，获取免费的商业增长创意",
+      "ecommerce_solutions": "电子商务解决方案",
+      "explore": "探索",
+      "services": "服务",
+      "contact_us": "联系我们",
+      "join_us": "加入我们",
+      "en": "英语",
+    "ta": "泰米尔语",
+    "ja": "日语",
+    "sv": "瑞典语",
+    "zh": "中文",
+    "hi": "印地语",
+    "kn": "卡纳达语",
+    "ml": "马拉雅拉姆语",
+    "te": "特鲁古语"
+    },
+    "footer": {
+    "header": "开始构建精彩的网站",
+    "text": "加入已有12,653,898名客户的行列，和我们一起打造精彩的网站。",
+    "get_a_quote": "获取报价",
+    "contact_us": "联系我们",
+    "company_info": "我们为您的企业开发网站，让您的愿景成真，并将您的企业推向数字领域。",
+    "company_links": {
+      "about_us": "关于我们",
+      "internships": "实习",
+      "consultant": "顾问",
+      "career": "职业",
+      "contact_us": "联系我们"
+    },
+    "services_links": {
+      "website_services": "网站服务",
+      "digital_marketing": "数字营销",
+      "mobile_applications": "移动应用程序",
+      "billing_software": "计费软件"
+    },
+    "still_need_help": "还需要帮助吗？",
+    "email": "mahishaindiatechnologies@gmail.com",
+    "phone": "+91 70949 53135",
+    "whatsapp": "+91 81108 18281",
+    "footer_text": "Mahisha India Technologies Private Limited | 保留所有权利。"
+  },
+  "home1": {
+    "title": "网站开发和数字营销公司",
+    "subtitle": "通过Mahisha India Technologies让您的业务增长",
+    "description": "为您的业务提供专业的网站和数字营销支持，完全符合您的预算。",
+    "button": "联系我们"
+  },
+  "home2": {
+    "title": "我们的服务",
+    "description": "全面的网站服务，点燃您的在线成功。通过我们的网站提供强大的在线服务，为您的业务赋能。",
+    "services": {
+      "digital_marketing": {
+        "title": "数字营销",
+        "description": "利用我们的智能数字营销策略，提升您的在线形象，与更多人建立联系。",
+        "explore": "探索"
+      },
+      "web_development": {
+        "title": "网站开发",
+        "description": "我们打造具有吸引力且易于使用的网站，良好地代表您的品牌，帮助您吸引更多在线客户。",
+        "explore": "探索"
+      },
+      "billing_software": {
+        "title": "账单软件",
+        "description": "通过快速、准确和用户友好的软件简化账单流程，提高您的业务效率。",
+        "explore": "探索"
+      }
+    }
+  },
+  "home3": {
+    "heading": "我们创建高对比度和响应式布局的精彩网站",
+    "description": "我们的网站设计既视觉吸引力强，又具互动性和完全响应能力。无论您是要启动个人博客、建立电子商务平台、管理业务还是需要定制的网络解决方案，我们都能提供全面的服务。从吸引访客到展示您的产品，我们的专业知识确保您的网站脱颖而出并发挥作用。",
+    "buttons": {
+      "ui_ux_design": "UI/UX 设计",
+      "user_friendly": "用户友好",
+      "responsiveness": "响应性"
+    }
+  },
+  "home4": {
+  "description": "在 Mahisha India Technologies，我们为您提供与数字相关的所有帮助。我们的年轻且具有前瞻性思维的团队始终关注最新的市场营销和销售趋势。让我们帮助您将业务增长 10 倍。",
+  "stats": {
+    "projects_ideas": "项目创意",
+    "happy_clients": "满意的客户",
+    "ratings": "评分",
+    "learning_interns": "学习实习生"
+  }
+},
+"home5": "赋能您的数字旅程，我们携手推动增长和成功。",
+"home6": {
+    "title": "你需要的，我们都有",
+    "services": {
+      "blogWriting": "博客写作",
+      "socialMediaManagement": "社交媒体管理",
+      "graphicDesign": "平面设计",
+      "websiteDevelopment": "网站开发",
+      "photography": "摄影",
+      "customerSoftwareDevelopment": "定制软件开发",
+      "business": "业务",
+      "founderLeadBranding": "创始人主导的品牌建设"
+    }
+  },
+  "home7": {
+    "title": "为什么人们爱我们",
+    "description": "在 Mahisha India Technologies，我们注重共同成长。我们是一家优先考虑客户成长而非利润的初创公司。我们相信创造真正的价值并建立持久的关系。我们的团队致力于确保您的成功。加入我们，一起成就伟大的事物！",
+    "features": {
+      "supportSystem": {
+        "title": "支持系统",
+        "description": "我们的专属支持团队提供及时的帮助、指导和解决方案，确保客户在每一步都感受到支持。"
+      },
+      "friendlyRelationship": {
+        "title": "友好的关系",
+        "description": "我们优先建立真正的联系，培养信任，营造客户感到受重视和理解的环境。"
+      },
+      "businessStrategies": {
+        "title": "商业策略",
+        "description": "我们提供创新、定制化的策略，推动增长和成功，使企业在当今动态市场中充满信心地蓬勃发展。"
+      }
+    }
+  },
+  "home8": {
+    "title": "我们帮助品牌增加他们的在线存在",
+    "description": "在Mahisha India Technologies，我们专注于提升您的品牌在线可见性和互动性。我们的专家团队为您量身定制数字战略，提升您的网站，优化社交媒体，并吸引目标流量。我们关注您的独特目标，以吸引新客户并建立长期忠诚度。让我们帮助您在数字化世界中导航，并有效地提升您的在线存在感。",
+    "websiteNames": {
+      "designAgencyWebsite": "设计代理网站",
+      "digitalMarketingWebsite": "数字营销网站",
+      "universityCollegeWebsite": "大学/学院网站",
+      "educationalWebsite": "教育网站",
+      "eCommerceWebsite": "电子商务网站",
+      "travelAgencyWebsite": "旅行社网站",
+      "hospitalWebsite": "医院网站",
+      "tourismWebsite": "旅游网站",
+      "realEstateWebsite": "房地产网站"
+    }
+  },
+  "home9": {
+    "title": "我们为您的电子商务一切而来",
+    "features": {
+      "feature1": {
+        "title": "获取项目经理",
+        "description": "在启动您的电子商务业务的每个阶段为您提供指导"
+      },
+      "feature2": {
+        "title": "加速市场进入时间",
+        "description": "通过一个由顶级自由职业专家组成的专门团队"
+      },
+      "feature3": {
+        "title": "优化您的预算",
+        "description": "通过一个专门的项目经理来处理您的所有任务，留下更多的资金用于市场营销和增长"
+      }
+    }
+  },
+  "home10": {
+    "title": "人们怎么说",
+    "speaker": "发言人",
+    "quote": "引述",
+    "designation": "职位",
+    "testimonial1": {
+      "speaker": "营销专家",
+      "quote": "Sixty Labs 提供了卓越的成果。他们的创意策略和深入的市场分析是我们活动成功的关键。",
+      "designation": "营销总监"
+    },
+    "testimonial2": {
+      "speaker": "商业战略家",
+      "quote": "他们创新的解决方案和对细节的关注帮助我们快速扩展。",
+      "designation": "商业经理"
+    },
+    "testimonial3": {
+      "speaker": "电子商务顾问",
+      "quote": "团队在电子商务方面的专业知识对实现我们的增长目标至关重要。",
+      "designation": "电子商务总监"
+    },
+    "testimonial4": {
+      "speaker": "项目经理",
+      "quote": "Sixty Labs 无缝管理了我们的项目，按时并且在预算内交付。",
+      "designation": "运营主管"
+    },
+    "testimonial5": {
+      "speaker": "自由职业专家",
+      "quote": "与他们合作的体验非常好！他们真正理解自由职业生态系统。",
+      "designation": "自由职业顾问"
+    }
+  },
+  "about1": {
+    "title": "关于我们",
+    "subtext": "与 Nexus Info 一起踏上旅程，这里创新与专业知识相结合，发现我们如何将想法转化为适合您业务的有影响力的数字解决方案。",
+    "buttonExplore": "立即探索",
+    "scrollingOptions": {
+      "ourStory": "我们的故事",
+      "ourMission": "我们的使命",
+      "ourValues": "我们的价值观",
+      "meetTheTeam": "见见团队",
+      "companyHistory": "公司历史",
+      "careers": "职业",
+      "testimonials": "客户评价",
+      "pressAndMedia": "新闻和媒体",
+      "communityInvolvement": "社区参与",
+      "sustainabilityEfforts": "可持续发展努力"
+    }
+  },
+  "about2": {
+    "aboutHeading": "引领数字创新与创意的年轻团队",
+    "aboutDescription": "在Mahisha India Technologies，我们是一个充满活力的年轻团队，热衷于数字创新与创意。凭借新颖的视角和无穷的精力，我们以热情和奉献精神应对每个项目。",
+    "buttonText": "加入我们"
+  },
+  "about3": {
+    "aboutUsSubtext": "好的软件是一件艺术品，好的艺术需要时间。我们的团队花费数年时间来掌握他们的技艺，以提供客户喜爱的卓越产品。软件不仅仅是我们的薪水",
+    "aboutUsTitle": "这是我们的",
+    "typingEffectTextCraft": "工艺。",
+  "typingEffectTextPassion": "激情。",
+  "typingEffectTextMission": "使命。",
+  "typingEffectTextCommitment": "承诺。",
+  "typingEffectTextGoal": "目标。"
+  },
+  "about4": {
+    "aboutTitle": "通过协作创新和专注推动增长。",
+    "aboutDescription": "Mahisha India Technologies 不仅仅专注于网站建设，我们是您在扩展数字足迹方面的战略伙伴。我们密切关注最新的趋势，在动态变化的在线发展格局中引导您，确保您的业务在数字时代中蓬勃发展。让我们一起提升您的品牌，攀登新的高峰。",
+    "card1Title": "我们的成就",
+    "card1Description": "多年来，我们已经成功完成了100多个网站项目，客户包括初创公司和跨国公司。每个项目都展示了我们对质量和客户满意度的承诺。",
+    "card2Title": "赋能初创企业",
+    "card2Description": "我们专注于帮助初创企业在数字领域取得成功。从创建他们的在线存在到实施战略性数字营销举措，我们致力于推动他们的增长和成功。",
+    "card3Title": "我们的座右铭",
+    "card3Description": "\"共同成长\"对我们来说不仅仅是一个口号，它是我们的指导原则。我们相信与客户建立合作伙伴关系，共同成长并共同庆祝成功。我们正在一起塑造一个更光明的数字未来。",
+    "card4Title": "我们的方法",
+    "card4Description": "我们以创造性、创新性和战略思维的结合来处理每个项目。通过了解客户的独特需求和目标，我们制定出能够带来实质成果的解决方案。"
+  },
+  "about5": {
+    "journeyHeading": "Mahisha India Technologies的历程",
+    "mainHeading": "我们通过数字化运营，摒弃线下办公室和不必要的开支",
+    "description": "Mahisha India Technologies由一位年轻企业家创立，拥有一支充满热情的团队，擅长引领最新趋势的浪潮。",
+    "visionTitle": "我们的愿景",
+    "visionDescription": "我们的愿景是通过提供独特定制的网站，使企业能够在数字领域蓬勃发展。",
+    "missionTitle": "我们的使命",
+    "missionDescription": "确保每个企业都能通过提供个性化的网站建立强大的在线存在。"
+  },
+  "about6": {
+    "heading": "我们通过社交媒体获得了人们的支持和奖项",
+    "linkedin": {
+      "platform": "LinkedIn",
+      "info": "Top Startup India 2023"
+    },
+    "google": {
+      "platform": "Google Reviews",
+      "info": "评分 4.8/5 500+ 评论"
+    },
+    "instagram": {
+      "platform": "Instagram",
+      "info": "35k+ 粉丝（家人）"
+    }
+  },
+  "team1": {
+    "title": "我们的团队",
+    "subtext": "我们的团队因共同的愿景和对卓越的强烈承诺而团结在一起。我们结合不同的技能，创造出有影响力的解决方案并推动客户成功。",
+    "joinUs": "加入我们",
+    "teamValues": {
+      "value1": "合作与团队合作",
+      "value2": "创新与创造力",
+      "value3": "问题解决的专业知识",
+      "value4": "适应性与敏捷性",
+      "value5": "对质量的承诺",
+      "value6": "以客户为中心的方式",
+      "value7": "持续学习与成长"
+    }
+  },
+  "team2": {
+    "title": "我们的团队潜力",
+    "intro": "我们的团队成员致力于创造影响力解决方案，并在每个项目中提供卓越表现。",
+    "teamMember1": {
+      "name": "Vignesh Vasanth",
+      "role": "全栈开发人员",
+      "experience": "6年",
+      "location": "Sathyamangalam，印度",
+      "email": "vigneshvasanthc@gmail.com",
+      "description": "擅长使用Angular、Node.js、MongoDB开发可扩展的Web应用程序。"
+    },
+    "teamMember2": {
+      "name": "Devvidyasagar",
+      "role": "DevOps工程师",
+      "experience": "3年",
+      "location": "Sathyamangalam，印度",
+      "email": "devvidyasagar@gmail.com",
+      "description": "专注于云基础设施、CI/CD管道和容器化。"
+    },
+    "teamMember3": {
+      "name": "Jeevan Kumar",
+      "role": "全栈开发人员",
+      "experience": "4年",
+      "location": "Coimbatore，印度",
+      "email": "jeevan@gmail.com",
+      "description": "擅长RESTful API开发、数据库访问和服务器端语言。"
+    },
+    "teamMember4": {
+      "name": "Gopal Chandran",
+      "role": "全栈开发人员",
+      "experience": "6年",
+      "location": "Coimbatore，印度",
+      "email": "gopalchandru@gmail.com",
+      "description": "专注于RESTful API开发、数据库和服务器端优化。"
+    },
+    "teamMember5": {
+      "name": "Dharun Ramesh",
+      "role": "UI/UX设计师",
+      "experience": "5年",
+      "location": "Coimbatore，印度",
+      "email": "dharun@gmail.com",
+      "description": "设计引人注目且用户友好的界面。"
+    },
+    "teamMember6": {
+      "name": "Yogesh Kumar",
+      "role": "Frontend Developer",
+      "experience": "1年",
+      "location": "Sathyamangalam，印度",
+      "email": "yogeshkumar.s.radha@gmail.com",
+      "description": "擅长JavaScript框架、无障碍性和性能优化。"
+    }
+  },
+  "web1": {
+  "title": "网站开发",
+  "subtext": "我们的网页设计和开发服务旨在将您的在线形象转变为一个引人入胜的高性能平台。",
+  "exploreButton": "立即探索",
+  "specialOfferButton": "特别优惠！",
+  "websiteNames": {
+    "designAgency": "设计机构网站",
+    "digitalMarketing": "数字营销网站",
+    "universityCollege": "大学/学院网站",
+    "educational": "教育网站",
+    "ecommerce": "电子商务网站",
+    "travelAgency": "旅行社网站",
+    "hospital": "医院网站",
+    "tourism": "旅游网站",
+    "realEstate": "房地产网站"
+  }
+},
+"web2": {
+  "title": "网站设计与开发",
+  "subtext": "我们经验丰富的设计团队专注于定制网站设计，展现您的品牌身份，并与目标客户产生共鸣。我们优先考虑用户体验，确保从桌面到移动设备的所有设备都能无缝导航并响应快速。",
+  "service1": {
+    "title": "网站开发与设计",
+    "description": "我们专注于为各种规模的企业打造用户友好的网站。"
+  },
+  "service2": {
+    "title": "电子商务解决方案",
+    "description": "通过我们的综合电子商务解决方案，将您的在线商店提升到新的高度。"
+  },
+  "service3": {
+    "title": "网站维护",
+    "description": "我们的网站维护服务可确保您的网站保持最新状态并安全无忧。"
+  },
+  "service4": {
+    "title": "网站改版",
+    "description": "我们的网站改版服务旨在为过时的网站注入新的活力。"
+  }
+},
+"web4": {
+  "title": "哪些技术会为您的业务带来最大价值？",
+  "subtitle": "通过为您的技术栈选择最先进的技术来解决客户问题。选择适合您需求的正确解决方案，将您的业务提升到新水平。"
+},
+"web5": {
+  "title": "网站开发与设计",
+  "description": "在Mahisha India Technologies，我们专注于为各种规模的企业打造用户友好的网站。我们的团队确保您的网站在桌面和移动设备上都经过优化，提供无缝的浏览体验，满足移动客户的需求。我们利用先进的SEO技术提升您的网站在搜索引擎结果页面（SERP）上的可见性，帮助您吸引有机流量并增加转化率。无论您是希望扩展在线业务的实体店，还是需要现代化网站的大学，我们都能为您提供帮助。",
+  "button": "获取报价",
+  "scrollingText": {
+    "point1": "适应所有设备的响应式设计",
+    "point2": "根据您的业务需求定制的网页开发",
+    "point3": "用户友好的界面和导航",
+    "point4": "SEO友好的结构，提升搜索引擎排名",
+    "point5": "跨浏览器兼容，提供无缝用户体验",
+    "point6": "快速加载时间和优化性能",
+    "point7": "具有数据保护的安全网站应用",
+    "point8": "便于内容管理的CMS集成",
+    "point9": "创新和现代的UI/UX设计"
+  }
+},
+"web6": {
+  "title": "电子商务解决方案",
+  "description": "在Mahisha India Technologies，我们提供旨在提升您的在线业务的全面电子商务解决方案。我们的团队专注于开发强大、可扩展和安全的电子商务平台，量身定制以满足您的业务特定需求。从直观的购物车功能到无缝的支付处理和用户友好的产品管理系统，我们确保为您的客户提供顺畅的购物体验。通过我们先进分析工具的专业整合，您可以跟踪客户行为并优化策略以推动销售。无论您是启动新业务，还是希望增强现有电子商务网站，我们都致力于帮助您在数字市场中取得成功。",
+  "button": "获取报价",
+  "scrollingText": {
+    "point1": "为客户提供用户友好的购物体验",
+    "point2": "安全的支付处理和交易管理",
+    "point3": "强大的库存管理系统",
+    "point4": "可定制的产品列表和分类",
+    "point5": "适应移动设备的设计，随时随地购物",
+    "point6": "与各种运输选项的集成",
+    "point7": "跟踪客户行为的高级分析",
+    "point8": "SEO优化以提高可见性",
+    "point9": "多渠道销售能力（例如：社交媒体、市场）"
+  }
+},
+"web7": {
+  "title": "网页应用技术",
+  "technology1": {
+    "name": "HTML",
+    "description": "用于创建网页结构的标准标记语言。"
+  },
+  "technology2": {
+    "name": "CSS",
+    "description": "用于描述网页文档外观和格式的样式表语言。"
+  },
+  "technology3": {
+    "name": "JavaScript",
+    "description": "使网页具有动态行为的多用途脚本语言。"
+  },
+  "technology4": {
+    "name": "React",
+    "description": "用于构建快速和交互式用户界面的JavaScript库。"
+  },
+  "technology5": {
+    "name": "Angular",
+    "description": "使用HTML和TypeScript构建单页客户端应用程序的平台和框架。"
+  },
+  "technology6": {
+    "name": "Node.js",
+    "description": "允许服务器端脚本编写的JavaScript运行时，可以让JavaScript在浏览器外运行。"
+  },
+  "technology7": {
+    "name": "Express.js",
+    "description": "Node.js Web应用程序框架，为Web和移动应用程序提供强大的功能集。"
+  },
+  "technology8": {
+    "name": "MongoDB",
+    "description": "一种NoSQL数据库程序，使用类似JSON的文档，并使用可选的模式。"
+  },
+  "technology9": {
+    "name": "MySQL",
+    "description": "使用SQL（结构化查询语言）的流行开源关系数据库管理系统。"
+  },
+  "technology10": {
+    "name": "PostgreSQL",
+    "description": "一个开源关系数据库系统，具有强大的功能和符合SQL标准。"
+  },
+  "technology11": {
+    "name": "Java",
+    "description": "一种高级的面向对象编程语言，用于创建强大且可移植的应用程序。"
+  }
+},
+"web8": {
+  "title": "网站重设计",
+  "description": "在Mahisha India Technologies，我们理解保持您的网站新鲜和吸引人的重要性。我们的网页重设计服务旨在为您的在线存在注入新的生命。我们专注于现代化您的网站设计、改善用户体验和增强功能性。我们的团队分析您当前的网站，识别改进的地方，确保您的重新设计的网站不仅在视觉上具有吸引力，还经过优化以提高性能和SEO排名。无论您是需要完全重新设计还是特定部分的更新，我们都致力于将您的网站转变为促进业务增长的强大工具。",
+  "buttonText": "获取报价",
+  "scrollingText": {
+    "1": "使用现代美学重新设计过时的网站",
+    "2": "提高网站性能和加载时间",
+    "3": "优化用户体验和导航流程",
+    "4": "升级为响应式设计以更好地访问移动设备",
+    "5": "整合先进的SEO策略以获得更好的排名",
+    "6": "增强安全功能以更好地保护数据",
+    "7": "整合新功能和特性",
+    "8": "迁移到现代CMS平台以便于管理",
+    "9": "将网站设计与最新的趋势和技术对齐"
+  }
+},
+"web9": {
+  "title": "网站维护",
+  "description": "在Mahisha India Technologies，我们提供全面的网站维护服务，以确保您的在线存在保持有效和最新。我们的专门团队监控您的网站性能问题、安全漏洞和过时的内容，让您可以专注于业务，而我们负责技术方面。我们提供定期更新、备份和安全检查，以确保您的网站顺利运行。通过我们的主动维护计划，您可以提升用户体验，保持搜索引擎排名，并迅速响应可能出现的任何问题。相信我们，让您的网站保持最佳性能。",
+  "buttonText": "获取报价",
+  "scrollingText": {
+    "1": "网站软件和插件的定期更新",
+    "2": "监控网站性能和正常运行时间",
+    "3": "确保安全补丁和漏洞修复",
+    "4": "内容更新和管理",
+    "5": "防止数据丢失的备份和恢复服务",
+    "6": "修复损坏的链接并解决技术问题",
+    "7": "定期优化网站速度和性能",
+    "8": "确保与新浏览器和设备的兼容性",
+    "9": "提供持续支持和故障排除"
+  }
+},
+"digital1": {
+  "title": "数字营销",
+  "subtext": "通过解锁您的数字潜力，推动您的数字成功。利用战略性的数字营销解决方案推动增长，最大化您的在线存在，并提供可衡量的结果。",
+  "exploreButton": "立即探索",
+  "scrollingText": {
+    "1": "社交媒体管理",
+    "2": "内容营销",
+    "3": "电子邮件营销",
+    "4": "SEO服务",
+    "5": "个人品牌",
+    "6": "社交媒体营销"
+  }
+},
+"digital2": {
+  "title": "解锁您的数字潜力",
+  "subtext": "通过量身定制的战略数字营销解决方案，提升您的在线存在感，以满足您的业务需求。",
+  "services": {
+    "service1": {
+      "title": "社交媒体营销",
+      "description": "通过有针对性的社交媒体提高互动和覆盖面。"
+    },
+    "service2": {
+      "title": "社交媒体管理",
+      "description": "有效管理社交媒体平台，以最大化影响力。"
+    },
+    "service3": {
+      "title": "个人品牌",
+      "description": "创始人利用社交媒体上的个人品牌来推广他们的品牌。"
+    },
+    "service4": {
+      "title": "内容营销",
+      "description": "通过有价值的内容策略吸引受众。"
+    },
+    "service5": {
+      "title": "电子邮件营销",
+      "description": "通过个性化的电子邮件活动直接接触客户。"
+    },
+    "service6": {
+      "title": "SEO服务",
+      "description": "提升在线可见性并吸引更多的有机流量。"
+    }
+  }
+},
+"digital3": {
+  "title": "研究与规划",
+  "subtitle": "数字营销是促进和提升虚拟商业在数字世界中的存在的过程。我们理解其重要性，专家们通过有机引导优化网站，帮助各个方面的业务增长。"
+},
+"digital4": {
+  "title": "社交媒体营销",
+  "paragraph1": "在今天的数字世界中，社交媒体不仅仅是分享照片和更新，它是企业与受众建立联系的强大工具。我们的社交媒体营销服务旨在通过Facebook、Instagram、Twitter和LinkedIn等平台提升您品牌的影响力。",
+  "paragraph2": "我们制作吸引人的内容，进行有针对性的广告活动，并与您的受众互动，建立有意义的关系并推动结果。从提高品牌认知度到生成潜在客户和增加销售额，我们将社交媒体的全部潜力发挥出来，帮助您的企业在在线环境中蓬勃发展。让我们共同使您的品牌在数字聚光灯下闪耀！",
+  "socialStats": {
+    "linkedin": {
+      "name": "LinkedIn",
+      "followers": "9000+ 粉丝"
+    },
+    "googleReviews": {
+      "name": "Google评论",
+      "followers": "评分4.6/5，500+评论"
+    },
+    "instagram": {
+      "name": "Instagram",
+      "followers": "10,000+ 粉丝"
+    }
+  }
+},
+"digital5": {
+  "title": "社交媒体管理",
+  "paragraph": "有效管理社交媒体存在不仅仅是定期发布内容，而是需要一个与受众产生共鸣的战略性方法。我们的社交媒体管理服务涵盖从内容创作、排期到社区互动和绩效追踪的所有内容。",
+  "faq1": {
+    "question": "我应该多久在社交媒体上发布一次？",
+    "answer": "发布频率取决于您的受众和所使用的平台。通常每周发布3-5次是一个不错的起点。保持一致性很重要，所以找到适合您的时间表并坚持下去。"
+  },
+  "faq2": {
+    "question": "我如何知道我的社交媒体策略是否有效？",
+    "answer": "您可以通过各种指标来衡量策略的成功，例如互动率、粉丝增长和转化率。使用分析工具跟踪这些指标，并根据需要调整您的策略。"
+  },
+  "faq3": {
+    "question": "我应该外包社交媒体管理还是自己管理？",
+    "answer": "外包可以提供专业知识并节省时间，而内部管理可以更好地控制品牌一致性。评估您的资源、预算和目标，以做出最适合您企业的决定。"
+  },
+  "socialMediaImages": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn"
+  }
+},
+"digital6": {
+  "heading": "个人品牌",
+  "description": "在今天的市场中，创始人和企业主都在走向前台，以个人身份推广他们的品牌。取而代之的是传统的营销，他们通过Instagram、Facebook和LinkedIn等平台分享他们的故事并与受众建立联系。这种方法不仅建立信任，还创造了一个更真实和相关的品牌形象。个人品牌促进了有机增长和潜在客户的强大互动。它是展示品牌背后的激情和愿景的强大方式。"
+},
+"digital7": {
+  "contentMarketing": {
+    "heading": "内容营销服务",
+    "description": "您想吸引更多的注意力并与您的受众建立联系并产生结果吗？我们的内容营销服务可以帮到您。我们不仅仅在谈论撰写博客文章或社交媒体更新。我们在谈论创建直接与您的受众的需求和兴趣对话的吸引人、有价值的内容。这可能是信息丰富的文章、吸引人的视频或引人注目的信息图表，我们都能为您提供帮助。我们将帮助您制定一个内容策略，建立品牌权威、增强信任并激励行动。让我们以一种能引起反响并取得结果的方式讲述您的故事。"
+  },
+  "quotes1": {
+    "text": "内容营销是关于您的目标客户的。它关乎如何教育、帮助、娱乐、挑战并使他们的购买决策更容易。",
+    "author": "- Pam Didner"
+  },
+  "quotes2": {
+    "text": "创建伟大的内容，但不花时间去推广它，是最大的罪恶。无论内容多么棒，如果不推广，它就不会带来预期的成功。",
+    "author": "- Ian Cleary"
+  },
+  "quotes3": {
+    "text": "在内容营销中，最大的罪恶是不为您的目标受众创建内容。在我们所处的数字化世界中，这一点变得越来越重要。",
+    "author": "- Richard Lorenzen"
+  },
+  "quotes4": {
+    "text": "在内容营销中，最大的罪恶是没有内容营销计划，并且相信像“专家/大师”那样存在“最好的”方法。",
+    "author": "- Ted Rubin"
+  },
+  "quotes5": {
+    "text": "失去焦点的罪恶是不相关的。您的内容必须始终与您和您的客户相关。",
+    "author": "- Luann Wise"
+  },
+  "quotes6": {
+    "text": "优质内容不是关于质量，而是关于观众如何看待质量。",
+    "author": "- Timmy Clark"
+  },
+  "quotes7": {
+    "text": "最好的营销是让人感觉不到它在营销。",
+    "author": "- Tom Fishburne"
+  },
+  "quotes8": {
+    "text": "如果你无法说什么，你就无法卖东西。",
+    "author": "- Beth Comstock"
+  }
+},
+"digital8": {
+  "heading": "电子邮件营销服务",
+  "description": "您认为电子邮件营销已经过时了吗？再想一想。电子邮件营销仍然是与您的受众建立联系并产生结果的最有效方法之一。借助我们的电子邮件营销服务，我们将帮助您设计吸引人的活动，这些活动直接进入客户的收件箱。从吸引人的主题行到个性化内容，我们确保您的电子邮件脱颖而出并激励行动。无论您是想推广新产品、增加潜在客户，还是重新连接不活跃的订阅者，我们都具备所需的专业知识。欢迎加入我们的电子邮件营销魔力，带来更高的打开率、点击率和转化率。",
+  "steps": {
+    "1": {
+      "title": "步骤：1",
+      "description": "弄清楚您想通过电子邮件实现什么目标，例如增加销售或提供更新。接下来，思考您将要发送给谁——您的受众。他们喜欢什么？他们需要什么？"
+    },
+    "2": {
+      "title": "步骤：2",
+      "description": "要求人们注册您的电子邮件。您可以通过网站、社交媒体或当他们购买任何东西时做到这一点。给他们一个注册的理由，例如折扣或他们将收到的有趣内容。"
+    },
+    "3": {
+      "title": "步骤：3",
+      "description": "写出人们想要阅读的电子邮件。保持个性化和友好。使用吸引人的主题行，讲述故事，并展示酷炫的图片。不要忘记告诉他们接下来该做什么，例如点击链接或回复您。"
+    }
+  }
+},
+"digital9": {
+  "header": "专业SEO服务",
+  "description": "通过我们的专业SEO服务提高您的在线曝光度。利用关键字研究、页面优化和链接建设等战略性方法，提高网站的可见度并吸引更多合格的潜在客户。我们的专家团队将优化您的数字存在，帮助您在数字领域取得成功。",
+  "tags": {
+    "CODE": "代码", 
+    "DEVELOPMENT": "开发", 
+    "INNOVATION": "创新", 
+    "APP": "应用", 
+    "NETWORKING": "网络", 
+    "SUPPORT": "支持", 
+    "INFRASTRUCTURE": "基础设施", 
+    "SEM": "SEM", 
+    "CYBERSECURITY": "网络安全", 
+    "DESIGN": "设计", 
+    "UX/UI": "UX/UI", 
+    "DOMAINS": "域名", 
+    "HOSTING": "托管", 
+    "SEO": "SEO", 
+    "SOCIAL MEDIA": "社交媒体", 
+    "AI": "人工智能", 
+    "ANALYTICS": "分析", 
+    "CONTENT": "内容", 
+    "KEYWORDS": "关键词", 
+    "TRAFFIC": "流量"
+  }
+},
+"mobile1": {
+    "title": "移动应用",
+    "subtext": "通过尖端的移动解决方案推动您的数字成功。解锁您的业务潜力，利用创新的移动应用程序，旨在提高参与度、增强用户体验并加速增长。",
+    "exploreButton": "立即探索",
+    "scrollingText": {
+      "1": "iOS应用开发 ✦",
+      "2": "Android应用开发 ✦",
+      "3": "跨平台应用开发 ✦",
+      "4": "移动UI/UX设计 ✦",
+      "5": "移动应用维护与支持 ✦",
+      "6": "应用商店优化 ✦",
+      "7": "定制移动应用解决方案 ✦"
+    }
+  },
+  "mobile2": {
+    "heading": "为每个业务需求构建强大的移动应用",
+    "description": "我们的移动应用旨在提供无缝的用户体验，优化性能，并采用尖端技术进行设计。无论您是推出电子商务应用，创建社交平台，还是构建企业解决方案，我们提供从设计到部署的全方位开发服务，确保您的应用不仅外观令人惊叹，而且在各种设备上都能完美运行。",
+    "buttons": {
+      "appDesign": "应用设计",
+      "userExperience": "用户体验",
+      "performance": "性能"
+    }
+  },
+  "mobile3": {
+    "heading": "移动应用如何彻底改变您的业务？",
+    "subheading": "构建一款与您的客户互动、增强用户体验并推动参与度的移动应用。通过利用适合您业务需求的现代应用技术，确保可扩展性、性能和用户满意度，保持在竞争中领先。"
+  },
+  "mobile4": {
+    "heading": "iOS应用开发",
+    "description": "在Mahisha India Technologies，我们提供顶级的iOS应用开发服务，帮助企业创建高效、安全和引人入胜的iOS应用。我们的团队专注于使用Swift和Objective-C构建适应您特定业务需求的原生iOS应用。无论是小型企业还是大型企业，我们都确保您的应用充分利用iOS功能，为用户提供无与伦比的体验。无论是与Apple服务的无缝集成，还是在iPhone、iPad和Apple Watch上的优化性能，我们覆盖了iOS应用开发的所有方面，确保您的应用在App Store上脱颖而出。",
+    "button": "获取报价",
+    "scrollingText": {
+      "item1": "为所有业务需求定制iOS应用开发",
+      "item2": "优化性能和无缝用户体验",
+      "item3": "使用Swift和Objective-C进行原生iOS开发",
+      "item4": "结合最新的iOS功能，如小组件和SiriKit",
+      "item5": "通过端到端加密和数据保护增强安全性",
+      "item6": "应用商店优化，提高可见性和下载量",
+      "item7": "与Apple Pay、HealthKit等服务的集成",
+      "item8": "为iPhone、iPad和Apple Watch量身定制响应式设计",
+      "item9": "适用于iOS应用程序的用户友好且直观的UI/UX设计"
+    }
+  },
+  "mobile5": {
+    "title": "移动应用技术",
+    "technology1": {
+      "name": "React Native",
+      "description": "一个使用React构建原生应用的框架。"
+    },
+    "technology2": {
+      "name": "Flutter",
+      "description": "一个用于构建原生编译应用的UI工具包。"
+    },
+    "technology3": {
+      "name": "Swift",
+      "description": "一个强大的编程语言，用于iOS应用开发。"
+    },
+    "technology4": {
+      "name": "Kotlin",
+      "description": "一个用于Android应用的现代编程语言。"
+    },
+    "technology5": {
+      "name": "Firebase",
+      "description": "一个用于构建Web和移动应用的平台。"
+    },
+    "technology6": {
+      "name": "GraphQL",
+      "description": "在一些移动应用中使用的数据查询语言。"
+    },
+    "technology7": {
+      "name": "Laravel",
+      "description": "一个强大的PHP框架，具有高活跃度和丰富功能。"
+    }
+  },
+  "mobile6": {
+    "title": "Android应用开发与定制移动解决方案",
+    "description": "在Mahisha India Technologies，我们专注于创建高性能的Android应用，满足您的业务需求。我们的团队擅长开发可扩展、安全且功能丰富的移动解决方案，能够在各种Android设备上无缝运行。从概念到部署，我们确保应用的每个方面都经过量身定制，以增强用户参与度并推动您的业务增长。无论是使用Kotlin和Java进行原生应用开发，还是与先进的移动技术进行集成，我们提供端到端的Android解决方案，帮助您在竞争激烈的应用市场中脱颖而出。",
+    "androidDevelopmentPoints": {
+      "point1": "定制的Android应用解决方案，满足业务需求",
+      "point2": "使用Kotlin和Java进行原生Android开发",
+      "point3": "与第三方服务和API的无缝集成",
+      "point4": "在不同Android设备和版本上的性能优化",
+      "point5": "用户友好且直观的移动应用UI/UX设计",
+      "point6": "增强的应用安全性和数据保护",
+      "point7": "适应平板和智能手机的移动响应式设计",
+      "point8": "全面的测试和调试，确保流畅的性能",
+      "point9": "Google Play商店优化，提高可见性和下载量"
+    },
+    "button": "获取报价"
+  },
+  "mobile7": {
+    "heroSection": {
+      "title": "我们构建无缝的跨平台移动应用",
+      "description": "在Mahisha India Technologies，我们的跨平台应用开发服务使您能够通过创建在iOS和Android上平稳运行的应用，覆盖更广泛的受众。通过使用React Native和Flutter等技术，我们确保您的应用提供一致的、原生般的体验，同时降低成本和缩短市场发布时间。从设计到部署，我们交付根据您的业务目标量身定制的应用。"
+    },
+    "crossPlatformOptions": {
+      "option1": "一次开发，随处部署",
+      "option2": "成本效益高的开发过程",
+      "option3": "更快的市场发布时间",
+      "option4": "多个平台上的原生般性能",
+      "option5": "iOS和Android的单一代码库",
+      "option6": "更轻松的维护和更新",
+      "option7": "更广泛的市场覆盖",
+      "option8": "减少开发工作量",
+      "option9": "与API的无缝集成",
+      "option10": "跨设备统一的用户体验"
+    },
+    "footerText": {
+      "slidingText": "一次开发，随处部署 ✦ 成本效益高的开发过程 ✦ 更快的市场发布时间 ✦ 多个平台上的原生般性能 ✦ iOS和Android的单一代码库 ✦ 更轻松的维护和更新 ✦ 更广泛的市场覆盖 ✦ 减少开发工作量 ✦ 与API的无缝集成 ✦ 跨设备统一的用户体验"
+    }
+  },
+  "mobile8": {
+    "heroSection": {
+      "title": "移动应用维护与支持",
+      "description": "在Mahisha India Technologies，我们提供全面的维护和支持服务，确保您的移动应用始终保持最新、安全且功能完备。我们的专家团队处理从定期更新和修复错误到性能优化和功能增强的所有工作。我们确保您的应用与最新的操作系统和设备兼容，并根据用户反馈和数据分析持续改善用户体验。通过我们的积极应用管理，您可以专注于业务发展，而我们将负责应用的技术维护工作。"
+    },
+    "mobileAppMaintenancePoints": {
+      "point1": "定期应用更新和新功能集成",
+      "point2": "监控应用性能和正常运行时间",
+      "point3": "通过及时补丁确保应用安全",
+      "point4": "修复错误和解决技术问题",
+      "point5": "针对最新操作系统版本和设备进行优化",
+      "point6": "分析用户反馈并持续改进",
+      "point7": "管理后端服务和数据库更新",
+      "point8": "应用商店列表维护和优化",
+      "point9": "提供持续的支持和故障排除"
+    },
+    "footerText": {
+      "slidingText": "定期应用更新和新功能集成 ✦ 监控应用性能和正常运行时间 ✦ 通过及时补丁确保应用安全 ✦ 修复错误和解决技术问题 ✦ 针对最新操作系统版本和设备进行优化 ✦ 分析用户反馈并持续改进 ✦ 管理后端服务和数据库更新 ✦ 应用商店列表维护和优化 ✦ 提供持续的支持和故障排除"
+    }
+  },
+  "billing1": {
+    "pageTitle": "账单软件解决方案",
+    "subtext": "通过我们先进的软件简化您的账单流程。我们的解决方案提供从发票生成到实时报告的一切，确保在财务管理中实现效率和准确性。自动化您的账单操作，让我们处理数字，您可以专注于业务增长。",
+    "buttons": {
+      "tryFreeDemo": "试用免费演示"
+    },
+    "scrollingText": {
+      "feature1": "发票生成 ✦",
+      "feature2": "自动账单 ✦",
+      "feature3": "支付追踪 ✦",
+      "feature4": "税务计算 ✦",
+      "feature5": "费用管理 ✦",
+      "feature6": "实时报告 ✦",
+      "feature7": "扩展生产者责任（EPR） ✦"
+    }
+  },
+  "billing2": {
+    "pageTitle": "账单软件解决方案",
+    "description": "通过我们强大的账单软件解决方案简化您的账单和发票流程。我们的软件自动化收款、简化开票并提供准确的财务报告。它为各类企业设计，确保安全的交易、可定制的账单模板，并与常见的会计工具轻松集成。无论是管理订阅、生成发票还是跟踪付款，我们的账单软件都能满足您的需求。",
+    "steps": {
+      "step1": {
+        "title": "步骤：1",
+        "description": "确定您业务的账单需求。无论您需要处理定期付款、生成发票，还是与多个支付网关集成，理解您的需求是实施有效账单软件的第一步。"
+      },
+      "step2": {
+        "title": "步骤：2",
+        "description": "选择合适的账单软件解决方案。确保它具有可扩展性、可定制性和安全性。它应该支持多种支付方式和货币，提供有洞察力的财务报告，并与您现有的系统无缝集成。"
+      },
+      "step3": {
+        "title": "步骤：3",
+        "description": "实施并定制账单软件，以满足您的业务需求。为团队提供有效使用软件的培训，自动化开票和付款提醒，并确保符合财务法规，以简化您的账单流程。"
+      }
+    }
+  },
+  "billing3": {
+    "pageTitle": "高级账单软件解决方案",
+    "description": "通过我们的高级账单软件简化您的业务运营。我们的解决方案提供无缝的开票、支付追踪和财务报告，确保您的业务有条理且高效。具有自动提醒、可定制的发票模板和多货币支持等功能，我们的账单软件旨在满足各类企业的需求。让我们帮助您简化账单流程，专注于业务增长。",
+    "tags": {
+      "tag1": "发票",
+      "tag2": "支付",
+      "tag3": "自动化",
+      "tag4": "报告",
+      "tag5": "费用",
+      "tag6": "财务",
+      "tag7": "税务",
+      "tag8": "定期账单",
+      "tag9": "基于云",
+      "tag10": "追踪",
+      "tag11": "效率",
+      "tag12": "可扩展性",
+      "tag13": "支持",
+      "tag14": "分析",
+      "tag15": "定制化",
+      "tag16": "多货币",
+      "tag17": "集成",
+      "tag18": "安全性"
+    }
+  },
+  "billing4": {
+    "pageTitle": "通过实时洞察和合规性推动运营效率。",
+    "description": "在Mahisha India Technologies，我们提供创新的解决方案，以简化财务运营并确保符合规定。通过我们的实时报告、支付追踪和扩展生产者责任（EPR）管理工具，我们帮助企业保持高效、合规，并走在前沿。",
+    "cards": {
+      "card1": {
+        "title": "实时报告",
+        "description": "使用我们的实时报告工具随时掌握业务数据。监控财务表现、费用和收入，确保您拥有准确的数据做出明智的决策，推动运营成功。"
+      },
+      "card2": {
+        "title": "支付追踪",
+        "description": "通过我们的自动支付追踪系统简化您的财务工作流程。轻松监控进出交易，确保所有支付都得到高效处理和记录，以便更好地管理现金流。"
+      },
+      "card3": {
+        "title": "扩展生产者责任（EPR）",
+        "description": "我们的EPR解决方案帮助您负责任地管理废物，确保遵守环境法规。跟踪您的生产影响，并遵守EPR要求，为可持续未来做出贡献。"
+      },
+      "card4": {
+        "title": "我们的方式",
+        "description": "我们将创新的技术与行业专业知识相结合，提供满足您业务需求的解决方案。我们的方法注重通过实时洞察和高效管理简化操作，确保合规并推动增长。"
+      }
+    }
+  },
+  "billing5": {
+    "pageTitle": "自动账单",
+    "description": "在当今竞争激烈的市场中，企业正在采用自动化生成工具来简化运营并提高生产力。企业不再依赖手动流程，而是利用先进的软件和AI驱动的解决方案来自动化开票、数据分析和报告生成等任务。这种方法不仅减少了人为错误，还提高了效率和可扩展性。自动生成使企业能够更顺畅地运营，专注于战略性增长，并以最小的努力提供一致的成果。这是优化运营并保持竞争优势的强大方式。",
+    "icons": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    }
+  },
+  "billing6": {
+    "pageTitle": "账单软件解决方案",
+    "pageDescription": "通过我们的全面账单软件简化您的业务运营。从无缝的发票生成到高效的支付跟踪，我们提供简化财务流程的工具。无论是自动计算税款，还是实时管理开支，我们的账单解决方案都能确保您的组织井然有序，符合规定，并且始终处于控制之中。实时报告为您提供所需的洞察力，帮助您做出明智的财务决策。将数字交给我们，您可以专注于发展业务。",
+    "quotes": {
+      "quote1": {
+        "text": "自动化的发票生成减少了错误，并加快了支付收集，使您的财务流程更加高效。",
+        "author": "财务专家"
+      },
+      "quote2": {
+        "text": "实时支付跟踪帮助企业保持现金流并确保及时收款。",
+        "author": "商业分析师"
+      },
+      "quote3": {
+        "text": "自动化的税务计算不仅节省时间，还确保遵守当地法规，减少审计风险。",
+        "author": "税务顾问"
+      },
+      "quote4": {
+        "text": "有效的费用管理可以为公司节省大量资金，减少浪费并优化预算。",
+        "author": "费用管理专家"
+      },
+      "quote5": {
+        "text": "实时报告为企业提供关键的洞察，帮助做出更明智的决策，带来更好的财务成果。",
+        "author": "数据分析师"
+      },
+      "quote6": {
+        "text": "将费用管理和实时报告集成的账单软件，帮助企业轻松维持财务健康。",
+        "author": "首席财务官"
+      },
+      "quote7": {
+        "text": "通过管理发票、税务和费用的一体化账单软件，简化您的会计流程。",
+        "author": "会计专家"
+      },
+      "quote8": {
+        "text": "准确的财务数据、自动化的发票提醒和实时跟踪是维持企业稳定性的关键。",
+        "author": "财务分析师"
+      }
+    }
+  },
+  "billing7": {
+    "pageTitle": "发票生成",
+    "pageDescription": "在Mahisha India Technologies，我们通过自动化的发票生成服务简化您的账单处理过程。我们的解决方案旨在简化发票处理，减少人工错误，帮助您更高效地管理客户支付。无论是管理定期发票，还是需要自定义模板，我们的系统都能确保每个发票都准确且符合规定。通过实时跟踪支付、自动提醒和与支付网关的无缝集成，帮助您掌握支付进度。多币种支持、税务自动化和详细的分析功能，让我们的发票解决方案节省您的时间，并帮助企业维持健康的现金流。",
+    "buttonText": "获取报价",
+    "features": {
+      "feature1": "自动化的发票生成和管理",
+      "feature2": "可自定义的发票模板",
+      "feature3": "为订阅服务生成定期发票",
+      "feature4": "实时跟踪支付和到期日期",
+      "feature5": "与支付网关的无缝集成，确保交易顺畅",
+      "feature6": "多币种和多语言支持",
+      "feature7": "税务计算和合规自动化",
+      "feature8": "为大批量客户批量开具发票",
+      "feature9": "详细的发票报告和分析"
+    }
+  },
+  "billing8": {
+    "pageTitle": "税务计算与费用管理",
+    "pageDescription": "在Mahisha India Technologies，我们简化了您业务中的税务计算和费用管理。我们的自动化解决方案确保准确的税务计算、无缝的费用跟踪，并遵守最新的税法。通过实时跟踪，您可以对业务费用进行分类和监控，从而更好地管理财务和预算。无论是增值税、商品和服务税（GST）还是所得税，我们的平台支持多种税务类型，帮助您减少错误并保持合规。生成详细的报告并与现有会计软件集成，以实现顺畅的税务申报流程。",
+    "buttonText": "获取报价",
+    "features": {
+      "feature1": "基于当前法规的自动税务计算",
+      "feature2": "实时费用跟踪和分类",
+      "feature3": "生成详细的财务报告以获得更好的洞察",
+      "feature4": "与会计软件集成，实现无缝的税务申报",
+      "feature5": "跟踪业务费用和可报销费用",
+      "feature6": "增值税、商品和服务税（GST）以及其他税种的支持",
+      "feature7": "基于费用的预算管理和预测",
+      "feature8": "减少税务计算和申报中的人工错误",
+      "feature9": "确保遵守税法和相关法规"
+    }
+  }
+}
+  

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './Home.css'; // Updated CSS file with new class names
+import './Home.css';
+import { useLocation } from 'react-router-dom'; // Import useLocation
 import Page1 from './Page1';
 import Page2 from './Page2';
 import Page3 from './Page3';
@@ -11,11 +12,11 @@ import Page8 from './Page8';
 import Page9 from './Page9';
 import Page10 from './Page10';
 import Footer from '../../components/Footer/Footer';
-import { FaArrowUp } from 'react-icons/fa'; // FontAwesome up arrow icon
+import { FaArrowUp } from 'react-icons/fa';
 
 const Home = () => {
-  // State to track whether the button is visible or not
   const [isVisible, setIsVisible] = useState(false);
+  const location = useLocation(); // Get current route/pathname
 
   // Show button when page is scrolled down 300px
   const toggleVisibility = () => {
@@ -35,14 +36,19 @@ const Home = () => {
   };
 
   useEffect(() => {
-    // Listen for scroll events
+    // Scroll to top when navigating to the Home page
+    if (location.pathname === '/') {
+      window.scrollTo(0, 0); // Force scroll to the top
+    }
+
+    // Show/hide the scroll-to-top button based on scroll position
     window.addEventListener('scroll', toggleVisibility);
 
-    // Clean up the event listener on component unmount
+    // Cleanup event listeners
     return () => {
       window.removeEventListener('scroll', toggleVisibility);
     };
-  }, []);
+  }, [location]); // Trigger whenever location changes (route change)
 
   return (
     <div className='home-page-layout'>
@@ -67,7 +73,7 @@ const Home = () => {
       <div className='page6'>
         <Page6 />
       </div>
-      <div className='page10'> 
+      <div className='page10'>
         <Page10 />
       </div>
       <div className='page7'>

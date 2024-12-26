@@ -5,6 +5,7 @@ import image1 from '../../assets/images/digital-marketing.svg';
 import image2 from '../../assets/images/web-development.svg';
 import image3 from '../../assets/images/graphic-design.svg';
 import './Page9.css';
+import { useTranslation } from 'react-i18next';
 
 const Page9 = () => {
     const navigate = useNavigate();
@@ -13,6 +14,8 @@ const Page9 = () => {
     const handleNavigate = (path) => {
         navigate(path);
     };
+
+    const { t } = useTranslation();
 
     useEffect(() => {
         const section = sectionRef.current;
@@ -41,11 +44,10 @@ const Page9 = () => {
 
     return (
         <div className="service-section-container" ref={sectionRef}>
-            <h2 className="service-section-title slide-from-bottom">Our Services</h2>
+            <h2 className="service-section-title slide-from-bottom">{t('home2.title')}</h2>
             <div className="service-title-underline"></div>
             <p className="service-section-description slide-from-right">
-                Comprehensive Website Services to Ignite Your Online Success.
-                Empower Your Business with Powerful Online Services from our Website.
+                {t('home2.description')}
             </p>
             <div className="service-cards-container">
                 <div className="service-item-card1">
@@ -54,15 +56,15 @@ const Page9 = () => {
                         alt="Digital Marketing"
                         className="service-image"
                     />
-                    <h3 className="service-item-title slide-from-left">Digital Marketing</h3>
+                    <h3 className="service-item-title slide-from-left">{t('home2.services.digital_marketing.title')}</h3>
                     <p className="service-item-description slide-from-right">
-                        Boost your online presence and connect with more people using our smart digital marketing strategies.
+                    {t('home2.services.digital_marketing.description')}
                     </p>
                     <button
                         className="service-explore-button slide-from-bottom"
                         onClick={() => handleNavigate('/digital-marketing')}
                     >
-                        Explore <ArrowForwardIcon style={{ marginLeft: '5px' }} />
+                        {t('home2.services.digital_marketing.explore')} <ArrowForwardIcon style={{ marginLeft: '5px' }} />
                     </button>
                 </div>
                 <div className="service-item-card2">
@@ -71,15 +73,15 @@ const Page9 = () => {
                         alt="Web Development"
                         className="service-image"
                     />
-                    <h3 className="service-item-title slide-from-left">Web Development</h3>
+                    <h3 className="service-item-title slide-from-left">{t('home2.services.web_development.title')}</h3>
                     <p className="service-item-description slide-from-right">
-                        We make attractive, easy-to-use websites that represent your brand well and help you reach more customers online.
+                    {t('home2.services.web_development.description')}
                     </p>
                     <button
                         className="service-explore-button slide-from-bottom"
                         onClick={() => handleNavigate('/website-development')}
                     >
-                        Explore <ArrowForwardIcon style={{ marginLeft: '10px' }} />
+                        {t('home2.services.web_development.explore')} <ArrowForwardIcon style={{ marginLeft: '10px' }} />
                     </button>
                 </div>
                 <div className="service-item-card3">
@@ -88,15 +90,15 @@ const Page9 = () => {
                         alt="Graphic Design"
                         className="service-image"
                     />
-                    <h3 className="service-item-title slide-from-left">Billing Software</h3>
+                    <h3 className="service-item-title slide-from-left">{t('home2.services.billing_software.title')}</h3>
                     <p className="service-item-description slide-from-right">
-                    Simplify billing with fast, accurate, and user-friendly software designed to streamline and enhance your business efficiency.
+                    {t('home2.services.web_development.description')}
                     </p>
                     <button
                         className="service-explore-button slide-from-bottom"
                         onClick={() => handleNavigate('/billing-software')}
                     >
-                        Explore <ArrowForwardIcon style={{ marginLeft: '5px' }} />
+                        {t('home2.services.web_development.explore')} <ArrowForwardIcon style={{ marginLeft: '5px' }} />
                     </button>
                 </div>
             </div>

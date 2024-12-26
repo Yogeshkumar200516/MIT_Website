@@ -1,0 +1,943 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about_us": "About Us",
+    "our_team": "Our Team",
+    "website_development": "Website Development",
+    "digital_marketing": "Digital Marketing",
+    "mobile_applications": "Mobile Applications",
+    "billing_software": "Billing Software",
+    "software_consultants": "Software Consultants",
+    "responsive_websites": "Websites with high responsiveness",
+    "ui_ux_design": "Attractive User Interface/User Experience",
+    "active_learners": "50+ Active Learners",
+    "free_idea": "Call Us and Get free idea for your Business Growth",
+    "ecommerce_solutions": "E-Commerce Solutions",
+    "explore": "Explore",
+    "services": "Services",
+    "contact_us": "Contact Us",
+    "join_us": "Join Us",
+    "en": "English",
+    "ta": "Tamil",
+    "ja": "Japanese",
+    "sv": "Swedish",
+    "zh": "Chinese",
+    "hi": "Hindi",
+    "kn": "Kannada",
+    "ml": "Malayalam",
+    "te": "Telugu"
+  },
+  "footer": {
+    "header": "Start building awesome websites",
+    "text": "Join over 12,653,898 customers that are already building amazing websites with us.",
+    "get_a_quote": "Get a Quote",
+    "contact_us": "Contact Us",
+    "company_info": "We develop websites for your business, bringing your vision to life and propelling your business into the digital realm.",
+    "company_links": {
+      "about_us": "About Us",
+      "internships": "Internships",
+      "consultant": "Consultant",
+      "career": "Career",
+      "contact_us": "Contact Us"
+    },
+    "services_links": {
+      "website_services": "Website Services",
+      "digital_marketing": "Digital Marketing",
+      "mobile_applications": "Mobile Applications",
+      "billing_software": "Billing Software"
+    },
+    "still_need_help": "Still Need Help?",
+    "email": "mahishaindiatechnologies@gmail.com",
+    "phone": "+91 70949 53135",
+    "whatsapp": "+91 81108 18281",
+    "footer_text": "Mahisha India Technologies Private Limited | All rights reserved."
+  },
+  "home1": {
+    "title": "Web Development and Digital Marketing Firm",
+    "subtitle": "Grow your Business with Mahisha India Technologies",
+    "description": "Get a professional website and digital marketing support for your business within your budget.",
+    "button": "Let's Talk"
+  },
+  "home2": {
+    "title": "Our Services",
+    "description": "Comprehensive Website Services to Ignite Your Online Success. Empower Your Business with Powerful Online Services from our Website.",
+    "services": {
+      "digital_marketing": {
+        "title": "Digital Marketing",
+        "description": "Boost your online presence and connect with more people using our smart digital marketing strategies.",
+        "explore": "Explore"
+      },
+      "web_development": {
+        "title": "Web Development",
+        "description": "We make attractive, easy-to-use websites that represent your brand well and help you reach more customers online.",
+        "explore": "Explore"
+      },
+      "billing_software": {
+        "title": "Billing Software",
+        "description": "Simplify billing with fast, accurate, and user-friendly software designed to streamline and enhance your business efficiency.",
+        "explore": "Explore"
+      }
+    }
+  },
+  "home3": {
+    "heading": "We create wonderful websites with high contrast and responsive layouts",
+    "description": "Our websites are designed to be visually captivating, interactive, and fully responsive. Whether you're launching a personal blog, building an e-commerce platform, managing a business, or need a custom web solution, we provide comprehensive services. From engaging visitors to showcasing your products, our expertise ensures your website stands out and performs.",
+    "buttons": {
+      "ui_ux_design": "UI/UX DESIGN",
+      "user_friendly": "USER FRIENDLY",
+      "responsiveness": "RESPONSIVENESS"
+    }
+  },
+  "home4": {
+  "description": "At Mahisha India Technologies, we're here to assist you with all things digital. Our team of young, forward-thinking individuals stays updated on the latest marketing and sales trends. Let us help grow your business exponentially, by a factor of 10.",
+  "stats": {
+    "projects_ideas": "Projects Ideas",
+    "happy_clients": "Happy Clients",
+    "ratings": "Ratings",
+    "learning_interns": "Learning Interns"
+  }
+},
+"home5": "Empowering your digital journey, we drive growth and success hand in hand.",
+  "home6": {
+    "title": "You need it, we've got it",
+    "services": {
+      "blogWriting": "Blog Writing",
+      "socialMediaManagement": "Social Media Management",
+      "graphicDesign": "Graphic Design",
+      "websiteDevelopment": "Website Development",
+      "photography": "Photography",
+      "customerSoftwareDevelopment": "Customer Software Development",
+      "business": "Business",
+      "founderLeadBranding": "Founder-lead Branding"
+    }
+  },
+  "home7": {
+    "title": "Why People Love Us",
+    "description": "At Mahisha India Technologies, it’s all about growing together. We’re a startup that prioritizes the growth of our clients over profit. We believe in creating real value and building lasting relationships. Our dedicated team goes the extra mile to ensure your success. Join us, and let’s achieve amazing things together!",
+    "features": {
+      "supportSystem": {
+        "title": "Support System",
+        "description": "Our dedicated support team provides prompt assistance, guidance, and solutions, ensuring our clients feel supported every step of the way."
+      },
+      "friendlyRelationship": {
+        "title": "Friendly Relationship",
+        "description": "We prioritize building genuine connections, fostering trust, and creating a welcoming atmosphere where clients feel valued and understood."
+      },
+      "businessStrategies": {
+        "title": "Business Strategies",
+        "description": "We offer innovative, tailored strategies that drive growth and success, empowering businesses to thrive in today's dynamic marketplace with confidence and clarity."
+      }
+    }
+  },
+  "home8": {
+    "title": "We Help Brands Increase Their Online Presence",
+    "description": "At Mahisha India Technologies, we specialize in boosting your brand’s visibility and engagement online. Our expert team crafts tailored digital strategies to enhance your website, optimize social media, and drive targeted traffic. We focus on your unique goals to attract new customers and build lasting loyalty. Let us help you navigate the digital landscape and grow your online presence effectively.",
+    "websiteNames": {
+      "designAgencyWebsite": "Design Agency Website",
+      "digitalMarketingWebsite": "Digital Marketing Website",
+      "universityCollegeWebsite": "University/College Website",
+      "educationalWebsite": "Educational Website",
+      "eCommerceWebsite": "E-Commerce Website",
+      "travelAgencyWebsite": "Travel Agency Website",
+      "hospitalWebsite": "Hospital Website",
+      "tourismWebsite": "Tourism Website",
+      "realEstateWebsite": "Real Estate Website"
+    }
+  },
+  "home9": {
+    "title": "We’re here for your E-Commerce everything",
+    "features": {
+      "feature1": {
+        "title": "Get a project manager",
+        "description": "To guide you through each stage of launching your e-Commerce business"
+      },
+      "feature2": {
+        "title": "Accelerate time-to-market",
+        "description": "With a dedicated team of top-tier freelance experts"
+      },
+      "feature3": {
+        "title": "Optimize your budget",
+        "description": "With a dedicated project manager who will handle all your tasks, leaving you more money for marketing and growth"
+      }
+    }
+  },
+  "home10": {
+    "title": "What People are Saying",
+    "speaker": "Speaker",
+    "quote": "Quote",
+    "designation": "Designation",
+    "testimonial1": {
+      "speaker": "Marketing Expert",
+      "quote": "Sixty Labs delivered exceptional results. Their creative strategies and thorough market analysis were key to our campaign's success.",
+      "designation": "Marketing Director"
+    },
+    "testimonial2": {
+      "speaker": "Business Strategist",
+      "quote": "Their innovative solutions and attention to detail helped us scale up quickly.",
+      "designation": "Business Manager"
+    },
+    "testimonial3": {
+      "speaker": "E-Commerce Consultant",
+      "quote": "The team’s expertise in e-commerce was instrumental in achieving our growth targets.",
+      "designation": "E-Commerce Director"
+    },
+    "testimonial4": {
+      "speaker": "Project Manager",
+      "quote": "Sixty Labs managed our project seamlessly, delivering on time and within budget.",
+      "designation": "Operations Head"
+    },
+    "testimonial5": {
+      "speaker": "Freelance Expert",
+      "quote": "Great experience collaborating with them! They truly understand the freelance ecosystem.",
+      "designation": "Freelance Consultant"
+    }
+  },
+  "about1": {
+    "title": "About Us",
+    "subtext": "Embark on a journey with Nexus Info, where innovation meets expertise, and discover how we transform ideas into impactful digital solutions for your business.",
+    "buttonExplore": "Explore Now",
+    "scrollingOptions": {
+      "ourStory": "Our Story",
+      "ourMission": "Our Mission",
+      "ourValues": "Our Values",
+      "meetTheTeam": "Meet the Team",
+      "companyHistory": "Company History",
+      "careers": "Careers",
+      "testimonials": "Testimonials",
+      "pressAndMedia": "Press and Media",
+      "communityInvolvement": "Community Involvement",
+      "sustainabilityEfforts": "Sustainability Efforts"
+    }
+  },
+  "about2": {
+    "aboutHeading": "Young team driving digital innovation and creativity",
+    "aboutDescription": "At Mahisha India Technologies, we’re a dynamic team of young minds passionate about digital innovation and creativity. With fresh perspectives and boundless energy, we tackle every project with enthusiasm and dedication.",
+    "buttonText": "Join Us"
+  },
+  "about3": {
+    "aboutUsSubtext": "Good software is a work of art, and good art takes time. Our teams spend years mastering their craft in order to deliver exceptional products that customers love. Software isn't just our paycheck",
+    "aboutUsTitle": "It's our",
+    "typingEffectTextCraft": "Craft.",
+  "typingEffectTextPassion": "Passion.",
+  "typingEffectTextMission": "Mission.",
+  "typingEffectTextCommitment": "Commitment.",
+  "typingEffectTextGoal": "Goal."
+  },
+  "about4": {
+    "aboutTitle": "Empowering Growth Through Collaborative Innovation and Dedication.",
+    "aboutDescription": "Mahisha India Technologies not only concentrates on the website, we are your strategic partner in expanding your digital footprint. With a keen eye on the latest trends, we navigate the dynamic landscape of online growth, ensuring your business thrives in the digital era. Let us elevate your brand and reach new heights together.",
+    "card1Title": "Our Achievements",
+    "card1Description": "Over the years, we've successfully completed 100+ websites for clients ranging from startups to multinational corporations. Each project showcases our commitment to quality and client satisfaction.",
+    "card2Title": "Empowering Startups",
+    "card2Description": "We specialize in helping startups thrive in the digital landscape. From crafting their online presence to implementing strategic digital marketing initiatives, we're dedicated to fueling their growth and success.",
+    "card3Title": "Our Motto",
+    "card3Description": "\"Growing together\" isn't just a tagline for us; it's our guiding principle. We believe in fostering collaborative partnerships with our clients, growing alongside them, and celebrating shared successes along the way. Together, we're shaping a brighter digital future.",
+    "card4Title": "Our Approach",
+    "card4Description": "We approach every project with a blend of creativity, innovation, and strategic thinking. By understanding our clients' unique needs and goals, we tailor solutions that deliver tangible results and drive long-term success."
+  },
+  "about5": {
+    "journeyHeading": "Journey of Mahisha India Technologies",
+    "mainHeading": "We operate digitally, foregoing offline offices and unnecessary expenses",
+    "description": "Mahisha India Technologies, founded by a young entrepreneur, boasts a dynamic team of enthusiastic individuals, adept at navigating the currents of the latest trends.",
+    "visionTitle": "Our Vision",
+    "visionDescription": "Our vision is to empower businesses to flourish in the digital realm by providing them with uniquely tailored websites.",
+    "missionTitle": "Our Mission",
+    "missionDescription": "To ensure that every business can establish a strong online presence by offering them personalized websites."
+  },
+  "about6": {
+    "heading": "We are awarded by people's support through social medias",
+    "linkedin": {
+      "platform": "LinkedIn",
+      "info": "Top Startup India 2023"
+    },
+    "google": {
+      "platform": "Google Reviews",
+      "info": "Rated 4.8/5 500+ Reviews"
+    },
+    "instagram": {
+      "platform": "Instagram",
+      "info": "35k+ Followers (Family)"
+    }
+  },
+  "team1": {
+    "title": "Our Team",
+    "subtext": "Our team is united by a shared vision and a strong commitment to excellence. We bring together diverse skill sets to create impactful solutions and drive success for our clients.",
+    "joinUs": "Join Us",
+    "teamValues": {
+      "value1": "Collaboration & Teamwork",
+      "value2": "Innovation & Creativity",
+      "value3": "Problem-Solving Expertise",
+      "value4": "Adaptability & Agility",
+      "value5": "Commitment to Quality",
+      "value6": "Customer-Centric Approach",
+      "value7": "Continuous Learning & Growth"
+    }
+  },
+  "team2": {
+    "title": "Our Team of potential abilities",
+    "intro": "Meet our dedicated team of professionals who are passionate about creating impactful solutions and delivering excellence in every project.",
+    "teamMember1": {
+      "name": "Vignesh Vasanth",
+      "role": "Fullstack Developer",
+      "experience": "6 years",
+      "location": "Sathyamangalam, India",
+      "email": "vigneshvasanthc@gmail.com",
+      "description": "Experienced in building scalable web applications with Angular, Node.js, and MongoDB."
+    },
+    "teamMember2": {
+      "name": "Devvidyasagar",
+      "role": "DevOps Engineer",
+      "experience": "3 years",
+      "location": "Sathyamangalam, India",
+      "email": "devvidyasagar@gmail.com",
+      "description": "Specializes in cloud infrastructure, CI/CD pipelines, and containerization."
+    },
+    "teamMember3": {
+      "name": "Jeevan Kumar",
+      "role": "Full-Stack Developer",
+      "experience": "4 years",
+      "location": "Coimbatore, India",
+      "email": "jeevan@gmail.com",
+      "description": "Expert in coding RESTful API development, database access, and server-side languages."
+    },
+    "teamMember4": {
+      "name": "Gopal Chandran",
+      "role": "Full-Stack Developer",
+      "experience": "6 years",
+      "location": "Coimbatore, India",
+      "email": "gopalchandru@gmail.com",
+      "description": "Focuses on RESTful API development, databases, and server-side optimizations."
+    },
+    "teamMember5": {
+      "name": "Dharun Ramesh",
+      "role": "UI/UX Designer",
+      "experience": "5 years",
+      "location": "Coimbatore, India",
+      "email": "dharun@gmail.com",
+      "description": "Designs engaging and user-friendly interfaces with a keen eye for aesthetics."
+    },
+    "teamMember6": {
+      "name": "Yogesh Kumar",
+      "role": "Frontend Developer",
+      "experience": "1 year",
+      "location": "Sathyamangalam, India",
+      "email": "yogeshkumar.s.radha@gmail.com",
+      "description": "Specializes in JavaScript frameworks, accessibility, and performance optimization including React and its libraries."
+    }
+  },
+  "web1": {
+  "title": "Website Development",
+  "subtext": "Our Web Design and Development services are crafted to transform your online presence into a captivating and high-performance platform.",
+  "exploreButton": "Explore Now",
+  "specialOfferButton": "Special Offer!",
+  "websiteNames": {
+    "designAgency": "Design Agency Website",
+    "digitalMarketing": "Digital Marketing Website",
+    "universityCollege": "University/College Website",
+    "educational": "Educational Website",
+    "ecommerce": "E-Commerce Website",
+    "travelAgency": "Travel Agency Website",
+    "hospital": "Hospital Website",
+    "tourism": "Tourism Website",
+    "realEstate": "Real Estate Website"
+  }
+},
+"web2": {
+  "title": "Website Design and Development",
+  "subtext": "Our experienced team of designers crafts custom web designs that reflect your brand identity and resonate with your target customers. We prioritize user experience, ensuring seamless navigation and responsiveness across all devices, from desktops to mobiles.",
+  "service1": {
+    "title": "Website Development & Design",
+    "description": "We specialize in crafting user-friendly websites that cater to businesses of all sizes."
+  },
+  "service2": {
+    "title": "Ecommerce Solutions",
+    "description": "Take your online store to the next level with our comprehensive ecommerce solutions."
+  },
+  "service3": {
+    "title": "Website Maintenance",
+    "description": "Our website maintenance services ensure that your website remains up-to-date and secure."
+  },
+  "service4": {
+    "title": "Website Revamp",
+    "description": "Our website revamp services are designed to breathe new life into outdated websites."
+  }
+},
+"web4": {
+  "title": "Which technologies will bring maximum value to your business?",
+  "subtitle": "Solve customer problems by choosing cutting-edge technologies for your tech stack. Take your business to the next level with the right solutions tailored to your own requirements."
+},
+"web5": {
+  "title": "Web Development & Design",
+  "description": "At Mahisha India Technologies, we specialize in crafting user-friendly websites that cater to businesses of all sizes. Our team ensures that your website is optimized for both desktop and mobile devices, providing a seamless experience for potential customers browsing on-the-go. We employ cutting-edge SEO techniques to boost your website's visibility on search engine results pages (SERPs), helping you attract organic traffic and increase conversions. Whether you're a brick and mortar store looking to expand your online presence or a university in need of a modern website, we've got you covered.",
+  "button": "Get a Quote",
+  "scrollingText": {
+    "point1": "Responsive design for optimal viewing on all devices",
+    "point2": "Custom web development tailored to your business needs",
+    "point3": "User-friendly interface and navigation",
+    "point4": "SEO-friendly structure for better search engine rankings",
+    "point5": "Cross-browser compatibility for a seamless user experience",
+    "point6": "Fast loading times and optimized performance",
+    "point7": "Secure web applications with data protection",
+    "point8": "CMS integration for easy content management",
+    "point9": "Creative and modern UI/UX design"
+  }
+},
+"web6": {
+  "title": "Ecommerce Solutions",
+  "description": "At Mahisha India Technologies, we provide comprehensive ecommerce solutions designed to elevate your online business. Our team specializes in developing robust, scalable, and secure ecommerce platforms that are tailored to meet the unique needs of your business. From intuitive shopping cart functionalities to seamless payment processing and user-friendly product management systems, we ensure a smooth shopping experience for your customers. With our expert integration of advanced analytics tools, you can track customer behavior and optimize your strategies to drive sales. Whether you're starting a new venture or looking to enhance your existing ecommerce site, we are committed to helping you succeed in the digital marketplace.",
+  "button": "Get a Quote",
+  "scrollingText": {
+    "point1": "User-friendly shopping experience for customers",
+    "point2": "Secure payment processing and transaction management",
+    "point3": "Robust inventory management system",
+    "point4": "Customizable product listings and categories",
+    "point5": "Mobile-responsive design for on-the-go shopping",
+    "point6": "Integration with various shipping options",
+    "point7": "Advanced analytics for tracking customer behavior",
+    "point8": "SEO optimization for increased visibility",
+    "point9": "Multi-channel selling capabilities (e.g., social media, marketplaces)"
+  }
+},
+"web7": {
+  "title": "Web Application Technologies",
+  "technology1": {
+    "name": "HTML",
+    "description": "The standard markup language for creating the structure of web pages."
+  },
+  "technology2": {
+    "name": "CSS",
+    "description": "A style sheet language used for describing the look and formatting of a web document."
+  },
+  "technology3": {
+    "name": "JavaScript",
+    "description": "A versatile scripting language that enables dynamic behavior on web pages."
+  },
+  "technology4": {
+    "name": "React",
+    "description": "A JavaScript library for building fast and interactive user interfaces."
+  },
+  "technology5": {
+    "name": "Angular",
+    "description": "A platform and framework for building single-page client applications using HTML and TypeScript."
+  },
+  "technology6": {
+    "name": "Node.js",
+    "description": "A JavaScript runtime that allows server-side scripting, enabling JavaScript to run outside of a browser."
+  },
+  "technology7": {
+    "name": "Express.js",
+    "description": "A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications."
+  },
+  "technology8": {
+    "name": "MongoDB",
+    "description": "A NoSQL database program that uses JSON-like documents with optional schemas to store data."
+  },
+  "technology9": {
+    "name": "MySQL",
+    "description": "A popular open-source relational database management system that uses SQL (Structured Query Language)."
+  },
+  "technology10": {
+    "name": "PostgreSQL",
+    "description": "An open-source relational database system known for its advanced features and compliance with SQL standards."
+  },
+  "technology11": {
+    "name": "Java",
+    "description": "A high-level, class-based, object-oriented programming language used for building robust, portable applications."
+  }
+},
+"web8": {
+  "title": "Website Revamp",
+  "description": "At Mahisha India Technologies, we understand the importance of keeping your website fresh and engaging. Our website revamp services are designed to breathe new life into your online presence. We focus on modernizing your site’s design, improving user experience, and enhancing functionality. Our team analyzes your current website to identify areas for improvement, ensuring that your revamped site is not only visually appealing but also optimized for performance and SEO. Whether you need a complete redesign or targeted updates to specific sections, we are dedicated to transforming your website into a powerful tool for business growth.",
+  "buttonText": "Get a Quote",
+  "scrollingText": {
+    "1": "Redesigning outdated websites with modern aesthetics",
+    "2": "Improving website performance and load times",
+    "3": "Optimizing user experience and navigation flow",
+    "4": "Upgrading to responsive design for better mobile access",
+    "5": "Integrating advanced SEO strategies for better rankings",
+    "6": "Enhancing security features for better data protection",
+    "7": "Incorporating new functionalities and features",
+    "8": "Migration to modern CMS platforms for easier management",
+    "9": "Aligning website design with the latest trends and technologies"
+  }
+},
+"web9": {
+  "title": "Website Maintenance",
+  "description": "At Mahisha India Technologies, we offer comprehensive website maintenance services to ensure your online presence remains effective and up-to-date. Our dedicated team monitors your site for performance issues, security vulnerabilities, and outdated content, allowing you to focus on your business while we take care of the technical aspects. We provide regular updates, backups, and security checks to keep your website running smoothly. With our proactive maintenance plans, you can enhance user experience, maintain search engine rankings, and respond swiftly to any issues that may arise. Trust us to keep your website performing at its best.",
+  "buttonText": "Get a Quote",
+  "scrollingText": {
+    "1": "Regular updates to website software and plugins",
+    "2": "Monitoring website performance and uptime",
+    "3": "Ensuring security patches and vulnerability fixes",
+    "4": "Content updates and management",
+    "5": "Backup and restore services to prevent data loss",
+    "6": "Fixing broken links and addressing technical issues",
+    "7": "Optimizing website speed and performance regularly",
+    "8": "Ensuring compatibility with new browsers and devices",
+    "9": "Providing ongoing support and troubleshooting"
+  }
+},
+"digital1": {
+    "title": "Digital Marketing",
+    "subtext": "Powering Your Digital Success with Unlock Your Digital Potential. Drive growth and maximize your online presence with strategic digital marketing solutions that deliver measurable results.",
+    "exploreButton": "Explore Now",
+    "scrollingText": {
+      "1": "Social Media Management",
+      "2": "Content Marketing",
+      "3": "Email Marketing",
+      "4": "SEO Services",
+      "5": "Personal Branding",
+      "6": "&nbspSocial Media Marketing"
+    }
+  },
+  "digital2": {
+    "title": "Unlock Your Digital Potential",
+    "subtext": "Elevate your online presence with our strategic digital marketing solutions tailored to your business needs.",
+    "services": {
+      "service1": {
+        "title": "Social Media Marketing",
+        "description": "Boost engagement and reach with targeted social media."
+      },
+      "service2": {
+        "title": "Social Media Management",
+        "description": "Efficiently handle social media platforms for maximum impact."
+      },
+      "service3": {
+        "title": "Personal Branding",
+        "description": "Founders use personal branding on social media to promote their brands."
+      },
+      "service4": {
+        "title": "Content Marketing",
+        "description": "Engage audiences with compelling and valuable content strategies."
+      },
+      "service5": {
+        "title": "Email Marketing",
+        "description": "Reach customers directly with personalized email campaigns."
+      },
+      "service6": {
+        "title": "SEO Services",
+        "description": "Increase online visibility and attract more organic traffic."
+      }
+    }
+  },
+  "digital3": {
+    "title": "Research and Planning",
+    "subtitle": "Digital marketing is a process of promoting and boosting virtual businesses on the digital world. We understand the importance of it and our experts optimize the website with organic leads that tend to grow the business in all aspects."
+  },
+  "digital4": {
+    "title": "Social Media Marketing",
+    "paragraph1": "In today’s digital world, social media isn’t just about sharing photos and updates; it’s a powerful tool for businesses to connect with their audience. Our social media marketing services are designed to elevate your brand’s presence across platforms like Facebook, Instagram, Twitter, and LinkedIn.",
+    "paragraph2": "We craft engaging content, run targeted ad campaigns, and interact with your audience to build meaningful relationships and drive results. From increasing brand awareness to generating leads and boosting sales, we harness the full potential of social media to help your business thrive in the online landscape. Let’s make your brand shine in the digital spotlight together!",
+    "socialStats": {
+      "linkedin": {
+        "name": "LinkedIn",
+        "followers": "9000+ Followers"
+      },
+      "googleReviews": {
+        "name": "Google Reviews",
+        "followers": "Rated 4.6/5 500+ Reviews"
+      },
+      "instagram": {
+        "name": "Instagram",
+        "followers": "10,000+ Followers"
+      }
+    }
+  },
+  "digital5": {
+    "title": "Social Media Management",
+    "paragraph": "Managing your social media presence effectively requires more than just posting regularly; it demands a strategic approach that resonates with your audience. Our social media management services encompass everything from content creation and scheduling to community engagement and performance tracking.",
+    "faq1": {
+      "question": "How often should I post on social media?",
+      "answer": "The frequency of your posts depends on your audience and the platforms you are using. Generally, posting 3-5 times a week is a good starting point. Consistency is key, so find a schedule that works for you and stick to it."
+    },
+    "faq2": {
+      "question": "How do I know if my social media strategy is working?",
+      "answer": "You can measure the success of your strategy through various metrics, such as engagement rates, follower growth, and conversion rates. Use analytics tools to track these metrics and adjust your strategy accordingly."
+    },
+    "faq3": {
+      "question": "Should I outsource social media management or handle it in-house?",
+      "answer": "Outsourcing can provide expertise and save you time, while in-house management allows for more control and brand consistency. Assess your resources, budget, and goals to make the best decision for your business."
+    },
+    "socialMediaImages": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "digital6": {
+    "heading": "Personal Branding",
+    "description": "In today’s market, founders and owners are stepping up to personally promote their brands. Instead of traditional marketing, they’re using platforms like Instagram, Facebook, and LinkedIn to share their stories and connect with audiences. This approach not only builds trust but also creates a more authentic and relatable brand image. Personal branding allows for organic growth and stronger engagement with potential customers. It’s a powerful way to showcase the passion and vision behind the brand."
+  },
+  "digital7": {
+    "contentMarketing": {
+      "heading": "Content Marketing Services",
+      "description": "Want to grab attention, engage your audience, and drive results? That’s where our content marketing services come in. We’re not just talking about churning out blog posts or social media updates. We’re talking about creating compelling, valuable content that speaks directly to your audience’s needs and interests. Whether it’s informative articles, captivating videos, or eye-catching infographics, we’ve got you covered. We’ll help you craft a content strategy that builds brand authority, fosters trust, and drives action. Let’s tell your story in a way that resonates and gets results."
+    },
+    "quotes1": {
+      "text": "Content marketing is all about your target customers. It’s about how you can educate, help, entertain, challenge and facilitate their purchase decisions.",
+      "author": "- Pam Didner"
+    },
+    "quotes2": {
+      "text": "Creating great content but not spending the time promoting it is the ultimate sin. No matter how good your content is, if you don’t promote it then it will not achieve the success it deserves.",
+      "author": "- Ian Cleary"
+    },
+    "quotes3": {
+      "text": "The ultimate content marketing sin is not writing content for your target audience. This is increasingly important in the digital world we live in.",
+      "author": "- Richard Lorenzen"
+    },
+    "quotes4": {
+      "text": "The ultimate content marketing sin is not having a content marketing plan, and believing the 'experts/gurus' that there is a pre-prescribed 'best' way to do things.",
+      "author": "- Ted Rubin"
+    },
+    "quotes5": {
+      "text": "It’s a sin to lose focus on what is relevant. Your content should always be relevant to you, and relevant to your customer.",
+      "author": "- Luan Wise"
+    },
+    "quotes6": {
+      "text": "Quality content isn’t about quality, it’s about the audience’s perception of the quality.",
+      "author": "- Timi Clark"
+    },
+    "quotes7": {
+      "text": "The best marketing doesn’t feel like marketing.",
+      "author": "- Tom Fishburne"
+    },
+    "quotes8": {
+      "text": "You can’t sell anything if you can’t tell anything.",
+      "author": "- Beth Comstock"
+    }
+  },
+  "digital8": {
+    "heading": "Email Marketing Services",
+    "description": "Think email marketing is outdated? Think again. Email marketing remains one of the most effective ways to connect with your audience and drive results. With our email marketing services, we’ll help you craft attention-grabbing campaigns that land right in your customers' inboxes. From compelling subject lines to personalized content, we’ll make sure your emails stand out and drive action. Whether you’re looking to promote a new product, nurture leads, or re-engage inactive subscribers, we’ve got the expertise to make it happen. Say hello to higher open rates, click-throughs, and conversions with our email marketing magic.",
+    "steps": {
+      "1": {
+        "title": "Step: 1",
+        "description": "Figure out what you want to achieve with your emails, like getting more sales or keeping people updated. Then, think about who you’re sending them to – your audience. What do they like? What do they need?"
+      },
+      "2": {
+        "title": "Step: 2",
+        "description": "Ask people to sign up for your emails. You can do this on your website, social media, or when they buy something from you. Give them a reason to sign up, like a discount or cool stuff they’ll get in their inbox."
+      },
+      "3": {
+        "title": "Step: 3",
+        "description": "Write emails that people want to read. Make them personal and friendly. Use catchy subject lines, tell stories, and show off cool pictures. And don’t forget to tell people what you want them to do next, like click a link or reply to you."
+      }
+    }
+  },
+  "digital9": {
+    "header": "Professional SEO Services",
+    "description": "Elevate your online presence with our professional SEO services. We employ strategic tactics including keyword research, on-page optimization, and link building to improve your website’s visibility and attract more qualified leads. Let our team of experts optimize your digital presence and drive success in the digital realm.",
+    "tags": {
+      "CODE": "CODE", 
+      "DEVELOPMENT": "DEVELOPMENT", 
+      "INNOVATION": "INNOVATION", 
+      "APP": "APP", 
+      "NETWORKING": "NETWORKING", 
+      "SUPPORT": "SUPPORT", 
+      "INFRASTRUCTURE": "INFRASTRUCTURE", 
+      "SEM": "SEM", 
+      "CYBERSECURITY": "CYBERSECURITY", 
+      "DESIGN": "DESIGN", 
+      "UX/UI": "UX/UI", 
+      "DOMAINS": "DOMAINS", 
+      "HOSTING": "HOSTING", 
+      "SEO": "SEO", 
+      "SOCIAL MEDIA": "SOCIAL MEDIA", 
+      "AI": "AI", 
+      "ANALYTICS": "ANALYTICS", 
+      "CONTENT": "CONTENT", 
+      "KEYWORDS": "KEYWORDS", 
+      "TRAFFIC": "TRAFFIC"
+    }
+  },
+  "mobile1": {
+    "title": "Mobile Applications",
+    "subtext": "Powering Your Digital Success with Cutting-Edge Mobile Solutions. Unlock the potential of your business with innovative mobile applications designed to drive engagement, enhance user experience, and accelerate growth.",
+    "exploreButton": "Explore Now",
+    "scrollingText": {
+      "1": "iOS App Development ✦",
+      "2": "Android App Development ✦",
+      "3": "Cross-Platform App Development ✦",
+      "4": "UI/UX Design for Mobile ✦",
+      "5": "Mobile App Maintenance & Support ✦",
+      "6": "App Store Optimization ✦",
+      "7": "Custom Mobile App Solutions ✦"
+    }
+  },
+  "mobile2": {
+    "heading": "Building Powerful Mobile Applications for Every Business Need",
+    "description": "Our mobile applications are crafted to provide seamless user experiences, optimized for performance, and designed with cutting-edge technologies. Whether you're launching an e-commerce app, creating a social media platform, or building enterprise solutions, we offer full development services from design to deployment, ensuring that your app not only looks stunning but functions flawlessly across devices.",
+    "buttons": {
+      "appDesign": "APP DESIGN",
+      "userExperience": "USER EXPERIENCE",
+      "performance": "PERFORMANCE"
+    }
+  },
+  "mobile3": {
+    "heading": "How can mobile apps revolutionize your business?",
+    "subheading": "Build a mobile application that connects with your customers, enhances user experience, and drives engagement. Stay ahead of the competition by leveraging modern app technologies that suit your business needs, ensuring scalability, performance, and user satisfaction."
+  },
+  "mobile4": {
+    "heading": "iOS App Development",
+    "description": "At Mahisha India Technologies, we deliver top-notch iOS app development services to help businesses create highly efficient, secure, and engaging iOS applications. Our team specializes in building native iOS apps tailored to your specific business requirements using Swift and Objective-C. Whether it's a small-scale business or an enterprise, we ensure your app leverages the full potential of iOS features for an unparalleled user experience. From seamless integration with Apple services to optimized performance on iPhones, iPads, and Apple Watches, we cover all aspects of iOS app development, making sure your app stands out on the App Store.",
+    "button": "Get a Quote",
+    "scrollingText": {
+      "item1": "Custom iOS app development for all business needs",
+      "item2": "Optimized performance and seamless user experience",
+      "item3": "Native iOS development with Swift and Objective-C",
+      "item4": "Incorporation of the latest iOS features like widgets and SiriKit",
+      "item5": "Enhanced security with end-to-end encryption and data protection",
+      "item6": "App Store optimization for better visibility and downloads",
+      "item7": "Integration with Apple Pay, HealthKit, and other services",
+      "item8": "Responsive designs tailored for iPhone, iPad, and Apple Watch",
+      "item9": "User-friendly, intuitive UI/UX design for iOS applications"
+    }
+  },
+  "mobile5": {
+    "title": "Mobile Application Technologies",
+    "technology1": {
+      "name": "React Native",
+      "description": "A framework for building native apps using React."
+    },
+    "technology2": {
+      "name": "Flutter",
+      "description": "A UI toolkit for building natively compiled apps for mobile."
+    },
+    "technology3": {
+      "name": "Swift",
+      "description": "A powerful programming language for iOS app development."
+    },
+    "technology4": {
+      "name": "Kotlin",
+      "description": "A modern programming language for Android apps."
+    },
+    "technology5": {
+      "name": "Firebase",
+      "description": "A platform for building web and mobile applications."
+    },
+    "technology6": {
+      "name": "GraphQL",
+      "description": "A data query language used in some of our mobile apps."
+    },
+    "technology7": {
+      "name": "Laravel",
+      "description": "A powerful PHP framework with high rated activeness and features."
+    }
+  },
+  "mobile6": {
+    "title": "Android App Development & Custom Mobile Solutions",
+    "description": "At Mahisha India Technologies, we specialize in creating high-performance Android applications that cater to your business needs. Our team excels in developing scalable, secure, and feature-rich mobile solutions that run seamlessly across a wide range of Android devices. From concept to deployment, we ensure that every aspect of the app is tailored to enhance user engagement and drive growth for your business. Whether it's native app development using Kotlin and Java or integration with advanced mobile technologies, we deliver end-to-end Android solutions that help you thrive in the competitive app market.",
+    "androidDevelopmentPoints": {
+      "point1": "Custom Android app solutions tailored to business needs",
+      "point2": "Native Android development using Kotlin and Java",
+      "point3": "Seamless integration with third-party services and APIs",
+      "point4": "Optimized performance across Android devices and versions",
+      "point5": "User-friendly and intuitive UI/UX design for mobile apps",
+      "point6": "Enhanced app security and data protection",
+      "point7": "Mobile-responsive designs for tablets and smartphones",
+      "point8": "Comprehensive testing and debugging for smooth performance",
+      "point9": "Google Play Store optimization for better visibility and downloads"
+    },
+    "button": "Get a Quote"
+  },
+  "mobile7": {
+    "heroSection": {
+      "title": "We Build Seamless Cross-platform Mobile Apps",
+      "description": "At Mahisha India Technologies, our cross-platform app development services allow you to reach a wider audience by creating apps that run smoothly on both iOS and Android. Using technologies like React Native and Flutter, we ensure your app provides a consistent, native-like experience across devices, while reducing costs and time-to-market. From design to deployment, we deliver apps that are tailored to your business goals."
+    },
+    "crossPlatformOptions": {
+      "option1": "Develop Once, Deploy Anywhere",
+      "option2": "Cost-effective Development Process",
+      "option3": "Faster Time to Market",
+      "option4": "Native-like Performance on Multiple Platforms",
+      "option5": "Single Codebase for iOS and Android",
+      "option6": "Easier Maintenance and Updates",
+      "option7": "Wider Market Reach",
+      "option8": "Reduced Development Effort",
+      "option9": "Seamless Integration with APIs",
+      "option10": "Unified User Experience Across Devices"
+    },
+    "footerText": {
+      "slidingText": "Develop Once, Deploy Anywhere ✦ Cost-effective Development Process ✦ Faster Time to Market ✦ Native-like Performance on Multiple Platforms ✦ Single Codebase for iOS and Android ✦ Easier Maintenance and Updates ✦ Wider Market Reach ✦ Reduced Development Effort ✦ Seamless Integration with APIs ✦ Unified User Experience Across Devices"
+    }
+  },
+  "mobile8": {
+    "heroSection": {
+      "title": "Mobile App Maintenance & Support",
+      "description": "At Mahisha India Technologies, we provide comprehensive maintenance and support services to ensure your mobile app remains up-to-date, secure, and fully functional. Our expert team handles everything from regular updates and bug fixes to performance optimization and feature enhancements. We ensure that your app remains compatible with the latest operating systems and devices, while continuously improving the user experience based on feedback and data analysis. With our proactive app management, you can focus on growing your business while we handle the technical aspects of your app’s upkeep."
+    },
+    "mobileAppMaintenancePoints": {
+      "point1": "Regular app updates and new feature integration",
+      "point2": "Monitoring app performance and uptime",
+      "point3": "Ensuring app security with timely patches",
+      "point4": "Bug fixing and technical issue resolution",
+      "point5": "Optimizing app for latest OS versions and devices",
+      "point6": "User feedback analysis and continuous improvements",
+      "point7": "Managing backend services and database updates",
+      "point8": "App store listing maintenance and optimization",
+      "point9": "Providing ongoing support and troubleshooting"
+    },
+    "footerText": {
+      "slidingText": "Regular app updates and new feature integration ✦ Monitoring app performance and uptime ✦ Ensuring app security with timely patches ✦ Bug fixing and technical issue resolution ✦ Optimizing app for latest OS versions and devices ✦ User feedback analysis and continuous improvements ✦ Managing backend services and database updates ✦ App store listing maintenance and optimization ✦ Providing ongoing support and troubleshooting"
+    }
+  },
+  "billing1": {
+    "pageTitle": "Billing Software Solutions",
+    "subtext": "Streamline your billing processes with our advanced software. Our solution provides everything from invoice generation to real-time reporting, ensuring efficiency and accuracy in managing your finances. Automate your billing operations and focus on growing your business while we handle the numbers.",
+    "buttons": {
+      "tryFreeDemo": "Try Free Demo"
+    },
+    "scrollingText": {
+      "feature1": "Invoice Generation ✦",
+      "feature2": "Automated Billing ✦",
+      "feature3": "Payment Tracking ✦",
+      "feature4": "Tax Calculation ✦",
+      "feature5": "Expense Management ✦",
+      "feature6": "Real-time Reporting ✦",
+      "feature7": "Extended Producer Responsibility (EPR) ✦"
+    }
+  },
+  "billing2": {
+    "pageTitle": "Billing Software Solutions",
+    "description": "Streamline your billing and invoicing processes with our powerful billing software solutions. Our software automates payment collection, simplifies invoicing, and provides accurate financial reports. Designed for businesses of all sizes, it ensures secure transactions, customizable billing templates, and easy integration with popular accounting tools. Whether you're managing subscriptions, generating invoices, or tracking payments, our billing software has you covered.",
+    "steps": {
+      "step1": {
+        "title": "Step: 1",
+        "description": "Identify the billing needs of your business. Whether you need to handle recurring payments, generate invoices, or integrate with various payment gateways, understanding your requirements is the first step to implementing effective billing software."
+      },
+      "step2": {
+        "title": "Step: 2",
+        "description": "Choose the right billing software solution. Ensure it is scalable, customizable, and secure. It should support multiple payment methods and currencies, provide insightful financial reports, and offer seamless integration with your existing systems."
+      },
+      "step3": {
+        "title": "Step: 3",
+        "description": "Implement and customize the billing software to meet your business needs. Train your team to use the software effectively, automate invoicing and payment reminders, and ensure compliance with financial regulations to streamline your billing process."
+      }
+    }
+  },
+  "billing3": {
+    "pageTitle": "Advanced Billing Software Solutions",
+    "description": "Streamline your business operations with our advanced billing software. Our solution offers seamless invoicing, payment tracking, and financial reporting to ensure your business stays organized and efficient. With features like automated reminders, customizable invoice templates, and multi-currency support, our billing software is designed to meet the needs of businesses of all sizes. Let us help you simplify your billing process and focus more on growing your business.",
+    "tags": {
+      "tag1": "INVOICING",
+      "tag2": "PAYMENTS",
+      "tag3": "AUTOMATION",
+      "tag4": "REPORTS",
+      "tag5": "EXPENSES",
+      "tag6": "FINANCE",
+      "tag7": "TAX",
+      "tag8": "RECURRING BILLING",
+      "tag9": "CLOUD BASED",
+      "tag10": "TRACKING",
+      "tag11": "EFFICIENCY",
+      "tag12": "SCALABILITY",
+      "tag13": "SUPPORT",
+      "tag14": "ANALYTICS",
+      "tag15": "CUSTOMIZATION",
+      "tag16": "MULTI-CURRENCY",
+      "tag17": "INTEGRATIONS",
+      "tag18": "SECURITY"
+    }
+  },
+  "billing4": {
+    "pageTitle": "Driving Operational Efficiency Through Real-time Insights and Compliance.",
+    "description": "At Mahisha India Technologies, we provide innovative solutions that streamline financial operations and ensure regulatory compliance. With our tools for real-time reporting, payment tracking, and Extended Producer Responsibility (EPR) management, we help businesses stay efficient, compliant, and ahead of the curve.",
+    "cards": {
+      "card1": {
+        "title": "Real-time Reporting",
+        "description": "Stay on top of your business data with our real-time reporting tools. Monitor financial performance, expenses, and revenues as they happen, ensuring you have accurate data to make informed decisions and drive operational success."
+      },
+      "card2": {
+        "title": "Payment Tracking",
+        "description": "Simplify your financial workflow with our automated payment tracking system. Easily monitor incoming and outgoing transactions, and ensure all payments are processed and recorded efficiently for better cash flow management."
+      },
+      "card3": {
+        "title": "Extended Producer Responsibility (EPR)",
+        "description": "Our EPR solutions help you manage waste responsibly, ensuring compliance with environmental regulations. Track your production impact and stay compliant with EPR requirements, contributing to a sustainable future."
+      },
+      "card4": {
+        "title": "Our Approach",
+        "description": "We combine innovative technology with industry expertise to deliver solutions that meet your business needs. Our approach focuses on streamlining operations, ensuring compliance, and driving growth through real-time insights and efficient management."
+      }
+    }
+  },
+  "billing5": {
+    "pageTitle": "Automated Billing",
+    "description": "In today’s competitive market, businesses are turning to automated generation tools to streamline their operations and enhance productivity. Instead of relying on manual processes, companies are utilizing advanced software and AI-driven solutions to automate tasks like invoicing, data analysis, and report generation. This approach not only reduces human error but also increases efficiency and scalability. Automated generation allows businesses to operate more smoothly, focus on strategic growth, and deliver consistent results with minimal effort. It’s a powerful way to optimize operations and maintain a competitive edge.",
+    "icons": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    }
+  },
+  "billing6": {
+    "pageTitle": "Billing Software Solutions",
+    "pageDescription": "Streamline your business operations with our comprehensive billing software. From seamless invoice generation to efficient payment tracking, we offer tools that simplify your financial processes. Whether it's automating tax calculations or managing expenses in real-time, our billing solutions ensure you stay organized, compliant, and in control. Real-time reporting gives you the insights needed to make informed financial decisions. Let us handle the numbers so you can focus on growing your business.",
+    "quotes": {
+      "quote1": {
+        "text": "Automated invoice generation reduces errors and speeds up payment collection, making your financial processes more efficient.",
+        "author": "Financial Expert"
+      },
+      "quote2": {
+        "text": "Payment tracking in real-time helps businesses stay on top of cash flow and ensure timely collection from clients.",
+        "author": "Business Analyst"
+      },
+      "quote3": {
+        "text": "Automated tax calculations not only save time but also ensure compliance with local regulations, minimizing audit risks.",
+        "author": "Tax Consultant"
+      },
+      "quote4": {
+        "text": "Effective expense management can save companies significant amounts of money, reducing waste and optimizing budgets.",
+        "author": "Expense Management Expert"
+      },
+      "quote5": {
+        "text": "Real-time reporting provides businesses with critical insights that drive smarter decisions and better financial outcomes.",
+        "author": "Data Analyst"
+      },
+      "quote6": {
+        "text": "Billing software that integrates expense management and real-time reporting empowers businesses to maintain financial health with ease.",
+        "author": "CFO"
+      },
+      "quote7": {
+        "text": "Simplify your accounting processes with billing software that handles invoices, taxes, and expenses all in one platform.",
+        "author": "Accounting Professional"
+      },
+      "quote8": {
+        "text": "Accurate financial data, automated invoice reminders, and real-time tracking are key to maintaining business stability.",
+        "author": "Financial Analyst"
+      }
+    }
+  },
+  "billing7": {
+    "pageTitle": "Invoice Generation",
+    "pageDescription": "At Mahisha India Technologies, we streamline your billing process with our automated invoice generation services. Our solutions are designed to simplify invoicing, reduce manual errors, and help you manage client payments more efficiently. Whether you’re managing recurring invoices or need custom templates, our system ensures that every invoice is accurate and compliant. Stay on top of payments with real-time tracking, automated reminders, and seamless integration with payment gateways. With multi-currency support, tax automation, and detailed analytics, our invoicing solutions save you time and help your business maintain a healthy cash flow.",
+    "buttonText": "Get a Quote",
+    "features": {
+      "feature1": "Automated invoice creation and management",
+      "feature2": "Customizable invoice templates",
+      "feature3": "Recurring invoice generation for subscription services",
+      "feature4": "Real-time tracking of payments and due dates",
+      "feature5": "Integration with payment gateways for seamless transactions",
+      "feature6": "Multi-currency and multi-language support",
+      "feature7": "Tax calculation and compliance automation",
+      "feature8": "Bulk invoicing for high-volume clients",
+      "feature9": "Detailed invoice reports and analytics"
+    }
+  },
+  "billing8": {
+    "pageTitle": "Tax Calculation & Expense Management",
+    "pageDescription": "At Mahisha India Technologies, we simplify the complexities of tax calculation and expense management for your business. Our automated solutions ensure accurate tax computations, seamless expense tracking, and compliance with the latest tax laws. With real-time tracking, you can categorize and monitor your business expenses, enabling better financial control and budgeting. Whether it’s VAT, GST, or income tax, our platform supports various tax types, helping you minimize errors and stay compliant. Generate detailed reports and integrate with your existing accounting software for a smooth tax filing process.",
+    "buttonText": "Get a Quote",
+    "features": {
+      "feature1": "Automated tax calculation based on current regulations",
+      "feature2": "Real-time expense tracking and categorization",
+      "feature3": "Generating detailed financial reports for better insights",
+      "feature4": "Integration with accounting software for seamless tax filing",
+      "feature5": "Tracking business expenses and reimbursable costs",
+      "feature6": "VAT, GST, and other tax type support",
+      "feature7": "Budget management and forecasting based on expenses",
+      "feature8": "Reducing manual errors in tax computation and filing",
+      "feature9": "Ensuring compliance with tax laws and regulations"
+    }
+  }
+}

@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from "react";
 import "./Page1.css";
+import { useTranslation } from "react-i18next";
 
 const Page1 = () => {
+
+  const { t } = useTranslation();
   // Array for website names
   const mobileAppServices = [
-    'iOS App Development',
-    'Android App Development',
-    'Cross-Platform App Development',
-    'UI/UX Design for Mobile',
-    'Mobile App Maintenance & Support',
-    'App Store Optimization',
-    'Custom Mobile App Solutions',
+    t('mobile1.scrollingText.1'),
+    t('mobile1.scrollingText.2'),
+    t('mobile1.scrollingText.3'),
+    t('mobile1.scrollingText.4'),
+    t('mobile1.scrollingText.5'),
+    t('mobile1.scrollingText.6'),
+    t('mobile1.scrollingText.7'),
   ];
   
 
@@ -30,12 +33,12 @@ const Page1 = () => {
   return (
     <div className={`digital-page-container ${inView ? "animate" : ""}`}>
       <div className="digital-content-section">
-        <h1 className="digital-title">Mobile Applications</h1>
+        <h1 className="digital-title">{t('mobile1.title')}</h1>
         <p className="digital-subtext">
-        Powering Your Digital Success with Cutting-Edge Mobile Solutions. Unlock the potential of your business with innovative mobile applications designed to drive engagement, enhance user experience, and accelerate growth.
+        {t('mobile1.subtext')}
         </p>
         <div className="digital-button-group">
-          <button className="digital-explore-btn" onClick={handleQuoteClick}>Explore Now</button>
+          <button className="digital-explore-btn" onClick={handleQuoteClick}>{t('mobile1.exploreButton')}</button>
           {/* <button className="webdev-special-btn">Special Offer!</button> */}
         </div>
       </div>

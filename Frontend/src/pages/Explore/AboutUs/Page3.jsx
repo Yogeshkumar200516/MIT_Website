@@ -1,17 +1,27 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect'; // Named import for react-typing-effect
 import './Page3.css';
+import { useTranslation } from "react-i18next";
 
 const Page3 = () => {
+
+  const { t } = useTranslation();
+
   return (
     <div className="about-us-container">
       <div className="about-us-content">
         <p className="about-us-subtext">
-          Good software is a work of art, and good art takes time. Our teams spend years mastering their craft in order to deliver exceptional products that customers love. Software isn't just our paycheck
+          {t('about3.aboutUsSubtext')}
         </p>
         <h1 className="about-us-title">
-          It's our <ReactTypingEffect
-            text={['craft.', 'passion.', 'mission.', 'commitment.', 'goal.']}
+          {t('about3.aboutUsTitle')} <ReactTypingEffect
+            text={[
+              t('about3.typingEffectTextCraft'),
+              t('about3.typingEffectTextPassion'),
+              t('about3.typingEffectTextMission'),
+              t('about3.typingEffectTextCommitment'),
+              t('about3.typingEffectTextGoal')
+            ]}
             speed={100}
             eraseSpeed={50}
             eraseDelay={1000}

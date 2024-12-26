@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from '../pages/Home/Home';
-import Career from '../pages/Career/Career';
 import Navbar from '../components/Navbar/Navbar';
 import './AppLayout.css';
 import DigitalMarketing from '../pages/Services/DigitalMarketing/DigitalMarketing';
@@ -19,7 +18,6 @@ function AppLayout() {
       <div className='contents' style={{ marginTop: '121px', width: '100%' }}>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/career' element={<Career />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/our-team" element={<OurTeam />} />
           <Route path='/digital-marketing' element={<DigitalMarketing />} />

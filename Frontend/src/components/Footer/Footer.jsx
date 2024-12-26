@@ -7,10 +7,12 @@ import image2 from '../../assets/images/img72.png';
 import image3 from '../../assets/images/img70.png';
 import image4 from '../../assets/images/img71.png';
 import image5 from '../../assets/images/img68.png';
+import { useTranslation } from 'react-i18next';
 import './Footer.css'; // Include CSS styles
 
 const Footer = () => {
   const [modalOpen, setModalOpen] = useState(false);
+  const { t, i18n } = useTranslation();
 
   const handleOpenModal = (e) => {
     e.preventDefault();
@@ -30,12 +32,12 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-top">
-        <h2>Start building awesome websites</h2>
-        <p>Join over 12,653,898 customers that are already building amazing websites with us.</p>
+        <h2>{t('footer.header')}</h2>
+        <p>{t('footer.text')}</p>
         <div className="footer-buttons">
-          <button className="footer-btn quote-btn" onClick={handleQuoteClick}>Get a Quote</button>
+          <button className="footer-btn quote-btn" onClick={handleQuoteClick}>{t('footer.get_a_quote')}</button>
           <a href="/" onClick={handleOpenModal}>
-            <button className="footer-btn reach-btn">Contact Us</button>
+            <button className="footer-btn reach-btn">{t('footer.contact_us')}</button>
           </a>
         </div>
       </div>
@@ -45,7 +47,7 @@ const Footer = () => {
           <h1 className="footer-logo">
             <span className="nexus-info" style={{ color: 'white', fontSize: '28px' }}>Mahisha<span className="highlight"> India</span> Technologies</span>
           </h1>
-          <p>We develop websites for your business, bringing your vision to life and propelling your business into the digital realm.</p>
+          <p>{t('footer.company_info')}</p>
           <div className="social-icons">
           <a href="https://instagram.com" className="icon-circle1" target="_blank" rel="noopener noreferrer">
       <img src={image1} alt="Instagram" />
@@ -68,26 +70,26 @@ const Footer = () => {
 
         <div className="footer-links">
           <div className="footer-link-section">
-            <h4>Company</h4>
+            <h4>{t('navbar.explore')}</h4>
             <ul>
-              <li><a href="/about-us">About Us</a></li>
-              <li><a href="/internships">Internships</a></li>
-              <li><a href="/consultant">Consultant</a></li>
-              <li><a href="/career">Career</a></li>
-              <li><a href="/" onClick={handleOpenModal}>Contact Us</a></li>
+              <li><a href="/about-us">{t('footer.company_links.about_us')}</a></li>
+              <li><a href="/internships">{t('footer.company_links.internships')}</a></li>
+              <li><a href="/consultant">{t('footer.company_links.consultant')}</a></li>
+              <li><a href="/career">{t('footer.company_links.career')}</a></li>
+              <li><a href="/" onClick={handleOpenModal}>{t('footer.company_links.contact_us')}</a></li>
             </ul>
           </div>
           <div className="footer-link-section">
-            <h4>Services</h4>
+            <h4>{t('navbar.services')}</h4>
             <ul>
-              <li><a href="/website-development">Website Services</a></li>
-              <li><a href="/digital-marketing">Digital Marketing</a></li>
-              <li><a href="/mobile-applications">Mobile Applications</a></li>
-              <li><a href="/billing-software">Billing Software</a></li>
+              <li><a href="/website-development">{t('footer.services_links.website_services')}</a></li>
+              <li><a href="/digital-marketing">{t('footer.services_links.digital_marketing')}</a></li>
+              <li><a href="/mobile-applications">{t('footer.services_links.mobile_applications')}</a></li>
+              <li><a href="/billing-software">{t('footer.services_links.billing_software')}</a></li>
             </ul>
           </div>
           <div className="footer-contact">
-            <h4>Still Need Help?</h4>
+            <h4>{t('footer.still_need_help')}</h4>
             <p>
               <a href="mailto:mahishaindiatechnologies@gmail.com" className="email-link">
                 <FaEnvelope style={{ marginRight: '10px', fontSize: '1.2rem', color: '#07880F' }} /> 
@@ -107,7 +109,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; Mahisha India Technologies Private Limited | All rights reserved.</p>
+        <p>&copy; {t('footer.footer_text')}</p>
       </div>
     </footer>
   );

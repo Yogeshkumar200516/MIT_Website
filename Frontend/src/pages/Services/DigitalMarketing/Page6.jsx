@@ -3,8 +3,11 @@ import image1 from '../../../assets/images/linkedin.svg';
 import image2 from '../../../assets/images/instagram.svg';
 import image3 from '../../../assets/images/facebook.svg';
 import './Page6.css'; // External CSS file with unique classnames
+import { useTranslation } from "react-i18next";
 
 const Page6 = () => {
+
+  const { t } = useTranslation();
   const sectionRef = useRef(null); // Ref to observe the section
 
   useEffect(() => {
@@ -35,14 +38,9 @@ const Page6 = () => {
   return (
     <div ref={sectionRef} className="branding-container-unique">
       <div className="branding-content-unique">
-        <h1 className="branding-heading-unique">Personal Branding</h1>
+        <h1 className="branding-heading-unique">{t('digital6.heading')}</h1>
         <p className="branding-description-unique">
-          In today’s market, founders and owners are stepping up to personally promote their brands. 
-          Instead of traditional marketing, they’re using platforms like Instagram, Facebook, and LinkedIn 
-          to share their stories and connect with audiences. This approach not only builds trust but also 
-          creates a more authentic and relatable brand image. Personal branding allows for organic growth 
-          and stronger engagement with potential customers. It’s a powerful way to showcase the passion 
-          and vision behind the brand.
+          {t('digital6.description')}
         </p>
         <div className="branding-icons-wrapper-unique">
           <img src={image1} alt="LinkedIn" className="branding-icon-unique" />

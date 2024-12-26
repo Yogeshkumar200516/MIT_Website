@@ -1,9 +1,11 @@
 import React, { useEffect, useState, useRef } from 'react';
-import './Page7.css';
+import './Page5.css';
+import { useTranslation } from 'react-i18next';
 
-const Page7 = () => {
+const Page5 = () => {
     const [isVisible, setIsVisible] = useState(false);
     const descriptionRef = useRef(null);
+    const { t } = useTranslation();
 
     // Function to check if the element is in view (for triggering the slide animation)
     useEffect(() => {
@@ -26,7 +28,7 @@ const Page7 = () => {
 
         useEffect(() => {
             let start = 0;
-            const duration = 500; // 1 second
+            const duration = 1000; // 1 second
             const increment = endValue / duration;
 
             const timer = setInterval(() => {
@@ -54,24 +56,24 @@ const Page7 = () => {
                     className={`description ${isVisible ? 'slide-up' : ''}`} 
                     style={{ fontFamily: 'Excon', fontWeight: 'bold' }}
                 >
-                    At Mahisha India Technologies, we're here to assist you with all things digital. Our team of young, forward-thinking individuals stays updated on the latest marketing and sales trends. Let us help grow your business exponentially, by a factor of 10.
+                    {t('home4.description')}
                 </p>
                 <div className="stats">
                     <div className="stat-item">
                         <h2>{useCountUp(10)}+</h2>
-                        <p>Projects Ideas</p>
+                        <p>{t('home4.stats.projects_ideas')}</p>
                     </div>
                     <div className="stat-item">
                         <h2>{useCountUp(10)}+</h2>
-                        <p>Happy Clients</p>
+                        <p>{t('home4.stats.happy_clients')}</p>
                     </div>
                     <div className="stat-item">
                         <h2>{useCountUp(4.6)}/5</h2>
-                        <p>Ratings</p>
+                        <p>{t('home4.stats.ratings')}</p>
                     </div>
                     <div className="stat-item">
                         <h2>{useCountUp(500)}+</h2>
-                        <p>Learning Interns</p>
+                        <p>{t('home4.stats.learning_interns')}</p>
                     </div>
                 </div>
             </div>
@@ -79,4 +81,4 @@ const Page7 = () => {
     );
 };
 
-export default Page7;
+export default Page5;

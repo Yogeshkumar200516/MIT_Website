@@ -7,45 +7,48 @@ import image5 from '../../../assets/images/firebase.svg';
 import image6 from '../../../assets/images/graphql.svg';
 import image7 from '../../../assets/images/laravel2.svg';
 import './Page8.css'; // Custom styling for transitions and cards
+import { useTranslation } from "react-i18next";
 
 const Page8 = () => {
+
+    const { t } = useTranslation();
     const [isVisible, setIsVisible] = useState(false);
     const pageRef = useRef(null);
 
     const technologies = [
         {
-            name: "React Native",
-            description: "A framework for building native apps using React.",
+            name: t('mobile5.technology1.name'),
+            description: t('mobile5.technology1.description'),
             image: image1
         },
         {
-            name: "Flutter",
-            description: "A UI toolkit for building natively compiled apps for mobile.",
+            name: t('mobile5.technology2.name'),
+            description: t('mobile5.technology2.description'),
             image: image2
         },
         {
-            name: "Swift",
-            description: "A powerful programming language for iOS app development.",
+            name: t('mobile5.technology3.name'),
+            description: t('mobile5.technology3.description'),
             image: image3
         },
         {
-            name: "Kotlin",
-            description: "A modern programming language for Android apps.",
+            name: t('mobile5.technology4.name'),
+            description: t('mobile5.technology4.description'),
             image: image4
         },
         {
-            name: "Firebase",
-            description: "A platform for building web and mobile applications.",
+            name: t('mobile5.technology5.name'),
+            description: t('mobile5.technology5.description'),
             image: image5
         },
         {
-            name: "GraphQL",
-            description: "A data query language used in some of our mobile apps.",
+            name: t('mobile5.technology6.name'),
+            description: t('mobile5.technology6.description'),
             image: image6
         },
         {
-            name: "Laravel",
-            description: "A powerful PHP framework with high rated activeness and features.",
+            name: t('mobile5.technology7.name'),
+            description: t('mobile5.technology7.description'),
             image: image7
         },
     ];
@@ -70,7 +73,7 @@ const Page8 = () => {
 
     return (
         <div className="mobile-app-container" ref={pageRef}>
-            <h1 className={`title ${isVisible ? 'slide-in-right' : ''}`}>Mobile Application Technologies</h1>
+            <h1 className={`title ${isVisible ? 'slide-in-right' : ''}`}>{t('mobile5.title')}</h1>
             <div className="technology-grid">
                 {technologies.map((tech, index) => (
                     <div key={index} className={`technology-card ${isVisible ? 'slide-in-left' : ''}`}>

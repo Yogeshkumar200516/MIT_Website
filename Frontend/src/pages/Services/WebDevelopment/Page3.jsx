@@ -1,8 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import image from '../../../assets/images/home-back2.svg';
 import './Page3.css'; // Updated CSS file with new class names
+import { useTranslation } from "react-i18next";
 
 const Page3 = () => {
+
+  const { t } = useTranslation();
   // Create refs for the text elements
   const headingRef = useRef(null);
   const descriptionRef = useRef(null);
@@ -45,20 +48,17 @@ const Page3 = () => {
         {/* Right side with the text and buttons */}
         <div className="custom-text-section">
           <h1 ref={headingRef} className="custom-heading-text">
-            We create wonderful websites with high contrast and responsive layouts
+          {t('home3.heading')}
           </h1>
           <p ref={descriptionRef} className="custom-description-text">
-            Our websites are designed to be visually captivating, interactive, and fully responsive.
-            Whether you're launching a personal blog, building an e-commerce platform, managing a business,
-            or need a custom web solution, we provide comprehensive services. From engaging visitors to
-            showcasing your products, our expertise ensures your website stands out and performs.
+          {t('home3.description')}
           </p>
 
           {/* Buttons */}
           <div className="custom-button-group">
-            <button className="custom-primary-button">UI/UX DESIGN</button>
-            <button className="custom-primary-button">USER FRIENDLY</button>
-            <button className="custom-primary-button">RESPONSIVENESS</button>
+            <button className="custom-primary-button">{t('home3.buttons.ui_ux_design')}</button>
+            <button className="custom-primary-button">{t('home3.buttons.user_friendly')}</button>
+            <button className="custom-primary-button">{t('home3.buttons.responsiveness')}</button>
           </div>
         </div>
       </div>

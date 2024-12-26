@@ -8,19 +8,22 @@ import image5 from '../../../assets/images/template5.png';
 import image6 from '../../../assets/images/template6.png';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './Page5.css'; // Import the CSS file for styling
+import { useTranslation } from "react-i18next";
 
 const Page5 = () => {
 
+    const { t } = useTranslation();
+
     const webDevelopmentDesignPoints = [
-        'Responsive design for optimal viewing on all devices',
-        'Custom web development tailored to your business needs',
-        'User-friendly interface and navigation',
-        'SEO-friendly structure for better search engine rankings',
-        'Cross-browser compatibility for a seamless user experience',
-        'Fast loading times and optimized performance',
-        'Secure web applications with data protection',
-        'CMS integration for easy content management',
-        'Creative and modern UI/UX design',
+        t('web5.scrollingText.point1'),
+        t('web5.scrollingText.point2'),
+        t('web5.scrollingText.point3'),
+        t('web5.scrollingText.point4'),
+        t('web5.scrollingText.point5'),
+        t('web5.scrollingText.point6'),
+        t('web5.scrollingText.point7'),
+        t('web5.scrollingText.point8'),
+        t('web5.scrollingText.point9'),
     ];
 
     const imageRef = useRef(null);
@@ -52,15 +55,12 @@ const Page5 = () => {
                     />
                 </div>
                 <div className="page5-right-web">
-                    <h2 className="page5-title-web">Web Development & Design</h2>
+                    <h2 className="page5-title-web">{t('web5.title')}</h2>
                     <p className="page5-description-web">
-                        At Mahisha India Technologies, we specialize in crafting user-friendly websites that cater to businesses of all sizes. 
-                        Our team ensures that your website is optimized for both desktop and mobile devices, providing a seamless experience for potential customers browsing on-the-go. 
-                        We employ cutting-edge SEO techniques to boost your website's visibility on search engine results pages (SERPs), helping you attract organic traffic and increase conversions. 
-                        Whether you're a brick and mortar store looking to expand your online presence or a university in need of a modern website, we've got you covered.
+                        {t('web5.description')}
                     </p>
                     <button className="page5-button-web">
-                        Get a Quote
+                        {t('web5.button')}
                         <ArrowForwardIcon style={{ marginLeft: '8px' }} />
                     </button>
                 </div>

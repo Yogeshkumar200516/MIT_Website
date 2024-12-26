@@ -8,19 +8,22 @@ import image5 from '../../../assets/images/mobile-img5.jpg';
 import image6 from '../../../assets/images/mobile-img6.jpg';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './Page4.css';
+import { useTranslation } from "react-i18next";
 
 const Page4 = () => {
 
+    const { t } = useTranslation();
+
     const iosDevelopmentDesignPoints = [
-        'Custom iOS app development for all business needs',
-        'Optimized performance and seamless user experience',
-        'Native iOS development with Swift and Objective-C',
-        'Incorporation of the latest iOS features like widgets and SiriKit',
-        'Enhanced security with end-to-end encryption and data protection',
-        'App Store optimization for better visibility and downloads',
-        'Integration with Apple Pay, HealthKit, and other services',
-        'Responsive designs tailored for iPhone, iPad, and Apple Watch',
-        'User-friendly, intuitive UI/UX design for iOS applications',
+        t('mobile4.scrollingText.item1'),
+        t('mobile4.scrollingText.item2'),
+        t('mobile4.scrollingText.item3'),
+        t('mobile4.scrollingText.item4'),
+        t('mobile4.scrollingText.item5'),
+        t('mobile4.scrollingText.item6'),
+        t('mobile4.scrollingText.item7'),
+        t('mobile4.scrollingText.item8'),
+        t('mobile4.scrollingText.item9'),
     ];
 
     const imageRef = useRef(null);
@@ -52,14 +55,12 @@ const Page4 = () => {
                     />
                 </div>
                 <div className="page5-right-web">
-                    <h2 className="page5-title-web">iOS App Development</h2>
+                    <h2 className="page5-title-web">{t('mobile4.heading')}</h2>
                     <p className="page5-description-web">
-                        At Mahisha India Technologies, we deliver top-notch iOS app development services to help businesses create highly efficient, secure, and engaging iOS applications.
-                        Our team specializes in building native iOS apps tailored to your specific business requirements using Swift and Objective-C. Whether it's a small-scale business or an enterprise, we ensure your app leverages the full potential of iOS features for an unparalleled user experience.
-                        From seamless integration with Apple services to optimized performance on iPhones, iPads, and Apple Watches, we cover all aspects of iOS app development, making sure your app stands out on the App Store.
+                    {t('mobile4.description')}
                     </p>
                     <button className="page5-button-web">
-                        Get a Quote
+                    {t('mobile4.button')}
                         <ArrowForwardIcon style={{ marginLeft: '8px' }} />
                     </button>
                 </div>

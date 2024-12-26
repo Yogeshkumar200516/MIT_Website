@@ -2,19 +2,22 @@ import React, { useEffect, useRef } from 'react';
 import image from '../../../assets/images/web-back5.svg';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './Page8.css'; // Import the CSS file for styling
+import { useTranslation } from "react-i18next";
 
 const Page8 = () => {
 
+    const { t } = useTranslation();
+
     const websiteMaintenancePoints = [
-        'Regular updates to website software and plugins',
-        'Monitoring website performance and uptime',
-        'Ensuring security patches and vulnerability fixes',
-        'Content updates and management',
-        'Backup and restore services to prevent data loss',
-        'Fixing broken links and addressing technical issues',
-        'Optimizing website speed and performance regularly',
-        'Ensuring compatibility with new browsers and devices',
-        'Providing ongoing support and troubleshooting',
+        t('web9.scrollingText.1'),
+        t('web9.scrollingText.2'),
+        t('web9.scrollingText.3'),
+        t('web9.scrollingText.4'),
+        t('web9.scrollingText.5'),
+        t('web9.scrollingText.6'),
+        t('web9.scrollingText.7'),
+        t('web9.scrollingText.8'),
+        t('web9.scrollingText.9'),
     ];
     
 
@@ -40,13 +43,13 @@ const Page8 = () => {
         <div className="page8-container-web">
             <div className="page8-content-web">
                 <div className="page8-left-web">
-                <h2 className="page8-title-web">Website Maintenance</h2>
+                <h2 className="page8-title-web">{t('web9.title')}</h2>
                 <p className="page8-description-web">
-                    At Mahisha India Technologies, we offer comprehensive website maintenance services to ensure your online presence remains effective and up-to-date. Our dedicated team monitors your site for performance issues, security vulnerabilities, and outdated content, allowing you to focus on your business while we take care of the technical aspects. We provide regular updates, backups, and security checks to keep your website running smoothly. With our proactive maintenance plans, you can enhance user experience, maintain search engine rankings, and respond swiftly to any issues that may arise. Trust us to keep your website performing at its best.
+                    {t('web9.description')}
                 </p>
 
                     <button className="page8-button-web">
-                        Get a Quote
+                        {t('web9.buttonText')}
                         <ArrowForwardIcon style={{ marginLeft: '8px' }} />
                     </button>
                 </div>

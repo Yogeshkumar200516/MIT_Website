@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from "react";
 import "./Page1.css";
+import { useTranslation } from "react-i18next";
 
 const Page1 = () => {
-  // Array for team values and skills
+  const { t } = useTranslation();  // Fetch translation function
+
+  // Array for team values and skills (values will now be translated)
   const teamValues = [
-    'Collaboration & Teamwork',
-    'Innovation & Creativity',
-    'Problem-Solving Expertise',
-    'Adaptability & Agility',
-    'Commitment to Quality',
-    'Customer-Centric Approach',
-    'Continuous Learning & Growth',
+    t('team1.teamValues.value1'),
+    t('team1.teamValues.value2'),
+    t('team1.teamValues.value3'),
+    t('team1.teamValues.value4'),
+    t('team1.teamValues.value5'),
+    t('team1.teamValues.value6'),
+    t('team1.teamValues.value7'),
   ];
 
   const handleQuoteClick = (e) => {
@@ -29,13 +32,14 @@ const Page1 = () => {
   return (
     <div className={`digital-page-container ${inView ? "animate" : ""}`}>
       <div className="digital-content-section">
-        <h1 className="digital-title">Our Team</h1>
+        <h1 className="digital-title">{t('team1.title')}</h1> {/* Translated title */}
         <p className="digital-subtext">
-          Our team is united by a shared vision and a strong commitment to excellence. We bring together diverse skill sets to create impactful solutions and drive success for our clients.
+          {t('team1.subtext')} {/* Translated subtext */}
         </p>
         <div className="digital-button-group">
-          <button className="digital-explore-btn" onClick={handleQuoteClick}>Join Us</button>
-          {/* <button className="webdev-special-btn">Special Offer!</button> */}
+          <button className="digital-explore-btn" onClick={handleQuoteClick}>
+            {t('team1.joinUs')} {/* Translated button text */}
+          </button>
         </div>
       </div>
 

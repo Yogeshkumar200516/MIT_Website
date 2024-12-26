@@ -1,10 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 import image from '../../assets/images/home-back8.svg';
 import './Page7.css';
+import { useTranslation } from 'react-i18next';
 
 const Page7 = () => {
   const [isVisible, setIsVisible] = useState(false);
   const pageRef = useRef(null);
+
+  const { t } = useTranslation();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -36,24 +39,24 @@ const Page7 = () => {
     <div className={`page7-wrapper ${isVisible ? 'fade-in' : ''}`} ref={pageRef}>
       <div className="page7-content">
         <h1 className={`slide-from-top ${isVisible ? 'animate' : ''}`}>
-          We’re here for your E-Commerce everything
+        {t('home9.title')}
         </h1>
         <div className="page7-feature">
-          <h2 className={`slide-from-left ${isVisible ? 'animate' : ''}`}>Get a project manager</h2>
+          <h2 className={`slide-from-left ${isVisible ? 'animate' : ''}`}>{t('home9.features.feature1.title')}</h2>
           <p className={`slide-from-right ${isVisible ? 'animate' : ''}`}>
-            To guide you through each stage of launching your e-Commerce business
+          {t('home9.features.feature1.description')}
           </p>
         </div>
         <div className="page7-feature">
-          <h2 className={`slide-from-left ${isVisible ? 'animate' : ''}`}>Accelerate time-to-market</h2>
+          <h2 className={`slide-from-left ${isVisible ? 'animate' : ''}`}>{t('home9.features.feature2.title')}</h2>
           <p className={`slide-from-right ${isVisible ? 'animate' : ''}`}>
-            With a dedicated team of top-tier freelance experts
+          {t('home9.features.feature2.description')}
           </p>
         </div>
         <div className="page7-feature">
-          <h2 className={`slide-from-left ${isVisible ? 'animate' : ''}`}>Optimize your budget</h2>
+          <h2 className={`slide-from-left ${isVisible ? 'animate' : ''}`}>{t('home9.features.feature3.title')}</h2>
           <p className={`slide-from-right ${isVisible ? 'animate' : ''}`}>
-            With a dedicated project manager who will handle all your tasks, leaving you more money for marketing and growth
+          {t('home9.features.feature3.description')}
           </p>
         </div>
       </div>

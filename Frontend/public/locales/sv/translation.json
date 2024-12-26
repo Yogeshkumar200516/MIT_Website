@@ -1,0 +1,944 @@
+{
+    "navbar": {
+      "home": "Hem",
+      "about_us": "Om oss",
+      "our_team": "Vårt team",
+      "website_development": "Webbplatsutveckling",
+      "digital_marketing": "Digital marknadsföring",
+      "mobile_applications": "Mobilapplikationer",
+      "billing_software": "Faktureringsprogramvara",
+      "software_consultants": "Programvarukonsulter",
+      "responsive_websites": "Webbplatser med hög responsivitet",
+      "ui_ux_design": "Attraktiv användargränssnitt/användarupplevelse",
+      "active_learners": "50+ aktiva lärande",
+      "free_idea": "Ring oss och få en gratis idé för din affärstillväxt",
+      "ecommerce_solutions": "E-Commerce lösningar",
+      "explore": "Utforska",
+      "services": "Tjänster",
+      "contact_us": "Kontakta oss",
+      "join_us": "Gå med oss",
+      "en": "Engelska",
+    "ta": "Tamil",
+    "ja": "Japanska",
+    "sv": "Svenska",
+    "zh": "Kinesiska",
+    "hi": "Hindi",
+    "kn": "Kannada",
+    "ml": "Malayalam",
+    "te": "Telugu"
+    },
+    "footer": {
+    "header": "Börja bygga fantastiska webbplatser",
+    "text": "Gå med de 12 653 898 kunder som redan bygger fantastiska webbplatser med oss.",
+    "get_a_quote": "Få en offert",
+    "contact_us": "Kontakta oss",
+    "company_info": "Vi utvecklar webbplatser för ditt företag, gör din vision till verklighet och tar ditt företag in i den digitala världen.",
+    "company_links": {
+      "about_us": "Om oss",
+      "internships": "Praktikplatser",
+      "consultant": "Konsult",
+      "career": "Karriär",
+      "contact_us": "Kontakta oss"
+    },
+    "services_links": {
+      "website_services": "Webbtjänster",
+      "digital_marketing": "Digital marknadsföring",
+      "mobile_applications": "Mobilapplikationer",
+      "billing_software": "Fakturaprogramvara"
+    },
+    "still_need_help": "Behöver du fortfarande hjälp?",
+    "email": "mahishaindiatechnologies@gmail.com",
+    "phone": "+91 70949 53135",
+    "whatsapp": "+91 81108 18281",
+    "footer_text": "Mahisha India Technologies Private Limited | Alla rättigheter förbehållna."
+  },
+  "home1": {
+    "title": "Webbutveckling och Digital Marknadsföring Företag",
+    "subtitle": "Väx ditt företag med Mahisha India Technologies",
+    "description": "Få en professionell webbplats och digital marknadsföringsstöd för ditt företag inom din budget.",
+    "button": "Låt oss prata"
+  },
+  "home2": {
+    "title": "Våra tjänster",
+    "description": "Omfattande webbplatstjänster för att tända din onlineframgång. Stärk ditt företag med kraftfulla onlinetjänster från vår webbplats.",
+    "services": {
+      "digital_marketing": {
+        "title": "Digital marknadsföring",
+        "description": "Öka din online-närvaro och anslut till fler personer med våra smarta strategier för digital marknadsföring.",
+        "explore": "Utforska"
+      },
+      "web_development": {
+        "title": "Webbutveckling",
+        "description": "Vi skapar attraktiva, lättanvända webbplatser som representerar ditt varumärke väl och hjälper dig att nå fler kunder online.",
+        "explore": "Utforska"
+      },
+      "billing_software": {
+        "title": "Fakturering Programvara",
+        "description": "Förenkla fakturering med snabb, exakt och användarvänlig programvara som effektiviserar och förbättrar din verksamhet.",
+        "explore": "Utforska"
+      }
+    }
+  },
+  "home3": {
+    "heading": "Vi skapar fantastiska webbplatser med hög kontrast och responsiva layouter",
+    "description": "Våra webbplatser är designade för att vara visuellt tilltalande, interaktiva och fullt responsiva. Oavsett om du lanserar en personlig blogg, bygger en e-handelsplattform, hanterar ett företag eller behöver en anpassad webbplatslösning, erbjuder vi omfattande tjänster. Från att engagera besökare till att visa upp dina produkter säkerställer vår expertis att din webbplats sticker ut och presterar.",
+    "buttons": {
+      "ui_ux_design": "UI/UX DESIGN",
+      "user_friendly": "ANVÄNDARVÄNLIG",
+      "responsiveness": "RESPONSIVITET"
+    }
+  },
+  "home4": {
+  "description": "På Mahisha India Technologies är vi här för att hjälpa dig med allt digitalt. Vårt unga och framåtsträvande team håller sig uppdaterat med de senaste trenderna inom marknadsföring och försäljning. Låt oss hjälpa dig att växa din verksamhet tiofaldigt.",
+  "stats": {
+    "projects_ideas": "Projektidéer",
+    "happy_clients": "Nöjda kunder",
+    "ratings": "Betyg",
+    "learning_interns": "Lärande praktikanter"
+  }
+},
+"home5": "Vi stärker din digitala resa och driver tillväxt och framgång hand i hand.",
+"home6": {
+    "title": "Det du behöver har vi",
+    "services": {
+      "blogWriting": "Bloggskrivning",
+      "socialMediaManagement": "Sociala medier-hantering",
+      "graphicDesign": "Grafisk design",
+      "websiteDevelopment": "Webbplatsutveckling",
+      "photography": "Fotografering",
+      "customerSoftwareDevelopment": "Anpassad mjukvaruutveckling",
+      "business": "Affärsverksamhet",
+      "founderLeadBranding": "Grundarledd varumärkning"
+    }
+  },
+  "home7": {
+    "title": "Varför människor älskar oss",
+    "description": "På Mahisha India Technologies handlar det om att växa tillsammans. Vi är en startup som prioriterar våra kunders tillväxt över vinst. Vi tror på att skapa verkligt värde och bygga långvariga relationer. Vårt dedikerade team gör sitt yttersta för att säkerställa din framgång. Gå med oss och låt oss uppnå fantastiska saker tillsammans!",
+    "features": {
+      "supportSystem": {
+        "title": "Supportsystem",
+        "description": "Vårt dedikerade supportteam tillhandahåller snabb hjälp, vägledning och lösningar, vilket säkerställer att våra kunder känner sig stöttade varje steg på vägen."
+      },
+      "friendlyRelationship": {
+        "title": "Vänlig relation",
+        "description": "Vi prioriterar att bygga genuina relationer, främja förtroende och skapa en välkomnande miljö där kunder känner sig värderade och förstådda."
+      },
+      "businessStrategies": {
+        "title": "Affärsstrategier",
+        "description": "Vi erbjuder innovativa, skräddarsydda strategier som driver tillväxt och framgång, vilket gör det möjligt för företag att blomstra i dagens dynamiska marknad med självförtroende och tydlighet."
+      }
+    }
+  },
+  "home8": {
+    "title": "Vi hjälper varumärken att öka deras närvaro online",
+    "description": "På Mahisha India Technologies är vi specialiserade på att öka ditt varumärkes synlighet och engagemang online. Vårt expertteam skapar skräddarsydda digitala strategier för att förbättra din webbplats, optimera sociala medier och driva målinriktad trafik. Vi fokuserar på dina unika mål för att attrahera nya kunder och bygga långvarig lojalitet. Låt oss hjälpa dig att navigera i den digitala världen och växa din online-närvaro effektivt.",
+    "websiteNames": {
+      "designAgencyWebsite": "Designbyrå Webbplats",
+      "digitalMarketingWebsite": "Digital Marknadsföring Webbplats",
+      "universityCollegeWebsite": "Universitet/Högskola Webbplats",
+      "educationalWebsite": "Utbildning Webbplats",
+      "eCommerceWebsite": "E-handels Webbplats",
+      "travelAgencyWebsite": "Resebyrå Webbplats",
+      "hospitalWebsite": "Sjukhus Webbplats",
+      "tourismWebsite": "Turism Webbplats",
+      "realEstateWebsite": "Fastighet Webbplats"
+    }
+  },
+  "home9": {
+    "title": "Vi är här för allt som rör din E-Commerce",
+    "features": {
+      "feature1": {
+        "title": "Få en projektledare",
+        "description": "För att vägleda dig genom varje steg av att starta ditt e-handelsföretag"
+      },
+      "feature2": {
+        "title": "Accelerera tid till marknaden",
+        "description": "Med ett dedikerat team av toppklassade frilansspecialister"
+      },
+      "feature3": {
+        "title": "Optimera din budget",
+        "description": "Med en dedikerad projektledare som hanterar alla dina uppgifter, så att du får mer pengar till marknadsföring och tillväxt"
+      }
+    }
+  },
+  "home10": {
+    "title": "Vad folk säger",
+    "speaker": "Talare",
+    "quote": "Citat",
+    "designation": "Befattning",
+    "testimonial1": {
+      "speaker": "Marknadsföringsexpert",
+      "quote": "Sixty Labs levererade exceptionella resultat. Deras kreativa strategier och noggranna marknadsanalys var avgörande för kampanjens framgång.",
+      "designation": "Marknadsföringsdirektör"
+    },
+    "testimonial2": {
+      "speaker": "Affärsstrateg",
+      "quote": "Deras innovativa lösningar och uppmärksamhet på detaljer hjälpte oss att snabbt växa.",
+      "designation": "Affärschef"
+    },
+    "testimonial3": {
+      "speaker": "E-Commerce Konsult",
+      "quote": "Teamets expertis inom e-handel var avgörande för att uppnå våra tillväxtmål.",
+      "designation": "E-Commerce Direktör"
+    },
+    "testimonial4": {
+      "speaker": "Projektledare",
+      "quote": "Sixty Labs hanterade vårt projekt sömlöst och levererade i tid och inom budget.",
+      "designation": "Operations Chef"
+    },
+    "testimonial5": {
+      "speaker": "Frilans Expert",
+      "quote": "Fantastisk erfarenhet att samarbeta med dem! De förstår verkligen frilans ekosystemet.",
+      "designation": "Frilans Konsult"
+    }
+  },
+  "about1": {
+    "title": "Om Oss",
+    "subtext": "Embark on a journey with Nexus Info, where innovation meets expertise, and discover how we transform ideas into impactful digital solutions for your business.",
+    "buttonExplore": "Utforska Nu",
+    "scrollingOptions": {
+      "ourStory": "Vår Historia",
+      "ourMission": "Vårt Uppdrag",
+      "ourValues": "Våra Värderingar",
+      "meetTheTeam": "Möt Teamet",
+      "companyHistory": "Företagets Historia",
+      "careers": "Karriärer",
+      "testimonials": "Vittnesmål",
+      "pressAndMedia": "Press och Media",
+      "communityInvolvement": "Gemenskapsengagemang",
+      "sustainabilityEfforts": "Hållbarhetsarbete"
+    }
+  },
+  "about2": {
+    "aboutHeading": "Ungt team som driver digital innovation och kreativitet",
+    "aboutDescription": "På Mahisha India Technologies är vi ett dynamiskt team av unga sinnen som brinner för digital innovation och kreativitet. Med nya perspektiv och oändlig energi tar vi oss an varje projekt med entusiasm och engagemang.",
+    "buttonText": "Gå med oss"
+  },
+  "about3": {
+    "aboutUsSubtext": "Bra mjukvara är ett konstverk, och bra konst tar tid. Våra team spenderar år på att bemästra sitt hantverk för att leverera exceptionella produkter som kunderna älskar. Mjukvara är inte bara vår lön",
+    "aboutUsTitle": "Det är vårt",
+    "typingEffectTextCraft": "Konst.",
+  "typingEffectTextPassion": "Passion.",
+  "typingEffectTextMission": "Uppdrag.",
+  "typingEffectTextCommitment": "Engagemang.",
+  "typingEffectTextGoal": "Mål."
+  },
+  "about4": {
+    "aboutTitle": "Stärka tillväxt genom samarbetsinriktad innovation och engagemang.",
+    "aboutDescription": "Mahisha India Technologies fokuserar inte bara på webbplatser, vi är din strategiska partner för att utöka ditt digitala fotavtryck. Med ett skarpt öga på de senaste trenderna navigerar vi i det dynamiska landskapet för online-tillväxt och säkerställer att ditt företag blomstrar i den digitala eran. Låt oss höja ditt varumärke och nå nya höjder tillsammans.",
+    "card1Title": "Våra prestationer",
+    "card1Description": "Genom åren har vi framgångsrikt slutfört över 100 webbplatser för kunder från startups till multinationella företag. Varje projekt visar vårt engagemang för kvalitet och kundnöjdhet.",
+    "card2Title": "Stärka startups",
+    "card2Description": "Vi specialiserar oss på att hjälpa startups att blomstra i den digitala världen. Från att bygga deras online-närvaro till att implementera strategiska digitala marknadsföringsinitiativ, är vi engagerade i att främja deras tillväxt och framgång.",
+    "card3Title": "Vårt motto",
+    "card3Description": "\"Växa tillsammans\" är inte bara en slogan för oss; det är vår vägledande princip. Vi tror på att bygga samarbetspartnerskap med våra kunder, växa tillsammans med dem och fira gemensamma framgångar. Tillsammans formar vi en ljusare digital framtid.",
+    "card4Title": "Vår strategi",
+    "card4Description": "Vi närmar oss varje projekt med en blandning av kreativitet, innovation och strategiskt tänkande. Genom att förstå våra kunders unika behov och mål, skräddarsyr vi lösningar som levererar konkreta resultat och skapar långsiktig framgång."
+  },
+  "about5": {
+    "journeyHeading": "Mahisha India Technologies resa",
+    "mainHeading": "Vi arbetar digitalt, utan offlinekontor och onödiga utgifter",
+    "description": "Mahisha India Technologies, grundat av en ung entreprenör, har ett dynamiskt team av entusiastiska individer som är skickliga på att navigera genom de senaste trenderna.",
+    "visionTitle": "Vår vision",
+    "visionDescription": "Vår vision är att stärka företag genom att ge dem unikt skräddarsydda webbplatser så att de kan blomstra i den digitala världen.",
+    "missionTitle": "Vårt uppdrag",
+    "missionDescription": "Att säkerställa att varje företag kan etablera en stark online-närvaro genom att erbjuda dem personliga webbplatser."
+  },
+  "about6": {
+    "heading": "Vi har belönats med människors stöd genom sociala medier",
+    "linkedin": {
+      "platform": "LinkedIn",
+      "info": "Top Startup India 2023"
+    },
+    "google": {
+      "platform": "Google Reviews",
+      "info": "Betyg 4.8/5 500+ Recensioner"
+    },
+    "instagram": {
+      "platform": "Instagram",
+      "info": "35k+ Följare (Familj)"
+    }
+  },
+  "team1": {
+    "title": "Vårt Team",
+    "subtext": "Vårt team är förenat av en gemensam vision och ett starkt engagemang för excellens. Vi sammanför olika färdigheter för att skapa kraftfulla lösningar och driva framgång för våra kunder.",
+    "joinUs": "Bli med oss",
+    "teamValues": {
+      "value1": "Samarbete & Teamarbete",
+      "value2": "Innovation & Kreativitet",
+      "value3": "Problemlösningsexpertis",
+      "value4": "Anpassningsförmåga & Smidighet",
+      "value5": "Engagemang för Kvalitet",
+      "value6": "Kundcentrerad Tillvägagångssätt",
+      "value7": "Kontinuerligt Lärande & Tillväxt"
+    }
+  },
+  "team2": {
+    "title": "Vårt teams potentialer",
+    "intro": "Möt vårt dedikerade team av professionella som brinner för att skapa effektiva lösningar och leverera excellens i varje projekt.",
+    "teamMember1": {
+      "name": "Vignesh Vasanth",
+      "role": "Fullstack Developer",
+      "experience": "6 år",
+      "location": "Sathyamangalam, Indien",
+      "email": "vigneshvasanthc@gmail.com",
+      "description": "Erfarenhet av att bygga skalbara webbapplikationer med Angular, Node.js och MongoDB."
+    },
+    "teamMember2": {
+      "name": "Devvidyasagar",
+      "role": "DevOps Ingenjör",
+      "experience": "3 år",
+      "location": "Sathyamangalam, Indien",
+      "email": "devvidyasagar@gmail.com",
+      "description": "Specialiserad på molninfrastruktur, CI/CD-pipelines och containerisering."
+    },
+    "teamMember3": {
+      "name": "Jeevan Kumar",
+      "role": "Full-Stack Developer",
+      "experience": "4 år",
+      "location": "Coimbatore, Indien",
+      "email": "jeevan@gmail.com",
+      "description": "Expert på att utveckla RESTful API, databasåtkomst och server-side-språk."
+    },
+    "teamMember4": {
+      "name": "Gopal Chandran",
+      "role": "Full-Stack Developer",
+      "experience": "6 år",
+      "location": "Coimbatore, Indien",
+      "email": "gopalchandru@gmail.com",
+      "description": "Fokus på RESTful API-utveckling, databaser och server-side-optimering."
+    },
+    "teamMember5": {
+      "name": "Dharun Ramesh",
+      "role": "UI/UX Designer",
+      "experience": "5 år",
+      "location": "Coimbatore, Indien",
+      "email": "dharun@gmail.com",
+      "description": "Designar engagerande och användarvänliga gränssnitt."
+    },
+    "teamMember6": {
+      "name": "Yogesh Kumar",
+      "role": "Frontend Developer",
+      "experience": "1 år",
+      "location": "Sathyamangalam, Indien",
+      "email": "yogeshkumar.s.radha@gmail.com",
+      "description": "Specialiserad på JavaScript-ramverk, tillgänglighet och prestandaoptimering."
+    }
+  },
+  "web1": {
+  "title": "Webbplatsutveckling",
+  "subtext": "Våra webbdesign- och utvecklingstjänster är utformade för att förvandla din online-närvaro till en fängslande och högpresterande plattform.",
+  "exploreButton": "Utforska nu",
+  "specialOfferButton": "Specialerbjudande!",
+  "websiteNames": {
+    "designAgency": "Designbyråwebbplats",
+    "digitalMarketing": "Digital marknadsföringswebbplats",
+    "universityCollege": "Universitet/Högskola-webbplats",
+    "educational": "Utbildningswebbplats",
+    "ecommerce": "E-handelswebbplats",
+    "travelAgency": "Resebyråwebbplats",
+    "hospital": "Sjukhuswebbplats",
+    "tourism": "Turismwebbplats",
+    "realEstate": "Fastighetswebbplats"
+  }
+},
+"web2": {
+  "title": "Webbdesign och utveckling",
+  "subtext": "Vårt erfarna team av designers skapar anpassade webbdesigner som speglar din varumärkesidentitet och resonerar med dina målgrupper. Vi prioriterar användarupplevelsen och säkerställer smidig navigering och responsivitet på alla enheter, från datorer till mobiler.",
+  "service1": {
+    "title": "Webbutveckling och design",
+    "description": "Vi är specialiserade på att skapa användarvänliga webbplatser som passar företag av alla storlekar."
+  },
+  "service2": {
+    "title": "E-handelslösningar",
+    "description": "Ta din nätbutik till nästa nivå med våra omfattande e-handelslösningar."
+  },
+  "service3": {
+    "title": "Webbplatsunderhåll",
+    "description": "Våra underhållstjänster säkerställer att din webbplats förblir uppdaterad och säker."
+  },
+  "service4": {
+    "title": "Webbplatsförnyelse",
+    "description": "Våra tjänster för webbplatsförnyelse är utformade för att ge nytt liv åt föråldrade webbplatser."
+  }
+},
+"web4": {
+  "title": "Vilka teknologier ger mest värde till ditt företag?",
+  "subtitle": "Lös kundproblem genom att välja toppmoderna teknologier för din teknikstack. Ta ditt företag till nästa nivå med rätt lösningar anpassade till dina egna behov."
+},
+"web5": {
+  "title": "Webbdesign och utveckling",
+  "description": "På Mahisha India Technologies specialiserar vi oss på att skapa användarvänliga webbplatser som passar företag i alla storlekar. Vårt team säkerställer att din webbplats är optimerad för både skrivbord och mobila enheter, vilket ger en sömlös upplevelse för potentiella kunder när de är på språng. Vi använder avancerade SEO-tekniker för att öka synligheten på sökmotorresultatsidor (SERP), vilket hjälper dig att attrahera organisk trafik och öka konverteringar. Oavsett om du är en fysisk butik som vill utöka din online-närvaro eller ett universitet som behöver en modern webbplats, har vi lösningen.",
+  "button": "Få en offert",
+  "scrollingText": {
+    "point1": "Responsiv design för optimal visning på alla enheter",
+    "point2": "Anpassad webbplatsutveckling anpassad efter dina affärsbehov",
+    "point3": "Användarvänligt gränssnitt och navigering",
+    "point4": "SEO-vänlig struktur för bättre sökmotorrankning",
+    "point5": "Korswebbläsarkompatibilitet för en sömlös användarupplevelse",
+    "point6": "Snabb laddningstid och optimerad prestanda",
+    "point7": "Säkra webbapplikationer med dataskydd",
+    "point8": "CMS-integration för enkel hantering av innehåll",
+    "point9": "Kreativ och modern UI/UX-design"
+  }
+},
+"web6": {
+  "title": "Ecommerce Lösningar",
+  "description": "På Mahisha India Technologies erbjuder vi omfattande ecommerce-lösningar utformade för att höja din onlineverksamhet. Vårt team specialiserar sig på att utveckla robusta, skalbara och säkra ecommerce-plattformar som är skräddarsydda för att möta dina affärers specifika behov. Från intuitiva kundvagnsfunktioner till sömlös betalningshantering och användarvänliga produktledningssystem säkerställer vi en smidig shoppingupplevelse för dina kunder. Med vår expertintegration av avancerade analysverktyg kan du spåra kundbeteende och optimera dina strategier för att driva försäljning. Oavsett om du startar ett nytt företag eller vill förbättra din nuvarande ecommerce-webbplats, är vi engagerade i att hjälpa dig att lyckas på den digitala marknaden.",
+  "button": "Få en offert",
+  "scrollingText": {
+    "point1": "Användarvänlig shoppingupplevelse för kunder",
+    "point2": "Säker betalningshantering och transaktionshantering",
+    "point3": "Robust lagerhanteringssystem",
+    "point4": "Anpassningsbara produktlistor och kategorier",
+    "point5": "Mobilanpassad design för shopping på språng",
+    "point6": "Integration med olika fraktalternativ",
+    "point7": "Avancerad analys för att spåra kundbeteende",
+    "point8": "SEO-optimering för ökad synlighet",
+    "point9": "Multikanal-försäljningsförmåga (t.ex. sociala medier, marknadsplatser)"
+  }
+},
+"web7": {
+  "title": "Webbapplikationstekniker",
+  "technology1": {
+    "name": "HTML",
+    "description": "Standard markup-språk som används för att skapa strukturen på webbsidor."
+  },
+  "technology2": {
+    "name": "CSS",
+    "description": "Ett stilmallsspråk som används för att beskriva utseendet och layouten av webbdokument."
+  },
+  "technology3": {
+    "name": "JavaScript",
+    "description": "Ett mångsidigt skriptspråk som aktiverar dynamiskt beteende på webbsidor."
+  },
+  "technology4": {
+    "name": "React",
+    "description": "Ett JavaScript-bibliotek som används för att skapa snabba och interaktiva användargränssnitt."
+  },
+  "technology5": {
+    "name": "Angular",
+    "description": "En plattform och ramverk som används för att skapa en-sidiga klientapplikationer med HTML och TypeScript."
+  },
+  "technology6": {
+    "name": "Node.js",
+    "description": "En JavaScript-runtime som tillåter serverside-skriptning och gör det möjligt att köra JavaScript utanför webbläsaren."
+  },
+  "technology7": {
+    "name": "Express.js",
+    "description": "Node.js webbapplikationsramverk som erbjuder ett kraftfullt set för webb- och mobilapplikationer."
+  },
+  "technology8": {
+    "name": "MongoDB",
+    "description": "En NoSQL-databasprogram som använder dokument liknande JSON och valfria scheman."
+  },
+  "technology9": {
+    "name": "MySQL",
+    "description": "En populär öppen källkod relationell databas hanteringssystem som använder SQL (Structured Query Language)."
+  },
+  "technology10": {
+    "name": "PostgreSQL",
+    "description": "En öppen källkod relationsdatabashanteringssystem som är känt för sina avancerade funktioner och SQL-standardkompatibilitet."
+  },
+  "technology11": {
+    "name": "Java",
+    "description": "En hög nivå, klass-baserad objektorienterad programmeringsspråk som används för att skapa kraftfulla och portabla applikationer."
+  }
+},
+"web8": {
+  "title": "Webbplatsomdesign",
+  "description": "På Mahisha India Technologies förstår vi vikten av att hålla din webbplats fräsch och engagerande. Våra tjänster för webbplatsomdesign är utformade för att ge nytt liv åt din online-närvaro. Vi fokuserar på att modernisera din webbplats design, förbättra användarupplevelsen och förbättra funktionaliteten. Vårt team analyserar din nuvarande webbplats för att identifiera områden som kan förbättras och säkerställer att din omdesignade webbplats inte bara är visuellt tilltalande utan också optimerad för prestanda och SEO. Oavsett om du behöver en fullständig omdesign eller specifika uppdateringar av vissa sektioner, är vi dedikerade att omvandla din webbplats till ett kraftfullt verktyg för affärstillväxt.",
+  "buttonText": "Få en offert",
+  "scrollingText": {
+    "1": "Omdesigna gamla webbplatser med modern estetik",
+    "2": "Förbättra webbplatsens prestanda och laddningstider",
+    "3": "Optimera användarupplevelse och navigationsflöde",
+    "4": "Uppgradera till responsiv design för bättre mobilåtkomst",
+    "5": "Integrera avancerade SEO-strategier för bättre rankning",
+    "6": "Förbättra säkerhetsfunktioner för bättre dataskydd",
+    "7": "Inkorporera nya funktioner och egenskaper",
+    "8": "Migrera till moderna CMS-plattformar för enklare hantering",
+    "9": "Justera webbplatsdesignen med de senaste trenderna och teknologierna"
+  }
+},
+"web9": {
+  "title": "Webbplatsunderhåll",
+  "description": "På Mahisha India Technologies erbjuder vi omfattande webbplatsunderhållstjänster för att säkerställa att din online-närvaro förblir effektiv och uppdaterad. Vårt dedikerade team övervakar din webbplats för prestandaproblem, säkerhetshot och föråldrat innehåll, vilket gör att du kan fokusera på din verksamhet medan vi tar hand om de tekniska aspekterna. Vi tillhandahåller regelbundna uppdateringar, säkerhetskopior och säkerhetskontroller för att hålla din webbplats igång smidigt. Med våra proaktiva underhållsplaner kan du förbättra användarupplevelsen, upprätthålla sökmotorrankningar och snabbt åtgärda eventuella problem som uppstår. Lita på oss för att hålla din webbplats presterande på bästa sätt.",
+  "buttonText": "Få en offert",
+  "scrollingText": {
+    "1": "Regelbundna uppdateringar för webbplatsens programvara och tillägg",
+    "2": "Övervaka webbplatsens prestanda och upptid",
+    "3": "Säkerställa säkerhetspatchar och sårbarhetsfixar",
+    "4": "Innehållsuppdateringar och hantering",
+    "5": "Säkerhetskopiering och återställningstjänster för att förhindra dataloss",
+    "6": "Reparera trasiga länkar och åtgärda tekniska problem",
+    "7": "Optimera webbplatsens hastighet och prestanda regelbundet",
+    "8": "Säkerställa kompatibilitet med nya webbläsare och enheter",
+    "9": "Ge kontinuerligt stöd och felsökning"
+  }
+},
+"digital1": {
+  "title": "Digital Marknadsföring",
+  "subtext": "Maximera din digitala framgång och lås upp din digitala potential. Driv tillväxt och maximera din närvaro online med strategiska digitala marknadsföringslösningar som levererar mätbara resultat.",
+  "exploreButton": "Utforska nu",
+  "scrollingText": {
+    "1": "Sociala medier hantering",
+    "2": "Innehållsmarknadsföring",
+    "3": "E-postmarknadsföring",
+    "4": "SEO-tjänster",
+    "5": "Personlig varumärkesbyggande",
+    "6": "Sociala medier marknadsföring"
+  }
+},
+"digital2": {
+  "title": "Lås upp din digitala potential",
+  "subtext": "Höj din närvaro online med våra strategiska digitala marknadsföringslösningar anpassade efter ditt företags behov.",
+  "services": {
+    "service1": {
+      "title": "Sociala medier marknadsföring",
+      "description": "Öka engagemang och räckvidd med målinriktad sociala medier."
+    },
+    "service2": {
+      "title": "Sociala medier hantering",
+      "description": "Effektiv hantering av sociala medieplattformar för maximal påverkan."
+    },
+    "service3": {
+      "title": "Personlig varumärkesbyggande",
+      "description": "Grundare använder personlig varumärkesbyggande på sociala medier för att marknadsföra sina varumärken."
+    },
+    "service4": {
+      "title": "Innehållsmarknadsföring",
+      "description": "Engagera publik med övertygande och värdefulla innehållsstrategier."
+    },
+    "service5": {
+      "title": "E-postmarknadsföring",
+      "description": "Nå kunder direkt med personliga e-postkampanjer."
+    },
+    "service6": {
+      "title": "SEO-tjänster",
+      "description": "Öka synligheten online och attrahera mer organisk trafik."
+    }
+  }
+},
+"digital3": {
+  "title": "Forskning och Planering",
+  "subtitle": "Digital marknadsföring är en process för att marknadsföra och växa virtuella företag i den digitala världen. Vi förstår dess vikt och våra experter optimerar webbplatser med organiska leads som hjälper till att växa affärer på alla sätt."
+},
+"digital4": {
+  "title": "Sociala medier marknadsföring",
+  "paragraph1": "I dagens digitala värld handlar sociala medier inte bara om att dela bilder och uppdateringar; det är ett kraftfullt verktyg för företag att koppla samman med sin publik. Våra sociala medier marknadsföringstjänster är designade för att höja ditt varumärkes närvaro på plattformar som Facebook, Instagram, Twitter och LinkedIn.",
+  "paragraph2": "Vi skapar engagerande innehåll, kör riktade annonskampanjer och interagerar med din publik för att bygga meningsfulla relationer och skapa resultat. Från att öka varumärkesmedvetenhet till att generera leads och öka försäljningen, utnyttjar vi sociala mediers fulla potential för att hjälpa ditt företag att blomstra i den digitala världen. Låt oss tillsammans göra ditt varumärke glänsa i det digitala rampljuset!",
+  "socialStats": {
+    "linkedin": {
+      "name": "LinkedIn",
+      "followers": "9000+ Följare"
+    },
+    "googleReviews": {
+      "name": "Google Recensioner",
+      "followers": "Betyg 4.6/5, 500+ Recensioner"
+    },
+    "instagram": {
+      "name": "Instagram",
+      "followers": "10,000+ Följare"
+    }
+  }
+},
+"digital5": {
+  "title": "Sociala medier hantering",
+  "paragraph": "Att effektivt hantera din sociala medier närvaro kräver mer än bara att posta regelbundet; det kräver en strategisk metod som resonerar med din publik. Våra sociala medier hanteringstjänster omfattar allt från innehållsskapande och schemaläggning till communityengagemang och prestandaövervakning.",
+  "faq1": {
+    "question": "Hur ofta ska jag posta på sociala medier?",
+    "answer": "Frekvensen på dina inlägg beror på din publik och de plattformar du använder. Generellt sett är det bra att posta 3-5 gånger i veckan. Konsistens är nyckeln, så hitta ett schema som fungerar för dig och håll fast vid det."
+  },
+  "faq2": {
+    "question": "Hur vet jag om min sociala medier strategi fungerar?",
+    "answer": "Du kan mäta framgången av din strategi genom olika mätvärden, som engagemangsgrad, följarökning och konverteringsgrad. Använd analysverktyg för att spåra dessa mätvärden och justera din strategi efter behov."
+  },
+  "faq3": {
+    "question": "Bör jag outsourca sociala medier hantering eller hantera det internt?",
+    "answer": "Outsourcing kan ge expertkunskap och spara tid, medan intern hantering ger mer kontroll och varumärkeskonsekvens. Bedöm dina resurser, din budget och dina mål för att fatta det bästa beslutet för ditt företag."
+  },
+  "socialMediaImages": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn"
+  }
+},
+"digital6": {
+  "heading": "Personligt varumärke",
+  "description": "I dagens marknad tar grundare och ägare steget framåt för att marknadsföra sina varumärken personligen. Istället för traditionell marknadsföring delar de sina berättelser och bygger relationer med sin publik genom plattformar som Instagram, Facebook och LinkedIn. Denna metod bygger inte bara förtroende utan skapar också en mer autentisk och relevant varumärkesbild. Personligt varumärke främjar organisk tillväxt och starkt engagemang från potentiella kunder. Det är ett kraftfullt sätt att visa upp passionen och visionen bakom ett varumärke."
+},
+"digital7": {
+  "contentMarketing": {
+    "heading": "Content Marketing-tjänster",
+    "description": "Vill du få uppmärksamhet, skapa kontakt med din publik och driva resultat? Det är här våra Content Marketing-tjänster kommer in. Vi pratar inte bara om att skapa blogginlägg eller sociala medieuppdateringar. Vi pratar om att skapa engagerande och värdefullt innehåll som direkt talar till din publiks behov och intressen. Det kan vara informativa artiklar, engagerande videor eller iögonfallande infografik – vi hjälper dig med allt. Vi hjälper dig att skapa en innehållsstrategi som bygger varumärkesauktoritet, ökar förtroendet och driver handling. Låt oss berätta din historia på ett sätt som skapar respons och ger resultat."
+  },
+  "quotes1": {
+    "text": "Content marketing handlar om dina målgruppers behov. Det handlar om hur du kan utbilda, hjälpa, underhålla, utmana och göra deras köpbeslut lättare.",
+    "author": "- Pam Didner"
+  },
+  "quotes2": {
+    "text": "Att skapa bra innehåll men inte lägga tid på att marknadsföra det är det största synden. Oavsett hur bra innehållet är, kommer det inte att ge önskat resultat om det inte marknadsförs.",
+    "author": "- Ian Cleary"
+  },
+  "quotes3": {
+    "text": "Den största synden i content marketing är att inte skapa innehåll för din målgrupp. Detta blir allt viktigare i den digitala värld vi lever i.",
+    "author": "- Richard Lorenzen"
+  },
+  "quotes4": {
+    "text": "Den största synden i content marketing är att inte ha en content marketing-plan och tro på att det finns en ”bästa” metod som ”experter/mästare” pratar om.",
+    "author": "- Ted Rubin"
+  },
+  "quotes5": {
+    "text": "Den största synden är att tappa fokus på det relevanta. Ditt innehåll måste alltid vara relevant både för dig och dina kunder.",
+    "author": "- Luann Wise"
+  },
+  "quotes6": {
+    "text": "Kvalitetsinnehåll handlar inte om kvalitet, utan om hur din publik uppfattar den.",
+    "author": "- Timmy Clark"
+  },
+  "quotes7": {
+    "text": "Den bästa marknadsföringen får folk att inte ens känna att det är marknadsföring.",
+    "author": "- Tom Fishburne"
+  },
+  "quotes8": {
+    "text": "Du kan inte sälja något om du inte kan säga något.",
+    "author": "- Beth Comstock"
+  }
+},
+"digital8": {
+  "heading": "E-postmarknadsföringstjänster",
+  "description": "Tror du att e-postmarknadsföring är föråldrad? Tänk om. E-postmarknadsföring är fortfarande ett av de mest effektiva sätten att nå din publik och driva resultat. Med våra e-postmarknadsföringstjänster hjälper vi dig att skapa engagerande kampanjer som når direkt in i kundernas inkorgar. Från lockande ämnesrader till personlig innehåll gör vi ditt e-postmeddelande svårt att ignorera och uppmanar till handling. Oavsett om du vill marknadsföra nya produkter, öka leads eller återknyta till inaktiva prenumeranter, har vi expertisen som krävs. Välkommen till vår e-postmarknadsföringstrick som ger högre öppningsfrekvenser, klickfrekvenser och konverteringar.",
+  "steps": {
+    "1": {
+      "title": "Steg: 1",
+      "description": "Tänk på vad du vill uppnå med dina e-postmeddelanden, till exempel att öka försäljningen eller ge uppdateringar. Tänk sedan på vem du ska skicka dem till – din publik. Vad gillar de? Vad behöver de?"
+    },
+    "2": {
+      "title": "Steg: 2",
+      "description": "Be människor att registrera sig för dina e-postmeddelanden. Du kan göra detta via din webbplats, sociala medier eller när de köper något. Ge dem ett skäl att registrera sig, till exempel en rabatt eller intressanta saker som de får i sin inkorg."
+    },
+    "3": {
+      "title": "Steg: 3",
+      "description": "Skriv e-postmeddelanden som folk vill läsa. Gör dem personliga och vänliga. Använd engagerande ämnesrader, berätta en historia och visa upp fantastiska bilder. Och glöm inte att säga vad du vill att de ska göra härnäst, till exempel klicka på en länk eller ge dig svar."
+    }
+  }
+},
+"digital9": {
+  "header": "Professionella SEO-tjänster",
+  "description": "Höj din online-närvaro med våra professionella SEO-tjänster. Genom att använda strategiska tekniker som nyckelordsforskning, on-page optimering och länkbyggande, ökar vi din webbplats synlighet och lockar fler kvalificerade leads. Vårt expertteam optimerar din digitala närvaro och hjälper dig att nå framgång i den digitala världen.",
+  "tags": {
+    "CODE": "Kod", 
+    "DEVELOPMENT": "Utveckling", 
+    "INNOVATION": "Innovation", 
+    "APP": "App", 
+    "NETWORKING": "Nätverk", 
+    "SUPPORT": "Support", 
+    "INFRASTRUCTURE": "Infrastruktur", 
+    "SEM": "SEM", 
+    "CYBERSECURITY": "Cybersäkerhet", 
+    "DESIGN": "Design", 
+    "UX/UI": "UX/UI", 
+    "DOMAINS": "Domäner", 
+    "HOSTING": "Hosting", 
+    "SEO": "SEO", 
+    "SOCIAL MEDIA": "Sociala medier", 
+    "AI": "AI", 
+    "ANALYTICS": "Analytics", 
+    "CONTENT": "Innehåll", 
+    "KEYWORDS": "Nyckelord", 
+    "TRAFFIC": "Traffik"
+  }
+},
+"mobile1": {
+    "title": "Mobilapplikationer",
+    "subtext": "Driv din digitala framgång med banbrytande mobil lösningar. Lås upp potentialen i ditt företag med innovativa mobilapplikationer designade för att öka engagemanget, förbättra användarupplevelsen och påskynda tillväxten.",
+    "exploreButton": "Utforska nu",
+    "scrollingText": {
+      "1": "iOS Apputveckling ✦",
+      "2": "Android Apputveckling ✦",
+      "3": "Cross-Platform Apputveckling ✦",
+      "4": "Mobil UI/UX Design ✦",
+      "5": "Mobilapp Underhåll & Support ✦",
+      "6": "App Store Optimering ✦",
+      "7": "Anpassade Mobilapp Lösningar ✦"
+    }
+  },
+  "mobile2": {
+    "heading": "Bygg kraftfulla mobilapplikationer för alla affärsbehov",
+    "description": "Våra mobilapplikationer är utformade för att ge en sömlös användarupplevelse, optimerad för prestanda och designad med den senaste tekniken. Oavsett om du lanserar en e-handelsapp, skapar en social medieplattform eller bygger företagslösningar, erbjuder vi fullständiga utvecklingstjänster från design till implementering och säkerställer att din app inte bara ser fantastisk ut utan också fungerar felfritt på alla enheter.",
+    "buttons": {
+      "appDesign": "APP DESIGN",
+      "userExperience": "ANVÄNDARUPPLEVELSE",
+      "performance": "PRESTANDA"
+    }
+  },
+  "mobile3": {
+    "heading": "Hur kan mobilappar revolutionera ditt företag?",
+    "subheading": "Bygg en mobilapplikation som kopplar samman dig med dina kunder, förbättrar användarupplevelsen och ökar engagemanget. Håll dig före konkurrenterna genom att använda moderna appteknologier som passar dina affärsbehov och säkerställer skalbarhet, prestanda och kundnöjdhet."
+  },
+  "mobile4": {
+    "heading": "iOS Apputveckling",
+    "description": "På Mahisha India Technologies levererar vi förstklassiga iOS apputvecklingstjänster för att hjälpa företag skapa mycket effektiva, säkra och engagerande iOS-appar. Vårt team är specialiserat på att bygga inhemska iOS-appar anpassade för dina specifika affärsbehov med hjälp av Swift och Objective-C. Oavsett om det är ett litet företag eller ett stort företag, ser vi till att din app utnyttjar iOS-funktionernas fulla potential för en oöverträffad användarupplevelse. Från sömlös integration med Apple-tjänster till optimerad prestanda på iPhones, iPads och Apple Watches täcker vi alla aspekter av iOS apputveckling och ser till att din app sticker ut på App Store.",
+    "button": "Få en offert",
+    "scrollingText": {
+      "item1": "Anpassad iOS apputveckling för alla affärsbehov",
+      "item2": "Optimerad prestanda och sömlös användarupplevelse",
+      "item3": "Inhemsk iOS utveckling med Swift och Objective-C",
+      "item4": "Inkorporering av de senaste iOS-funktionerna som widgets och SiriKit",
+      "item5": "Förbättrad säkerhet med end-to-end kryptering och dataskydd",
+      "item6": "App Store optimering för bättre synlighet och nedladdningar",
+      "item7": "Integration med Apple Pay, HealthKit och andra tjänster",
+      "item8": "Responsiva designade appar anpassade för iPhone, iPad och Apple Watch",
+      "item9": "Användarvänlig och intuitiv UI/UX design för iOS-appar"
+    }
+  },
+  "mobile5": {
+    "title": "Mobilapplikationsteknologier",
+    "technology1": {
+      "name": "React Native",
+      "description": "Ett ramverk för att bygga inhemska appar med React."
+    },
+    "technology2": {
+      "name": "Flutter",
+      "description": "En UI-verktygssats för att bygga nativt komplierade appar för mobil."
+    },
+    "technology3": {
+      "name": "Swift",
+      "description": "Ett kraftfullt programmeringsspråk för iOS apputveckling."
+    },
+    "technology4": {
+      "name": "Kotlin",
+      "description": "Ett modernt programmeringsspråk för Android appar."
+    },
+    "technology5": {
+      "name": "Firebase",
+      "description": "En plattform för att bygga web- och mobilapplikationer."
+    },
+    "technology6": {
+      "name": "GraphQL",
+      "description": "Ett datakodningsspråk som används i vissa av våra mobilappar."
+    },
+    "technology7": {
+      "name": "Laravel",
+      "description": "Ett kraftfullt PHP-ramverk med hög aktivitet och funktioner."
+    }
+  },
+  "mobile6": {
+    "title": "Android Apputveckling & Anpassade Mobil Lösningar",
+    "description": "På Mahisha India Technologies specialiserar vi oss på att skapa högpresterande Android-appar som tillgodoser dina affärsbehov. Vårt team utmärker sig på att utveckla skalbara, säkra och funktionella mobilapplikationer som körs sömlöst på en rad olika Android-enheter. Från koncept till implementering ser vi till att varje aspekt av appen är anpassad för att öka användarengagemang och främja affärstillväxt. Oavsett om det är inhemsk apputveckling med Kotlin och Java eller integration med avancerad mobilteknik, levererar vi end-to-end Android-lösningar som hjälper dig att växa på den konkurrensutsatta app-marknaden.",
+    "androidDevelopmentPoints": {
+      "point1": "Anpassade Android-app lösningar för affärsbehov",
+      "point2": "Inhemsk Android utveckling med Kotlin och Java",
+      "point3": "Sömlös integration med tredjepartstjänster och API:er",
+      "point4": "Optimerad prestanda på Android-enheter och versioner",
+      "point5": "Användarvänlig och intuitiv UI/UX design för mobilappar",
+      "point6": "Förbättrad app säkerhet och dataskydd",
+      "point7": "Mobilanpassad design för tabletter och smartphones",
+      "point8": "Omfattande testning och felsökning för smidig prestanda",
+      "point9": "Google Play Store optimering för bättre synlighet och nedladdningar"
+    },
+    "button": "Få en offert"
+  },
+  "mobile7": {
+    "heroSection": {
+      "title": "Vi bygger sömlösa Cross-platform mobilappar",
+      "description": "På Mahisha India Technologies gör våra cross-platform apputvecklingstjänster det möjligt för dig att nå en större publik genom att skapa appar som fungerar sömlöst både på iOS och Android. Med hjälp av teknologier som React Native och Flutter säkerställer vi att din app ger en konsekvent, inhemsk upplevelse på alla enheter samtidigt som vi minskar kostnaderna och marknadstiden. Från design till implementering levererar vi appar som är skräddarsydda för dina affärsmål."
+    },
+    "crossPlatformOptions": {
+      "option1": "Utveckla en gång, implementera var som helst",
+      "option2": "Kostnadseffektiv utvecklingsprocess",
+      "option3": "Snabbare marknadstid",
+      "option4": "Inhemsk prestanda på flera plattformar",
+      "option5": "En kodbas för iOS och Android",
+      "option6": "Enklare underhåll och uppdateringar",
+      "option7": "Större marknadsräckvidd",
+      "option8": "Minskad utvecklingsinsats",
+      "option9": "Sömlös integration med API:er",
+      "option10": "Enhetlig användarupplevelse på alla enheter"
+    },
+    "footerText": {
+      "slidingText": "Utveckla en gång, implementera var som helst ✦ Kostnadseffektiv utvecklingsprocess ✦ Snabbare marknadstid ✦ Inhemsk prestanda på flera plattformar ✦ En kodbas för iOS och Android ✦ Enklare underhåll och uppdateringar ✦ Större marknadsräckvidd ✦ Minskad utvecklingsinsats ✦ Sömlös integration med API:er ✦ Enhetlig användarupplevelse på alla enheter"
+    }
+  },
+  "mobile8": {
+    "heroSection": {
+      "title": "Mobilapp Underhåll & Support",
+      "description": "På Mahisha India Technologies erbjuder vi omfattande underhålls- och supporttjänster för att säkerställa att din mobilapp alltid är uppdaterad, säker och fullt funktionell. Vårt expertteam hanterar allt från regelbundna uppdateringar och buggfixar till prestandaoptimering och funktionsförbättringar. Vi säkerställer att din app är kompatibel med de senaste operativsystemen och enheterna, samtidigt som vi kontinuerligt förbättrar användarupplevelsen baserat på feedback och dataanalys. Genom vårt proaktiva appunderhåll kan du fokusera på att växa ditt företag medan vi hanterar den tekniska sidan av appens skötsel."
+    },
+    "mobileAppMaintenancePoints": {
+      "point1": "Regelbundna appuppdateringar och nya funktioner",
+      "point2": "Övervakning av appens prestanda och upptid",
+      "point3": "Appsäkerhet med snabba säkerhetspatchar",
+      "point4": "Buggfixar och tekniska problem",
+      "point5": "Optimering för de senaste operativsystemen och enheter",
+      "point6": "Analysera användarfeedback och kontinuerligt förbättra",
+      "point7": "Hantering av backend-tjänster och databasuppdateringar",
+      "point8": "App Store listoptimering och underhåll",
+      "point9": "Löpande support och felsökning"
+    },
+    "footerText": {
+      "slidingText": "Regelbundna appuppdateringar och nya funktioner ✦ Övervakning av appens prestanda och upptid ✦ Appsäkerhet med snabba säkerhetspatchar ✦ Buggfixar och tekniska problem ✦ Optimering för de senaste operativsystemen och enheter ✦ Analysera användarfeedback och kontinuerligt förbättra ✦ Hantering av backend-tjänster och databasuppdateringar ✦ App Store listoptimering och underhåll ✦ Löpande support och felsökning"
+    }
+  },
+  "billing1": {
+    "pageTitle": "Fakturering Programvarulösningar",
+    "subtext": "Förenkla dina faktureringsprocesser med vår avancerade programvara. Vår lösning tillhandahåller allt från fakturaskapande till realtidsrapportering, vilket säkerställer effektivitet och noggrannhet i hanteringen av din ekonomi. Automatisera dina faktureringsoperationer och fokusera på att växa ditt företag medan vi hanterar siffrorna.",
+    "buttons": {
+      "tryFreeDemo": "Prova Gratis Demo"
+    },
+    "scrollingText": {
+      "feature1": "Fakturaskapande ✦",
+      "feature2": "Automatiserad Fakturering ✦",
+      "feature3": "Betalningsspårning ✦",
+      "feature4": "Skatteberäkning ✦",
+      "feature5": "Kostnadshantering ✦",
+      "feature6": "Realtidsrapportering ✦",
+      "feature7": "Utökad Producentansvar (EPR) ✦"
+    }
+  },
+  "billing2": {
+    "pageTitle": "Fakturering Programvarulösningar",
+    "description": "Förenkla dina fakturerings- och faktureringsprocesser med våra kraftfulla faktureringsprogramvarulösningar. Vår programvara automatiserar betalningsinsamling, förenklar fakturering och tillhandahåller noggranna finansiella rapporter. Designad för företag i alla storlekar säkerställer den säkra transaktioner, anpassningsbara fakturamallar och enkel integration med populära redovisningsverktyg. Oavsett om du hanterar prenumerationer, genererar fakturor eller spårar betalningar, har vår faktureringsprogramvara dig täckt.",
+    "steps": {
+      "step1": {
+        "title": "Steg: 1",
+        "description": "Identifiera ditt företags faktureringsbehov. Oavsett om du behöver hantera återkommande betalningar, skapa fakturor eller integrera med olika betalningsportaler, är förståelsen av dina krav det första steget i att implementera effektiv faktureringsprogramvara."
+      },
+      "step2": {
+        "title": "Steg: 2",
+        "description": "Välj rätt faktureringsprogramvarulösning. Se till att den är skalbar, anpassningsbar och säker. Den bör stödja flera betalningsmetoder och valutor, tillhandahålla insiktsfulla finansiella rapporter och erbjuda sömlös integration med dina befintliga system."
+      },
+      "step3": {
+        "title": "Steg: 3",
+        "description": "Implementera och anpassa faktureringsprogramvaran för att möta ditt företags behov. Träna ditt team för att effektivt använda programvaran, automatisera fakturering och betalningspåminnelser, och säkerställ efterlevnad av finansiella regler för att strömlinjeforma faktureringsprocessen."
+      }
+    }
+  },
+  "billing3": {
+    "pageTitle": "Avancerade Faktureringsprogramvarulösningar",
+    "description": "Förenkla din affärsverksamhet med vår avancerade faktureringsprogramvara. Vår lösning erbjuder sömlös fakturering, betalningsspårning och finansiell rapportering för att säkerställa att ditt företag är organiserat och effektivt. Med funktioner som automatiska påminnelser, anpassningsbara fakturamallar och stöd för flera valutor är vår faktureringsprogramvara utformad för att möta behoven hos företag i alla storlekar. Låt oss hjälpa dig att förenkla din faktureringsprocess och fokusera mer på att växa ditt företag.",
+    "tags": {
+      "tag1": "FAKTURERING",
+      "tag2": "BETALNINGAR",
+      "tag3": "AUTOMATION",
+      "tag4": "RAPPORTER",
+      "tag5": "KOSTNADER",
+      "tag6": "FINANS",
+      "tag7": "SKATT",
+      "tag8": "ÅTERKOMMANDE FAKTURERING",
+      "tag9": "MOLNBASED",
+      "tag10": "SPÅRNING",
+      "tag11": "EFFEKTIVITET",
+      "tag12": "SKALBARHET",
+      "tag13": "STÖD",
+      "tag14": "ANALYS",
+      "tag15": "ANPASSNING",
+      "tag16": "FLERA VALUTOR",
+      "tag17": "INTEGRATIONER",
+      "tag18": "SÄKERHET"
+    }
+  },
+  "billing4": {
+    "pageTitle": "Driva Operativ Effektivitet Genom Realtidsinsikter och Efterlevnad.",
+    "description": "På Mahisha India Technologies tillhandahåller vi innovativa lösningar som förenklar finansiella operationer och säkerställer efterlevnad av regleringar. Med våra verktyg för realtidsrapportering, betalningsspårning och utökat producentansvar (EPR) hjälper vi företag att förbli effektiva, följa regler och ligga i framkant.",
+    "cards": {
+      "card1": {
+        "title": "Realtidsrapportering",
+        "description": "Håll koll på dina affärsdata med våra verktyg för realtidsrapportering. Övervaka finansiell prestation, kostnader och intäkter när de inträffar, och säkerställ att du har noggranna data för att fatta informerade beslut och driva operativ framgång."
+      },
+      "card2": {
+        "title": "Betalningsspårning",
+        "description": "Förenkla din finansiella arbetsflöde med vårt automatiserade betalningsspårningssystem. Övervaka enkelt inkommande och utgående transaktioner och säkerställ att alla betalningar behandlas och registreras effektivt för bättre kassaflödeshantering."
+      },
+      "card3": {
+        "title": "Utökat Producentansvar (EPR)",
+        "description": "Våra EPR-lösningar hjälper dig att hantera avfall på ett ansvarsfullt sätt och säkerställer att du följer miljöregler. Spåra din produktionens påverkan och håll dig i enlighet med EPR-krav för att bidra till en hållbar framtid."
+      },
+      "card4": {
+        "title": "Vår Metod",
+        "description": "Vi kombinerar innovativ teknologi med branschkunskap för att leverera lösningar som möter dina företagsbehov. Vår metod fokuserar på att effektivisera operationer, säkerställa efterlevnad och driva tillväxt genom realtidsinsikter och effektiv hantering."
+      }
+    }
+  },
+  "billing5": {
+    "pageTitle": "Automatiserad Fakturering",
+    "description": "I dagens konkurrensutsatta marknad vänder sig företag till automatiserade genereringsverktyg för att effektivisera sina verksamheter och öka produktiviteten. Företag använder avancerad programvara och AI-drivna lösningar för att automatisera uppgifter som fakturering, dataanalys och rapportgenerering. Denna metod minskar inte bara mänskliga fel utan ökar också effektiviteten och skalbarheten. Automatiserad fakturagenerering gör det möjligt för företag att fungera smidigare, fokusera på strategisk tillväxt och leverera konsekventa resultat med minimal ansträngning. Det är ett kraftfullt sätt att optimera verksamheten och bibehålla en konkurrensfördel.",
+    "icons": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    }
+  },
+  "billing6": {
+    "pageTitle": "Faktureringsprogramvarulösningar",
+    "pageDescription": "Strömlinjeforma din verksamhet med vår omfattande faktureringsprogramvara. Från sömlös fakturagenerering till effektiv betalningsspårning, erbjuder vi verktyg som förenklar dina ekonomiska processer. Oavsett om det handlar om automatiserad skatteberäkning eller att hantera utgifter i realtid, ser våra faktureringslösningar till att du förblir organiserad, följer regler och har full kontroll. Realtidsrapportering ger dig de insikter du behöver för att fatta välgrundade ekonomiska beslut. Låt oss ta hand om siffrorna så kan du fokusera på att växa din verksamhet.",
+    "quotes": {
+      "quote1": {
+        "text": "Automatiserad fakturagenerering minskar fel och påskyndar betalningsinsamlingen, vilket gör dina ekonomiska processer mer effektiva.",
+        "author": "Ekonomieexpert"
+      },
+      "quote2": {
+        "text": "Betalningsspårning i realtid hjälper företag att hålla koll på kassaflödet och säkerställa snabb betalning från kunder.",
+        "author": "Affärsanalytiker"
+      },
+      "quote3": {
+        "text": "Automatiserade skatteberäkningar sparar inte bara tid utan säkerställer också efterlevnad av lokala regler, vilket minskar revisionsriskerna.",
+        "author": "Skatterådgivare"
+      },
+      "quote4": {
+        "text": "Effektiv hantering av utgifter kan spara företag stora summor pengar, minska slöseri och optimera budgetar.",
+        "author": "Expert på utgiftshantering"
+      },
+      "quote5": {
+        "text": "Realtidsrapportering ger företag viktiga insikter som driver mer informerade beslut och bättre ekonomiska resultat.",
+        "author": "Dataanalytiker"
+      },
+      "quote6": {
+        "text": "Faktureringsprogramvara som integrerar utgiftshantering och realtidsrapportering gör det möjligt för företag att bibehålla ekonomisk hälsa enkelt.",
+        "author": "CFO"
+      },
+      "quote7": {
+        "text": "Förenkla dina bokföringsprocesser med faktureringsprogramvara som hanterar fakturor, skatter och utgifter på en plattform.",
+        "author": "Bokföringsexpert"
+      },
+      "quote8": {
+        "text": "Exakt ekonomisk data, automatiserade fakturapåminnelser och realtidsuppföljning är nyckeln till att bibehålla företagsstabilitet.",
+        "author": "Finansiell analytiker"
+      }
+    }
+  },
+  "billing7": {
+    "pageTitle": "Fakturagenerering",
+    "pageDescription": "Hos Mahisha India Technologies förenklar vi din faktureringsprocess med våra automatiserade fakturagenereringstjänster. Våra lösningar är utformade för att förenkla faktureringen, minska manuella fel och hjälpa dig att hantera kundbetalningar effektivt. Oavsett om du hanterar återkommande fakturor eller behöver anpassade mallar, säkerställer vårt system att varje faktura är korrekt och följer reglerna. Håll koll på betalningar med realtidsuppföljning, automatiserade påminnelser och sömlös integration med betalningsportaler. Med stöd för flera valutor, skatteautomatisering och detaljerad analys, sparar våra faktureringslösningar tid och hjälper ditt företag att bibehålla ett hälsosamt kassaflöde.",
+    "buttonText": "Få en offert",
+    "features": {
+      "feature1": "Automatiserad fakturaskapande och hantering",
+      "feature2": "Anpassningsbara fakturamallar",
+      "feature3": "Återkommande fakturagenerering för prenumerationstjänster",
+      "feature4": "Realtidsuppföljning av betalningar och förfallodatum",
+      "feature5": "Integration med betalningsportaler för sömlösa transaktioner",
+      "feature6": "Stöd för flera valutor och språk",
+      "feature7": "Automatisering av skatteberäkning och efterlevnad",
+      "feature8": "Massfakturering för kunder med hög volym",
+      "feature9": "Detaljerade fakturautdrag och analyser"
+    }
+  },
+  "billing8": {
+    "pageTitle": "Skatteberäkning och Utgiftshantering",
+    "pageDescription": "Hos Mahisha India Technologies förenklar vi de komplexa processerna kring skatteberäkning och utgiftshantering för ditt företag. Våra automatiserade lösningar säkerställer korrekta skatteberäkningar, sömlös utgiftsspårning och efterlevnad av de senaste skattereglerna. Genom realtidsuppföljning kan du kategorisera och övervaka dina företagsutgifter, vilket ger bättre finansiell kontroll och budgetering. Oavsett om det är moms, GST eller inkomstskatt, stöder vår plattform olika skatter, vilket hjälper dig att minimera fel och hålla dig i enlighet med reglerna. Generera detaljerade rapporter och integrera med din befintliga bokföringsprogramvara för en smidig skattedeklaration.",
+    "buttonText": "Få en offert",
+    "features": {
+      "feature1": "Automatiserad skatteberäkning baserat på aktuella regler",
+      "feature2": "Realtidsutgiftsspårning och kategorisering",
+      "feature3": "Generera detaljerade finansiella rapporter för bättre insikter",
+      "feature4": "Integration med bokföringsprogramvara för smidig skattedeklaration",
+      "feature5": "Spåra företagsutgifter och ersättningsbara kostnader",
+      "feature6": "Stöd för moms, GST och andra skattetyper",
+      "feature7": "Budgethantering och prognostisering baserat på utgifter",
+      "feature8": "Minska manuella fel vid skatteberäkning och inlämning",
+      "feature9": "Säkerställ efterlevnad av skatteregler och föreskrifter"
+    }
+  }
+}
+  

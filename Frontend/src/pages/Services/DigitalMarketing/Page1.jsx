@@ -1,15 +1,18 @@
 import React, { useEffect, useState } from "react";
 import "./Page1.css";
+import { useTranslation } from "react-i18next";
 
 const Page1 = () => {
+
+  const { t } = useTranslation();
   // Array for website names
   const digitalMarketingNames = [
-    'Social Media Management',
-    'Content Marketing',
-    'Email Marketing',
-    'SEO Services',
-    'Personal Branding',
-    '&nbspSocial Media Marketing ',
+    t('digital1.scrollingText.1'),
+    t('digital1.scrollingText.2'),
+    t('digital1.scrollingText.3'),
+    t('digital1.scrollingText.4'),
+    t('digital1.scrollingText.5'),
+    t('digital1.scrollingText.6'),
   ];
 
   // State to trigger animations on page load
@@ -28,12 +31,12 @@ const Page1 = () => {
   return (
     <div className={`digital-page-container ${inView ? "animate" : ""}`}>
       <div className="digital-content-section">
-        <h1 className="digital-title">Digital Marketing</h1>
+        <h1 className="digital-title">{t('digital1.title')}</h1>
         <p className="digital-subtext">
-        Powering Your Digital Success with Unlock Your Digital Potential.Drive growth and maximize your online presence with strategic digital marketing solutions that deliver measurable results.
+        {t('digital1.subtext')}
         </p>
         <div className="digital-button-group">
-          <button className="digital-explore-btn" onClick={handleQuoteClick}>Explore Now</button>
+          <button className="digital-explore-btn" onClick={handleQuoteClick}>{t('digital1.exploreButton')}</button>
           {/* <button className="webdev-special-btn">Special Offer!</button> */}
         </div>
       </div>

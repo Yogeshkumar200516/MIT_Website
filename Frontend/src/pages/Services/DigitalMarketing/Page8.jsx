@@ -1,16 +1,19 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Page8.css';
 import emailIcon from '../../../assets/images/email.svg'; // Update the path to the icon as needed
+import { useTranslation } from "react-i18next";
 
 const Page8 = () => {
+
+  const { t } = useTranslation();
   // State to track the active step
   const [activeStep, setActiveStep] = useState(1);
 
   // Step descriptions
   const stepDescriptions = {
-    1: 'Figure out what you want to achieve with your emails, like getting more sales or keeping people updated. Then, think about who you’re sending them to – your audience. What do they like? What do they need?',
-    2: 'Ask people to sign up for your emails. You can do this on your website, social media, or when they buy something from you. Give them a reason to sign up, like a discount or cool stuff they’ll get in their inbox.',
-    3: 'Write emails that people want to read. Make them personal and friendly. Use catchy subject lines, tell stories, and show off cool pictures. And don’t forget to tell people what you want them to do next, like click a link or reply to you.'
+    1: t('digital8.steps.1.description'),
+    2: t('digital8.steps.2.description'),
+    3: t('digital8.steps.3.description'),
   };
 
   // Function to handle step click
@@ -61,40 +64,33 @@ const Page8 = () => {
           className="email-marketing-heading slide-top"
           ref={headingRef}
         >
-          Email Marketing Services
+         {t('digital8.heading')}
         </h2>
         <div className="email-marketing-divider"></div>
         <p
           className="email-marketing-description slide-right"
           ref={descriptionRef}
         >
-          Think email marketing is outdated? Think again. Email marketing remains one of the
-          most effective ways to connect with your audience and drive results. With our
-          email marketing services, we’ll help you craft attention-grabbing campaigns that
-          land right in your customers' inboxes. From compelling subject lines to
-          personalized content, we’ll make sure your emails stand out and drive action.
-          Whether you’re looking to promote a new product, nurture leads, or re-engage
-          inactive subscribers, we’ve got the expertise to make it happen. Say hello to higher
-          open rates, click-throughs, and conversions with our email marketing magic.
+          {t('digital8.description')}
         </p>
         <div className="email-marketing-steps-container">
           <div
             className={`email-marketing-step ${activeStep === 1 ? 'active' : ''}`}
             onClick={() => handleStepClick(1)}
           >
-            Step: 1
+            {t('digital8.steps.1.title')}
           </div>
           <div
             className={`email-marketing-step ${activeStep === 2 ? 'active' : ''}`}
             onClick={() => handleStepClick(2)}
           >
-            Step: 2
+            {t('digital8.steps.2.title')}
           </div>
           <div
             className={`email-marketing-step ${activeStep === 3 ? 'active' : ''}`}
             onClick={() => handleStepClick(3)}
           >
-            Step: 3
+            {t('digital8.steps.1.title')}
           </div>
         </div>
         <div className="email-marketing-step-description">

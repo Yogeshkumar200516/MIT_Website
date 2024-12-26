@@ -82,23 +82,30 @@ const Navbar = () => {
 
   const navItems = [
     { text: 'Home', link: '/' },
-    { text: 'Career', link: '/career' },
   ];
+
+  const handleWhatsAppClick = (e) => {
+    e.preventDefault();
+    window.open('https://wa.me/918110818281', '_blank'); // Opens WhatsApp with the given number in a new tab
+  };
 
   const exploreItems = [
     { text: 'About Us', link: '/about-us' },
     { text: 'Our Team', link: '/our-team' },
-    { text: 'Our Products', link: '/our-products' },
-    { text: 'Happy Customers', link: '/happy-customers' },
+    // { text: 'Career', link: '/career' },
+    // { text: 'Our Products', link: '/our-products' },
+    // { text: 'Happy Customers', link: '/happy-customers' },
   ];
 
   const serviceItems = [
-    { text: 'Software Development', link: '/software-development' },
     { text: 'Website Development', link: '/website-development' },
     { text: 'Digital Marketing', link: '/digital-marketing' },
-    { text: 'Graphic Design', link: '/graphic-design' },
     { text: 'Mobile Applications', link: '/mobile-applications' },
-    { text: 'E-Commerce Solutions', link: '/e-commerce' },
+    { text: 'Billing Software', link: '/billing-software' },
+    // { text: 'Software Development', link: '/software-development' },
+    // { text: 'Graphic Design', link: '/graphic-design' },
+    // { text: 'Mobile Applications', link: '/mobile-applications' },
+    // { text: 'E-Commerce Solutions', link: '/e-commerce' },
   ];
 
   // Slider content - Categories for the slider with icons
@@ -353,6 +360,7 @@ const Navbar = () => {
             <Button
               variant="contained"
               color="primary"
+              onClick={handleWhatsAppClick}
               sx={{
                 marginLeft: 'auto',
                 textTransform: 'none',
@@ -370,7 +378,7 @@ const Navbar = () => {
                 },
               }}
             >
-              Join Us
+              Contact Us
             </Button>
           </Box>
 

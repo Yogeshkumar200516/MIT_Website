@@ -1,8 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import './Page7.css';
+import { useTranslation } from "react-i18next";
 
 const Page7 = () => {
+
+  const { t } = useTranslation();
   const { ref, inView } = useInView({ threshold: 0.1 }); // Trigger when 10% is visible
   const [hasAnimated, setHasAnimated] = useState(false); // State to track if the animation has occurred
 
@@ -15,13 +18,9 @@ const Page7 = () => {
   return (
     <div className="content-wrapper-unique" ref={ref}>
       <div className="content-header-unique">
-        <h1 className={`content-title-unique ${hasAnimated ? 'slide-in-left' : ''}`}>Content Marketing Services</h1>
+        <h1 className={`content-title-unique ${hasAnimated ? 'slide-in-left' : ''}`}>{t('digital7.contentMarketing.heading')}</h1>
         <p className={`content-description-unique ${hasAnimated ? 'slide-in-right' : ''}`}>
-          Want to grab attention, engage your audience, and drive results? That’s where our content marketing services come in. 
-          We’re not just talking about churning out blog posts or social media updates. We’re talking about creating compelling, 
-          valuable content that speaks directly to your audience’s needs and interests. Whether it’s informative articles, 
-          captivating videos, or eye-catching infographics, we’ve got you covered. We’ll help you craft a content strategy 
-          that builds brand authority, fosters trust, and drives action. Let’s tell your story in a way that resonates and gets results.
+        {t('digital7.contentMarketing.description')}
         </p>
       </div>
 
@@ -30,63 +29,59 @@ const Page7 = () => {
         <div className="scrolling-quotes-content-unique">
           <div className="quote-card-unique">
             <p className="quote-text-unique">
-              Content marketing is all about your target customers. It’s about how you can educate, help, entertain, 
-              challenge and facilitate their purchase decisions.
+            {t('digital7.quotes1.text')}
             </p>
-            <p className="quote-author-unique">- Pam Didner</p>
+            <p className="quote-author-unique">- {t('digital7.quotes1.author')}</p>
           </div>
 
           <div className="quote-card-unique">
             <p className="quote-text-unique">
-              Creating great content but not spending the time promoting it is the ultimate sin. No matter how good your content is, 
-              if you don’t promote it then it will not achieve the success it deserves.
+            {t('digital7.quotes2.text')}
             </p>
-            <p className="quote-author-unique">- Ian Cleary</p>
+            <p className="quote-author-unique">- {t('digital7.quotes2.author')}</p>
           </div>
 
           <div className="quote-card-unique">
             <p className="quote-text-unique">
-              The ultimate content marketing sin is not writing content for your target audience. This is increasingly important 
-              in the digital world we live in.
+            {t('digital7.quotes3.text')}
             </p>
-            <p className="quote-author-unique">- Richard Lorenzen</p>
+            <p className="quote-author-unique">- {t('digital7.quotes3.author')}</p>
           </div>
 
           <div className="quote-card-unique">
             <p className="quote-text-unique">
-              The ultimate content marketing sin is not having a content marketing plan, and believing the “experts/gurus” that there 
-              is a pre-prescribed “best” way to do things.
+            {t('digital7.quotes4.text')}
             </p>
-            <p className="quote-author-unique">- Ted Rubin</p>
+            <p className="quote-author-unique">- {t('digital7.quotes4.author')}</p>
           </div>
 
           <div className="quote-card-unique">
             <p className="quote-text-unique">
-              It’s a sin to lose focus on what is relevant. Your content should always be relevant to you, and relevant to your customer.
+            {t('digital7.quotes5.text')}
             </p>
-            <p className="quote-author-unique">- Luan Wise</p>
+            <p className="quote-author-unique">- {t('digital7.quotes5.author')}</p>
           </div>
 
           {/* Additional quote cards */}
           <div className="quote-card-unique">
             <p className="quote-text-unique">
-              Quality content isn’t about quality, it’s about the audience’s perception of the quality.
+            {t('digital7.quotes6.text')}
             </p>
-            <p className="quote-author-unique">- Timi Clark</p>
+            <p className="quote-author-unique">- {t('digital7.quotes6.author')}</p>
           </div>
 
           <div className="quote-card-unique">
             <p className="quote-text-unique">
-              The best marketing doesn’t feel like marketing.
+            {t('digital7.quotes7.text')}
             </p>
-            <p className="quote-author-unique">- Tom Fishburne</p>
+            <p className="quote-author-unique">- {t('digital7.quotes7.author')}</p>
           </div>
 
           <div className="quote-card-unique">
             <p className="quote-text-unique">
-              You can’t sell anything if you can’t tell anything.
+            {t('digital7.quotes8.text')}
             </p>
-            <p className="quote-author-unique">- Beth Comstock</p>
+            <p className="quote-author-unique">- {t('digital7.quotes8.author')}</p>
           </div>
         </div>
       </div>

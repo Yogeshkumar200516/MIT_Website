@@ -1,7 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import './Page4.css'; // Import the CSS file for styling
+import { useTranslation } from "react-i18next";
 
 const Page4 = () => {
+
+    const { t } = useTranslation();
     const contentRef = useRef(null);
 
     useEffect(() => {
@@ -24,11 +27,10 @@ const Page4 = () => {
         <div className="page4-container-web">
             <div className="page4-content-web" ref={contentRef}>
                 <h1 className="page4-title-web">
-                    Which technologies will bring maximum value to your business?
+                    {t('web4.title')}
                 </h1>
                 <p className="page4-subtitle-web">
-                    Solve customer problems by choosing cutting-edge technologies for your tech stack. 
-                    Take your business to the next level with the right solutions tailored to your own requirements.
+                    {t('web4.subtitle')}
                 </p>
             </div>
         </div>

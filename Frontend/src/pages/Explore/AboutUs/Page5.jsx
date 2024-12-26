@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import image1 from '../../../assets/images/mountain.svg';
 import image2 from '../../../assets/images/target.svg';
 import './Page5.css'; 
+import { useTranslation } from "react-i18next";
 
 const Page5 = () => {
   const mainHeadingRef = useRef(null);
@@ -9,6 +10,8 @@ const Page5 = () => {
   const descriptionRef = useRef(null);
   const visionBoxRef = useRef(null);
   const missionBoxRef = useRef(null);
+
+  const { t } = useTranslation();
 
   useEffect(() => {
     const options = {
@@ -46,19 +49,19 @@ const Page5 = () => {
           ref={journeyHeadingRef}
           className="unique-journey-heading unique-slide-in-left unique-hidden"
         >
-          Journey of Mahisha India Technologies
+          {t('about5.journeyHeading')}
         </h3>
         <h1
           ref={mainHeadingRef}
           className="unique-main-heading unique-slide-in-right unique-hidden"
         >
-          We operate digitally, foregoing offline offices and unnecessary expenses
+          {t('about5.mainHeading')}
         </h1>
         <p
           ref={descriptionRef}
           className="unique-description-text unique-slide-in-bottom unique-hidden"
         >
-          Mahisha India Technologies, founded by a young entrepreneur, boasts a dynamic team of enthusiastic individuals, adept at navigating the currents of the latest trends.
+          {t('about5.description')}
         </p>
       </section>
 
@@ -67,10 +70,10 @@ const Page5 = () => {
           ref={visionBoxRef}
           className="unique-vision-box unique-slide-in-top unique-hidden"
         >
-          <img src={image1} alt="Our Vision" className="unique-vision-icon" />
-          <h3 className="unique-vision-title">Our Vision</h3>
+          <img src={image1} alt={t('about5.visionTitle')} className="unique-vision-icon" />
+          <h3 className="unique-vision-title">{t('about5.visionTitle')}</h3>
           <p className="unique-vision-description">
-            Our vision is to empower businesses to flourish in the digital realm by providing them with uniquely tailored websites.
+            {t('about5.visionDescription')}
           </p>
         </div>
 
@@ -78,10 +81,10 @@ const Page5 = () => {
           ref={missionBoxRef}
           className="unique-mission-box unique-slide-in-bottom unique-hidden"
         >
-          <img src={image2} alt="Our Mission" className="unique-mission-icon" />
-          <h3 className="unique-mission-title">Our Mission</h3>
+          <img src={image2} alt={t('about5.missionTitle')} className="unique-mission-icon" />
+          <h3 className="unique-mission-title">{t('about5.missionTitle')}</h3>
           <p className="unique-mission-description">
-            To ensure that every business can establish a strong online presence by offering them personalized websites.
+            {t('about5.missionDescription')}
           </p>
         </div>
       </section>

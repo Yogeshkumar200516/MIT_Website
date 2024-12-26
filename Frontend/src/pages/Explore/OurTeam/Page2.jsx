@@ -1,77 +1,17 @@
-// src/Page2.js
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import './Page2.css'; // Import the external CSS file
 import image1 from '../../../assets/images/team1.jpeg';
 import image2 from '../../../assets/images/team2.jpeg';
 import image3 from '../../../assets/images/team3.jpeg';
 import image4 from '../../../assets/images/team4.jpeg';
 import image5 from '../../../assets/images/team5.jpeg';
 import image6 from '../../../assets/images/team6.jpeg';
-import './Page2.css'; // Import the external CSS file
 
-const teamData = [
-  {
-    id: 1,
-    name: 'Vignesh Vasanth',
-    role: 'Fullstack Developer',
-    experience: '6 years',
-    location: 'Sathyamangalam, India',
-    email: 'vigneshvasanthc@gmail.com',
-    image: image1,
-    description: 'Experienced in building scalable web applications with Angular, Node.js, and MongoDB.',
-  },
-  {
-    id: 2,
-    name: 'Devvidyasagar',
-    role: 'DevOps Engineer',
-    experience: '3 years',
-    location: 'Sathyamangalam, India',
-    email: 'devvidyasagar@gmail.com',
-    image: image2,
-    description: 'Specializes in cloud infrastructure, CI/CD pipelines, and containerization.',
-  },
-  {
-    id: 3,
-    name: 'Jeevan',
-    role: 'Full-Stack Developer',
-    experience: '4 years',
-    location: 'Coimbatore, India',
-    email: 'jeevan@gmail.com',
-    image: image3,
-    description: 'Expert in coding RESTful API development, database access and server-side languages.',
-  },
-  {
-    id: 4,
-    name: 'Gopal Chandru',
-    role: 'Full-Stack Developer',
-    experience: '6 years',
-    location: 'Coimbatore, India',
-    email: 'gopalchandru@gmail.com',
-    image: image4,
-    description: 'Focuses on RESTful API development, databases, and server-side optimizations.',
-  },
-  {
-    id: 5,
-    name: 'Dharun',
-    role: 'UI/UX Designer',
-    experience: '5 years',
-    location: 'Coimbatore, India',
-    email: 'dharun@gmail.com',
-    image: image5,
-    description: 'Designs engaging and user-friendly interfaces with a keen eye for aesthetics.',
-  },
-  {
-    id: 6,
-    name: 'Yogesh Kumar',
-    role: 'Frontend Developer',
-    experience: '1 year',
-    location: 'Sathyamangalam, India',
-    email: 'yogeshkumar.s.radha@gmail.com',
-    image: image6,
-    description: 'Specializes in JavaScript frameworks, accessibility, and performance optimization including React and its libraries.',
-  },
-];
+const teamImages = [image1, image2, image3, image4, image5, image6];
 
 const Page2 = () => {
+  const { t } = useTranslation();
   const [activeMember, setActiveMember] = useState(null);
 
   const openModal = (member) => {
@@ -82,13 +22,20 @@ const Page2 = () => {
     setActiveMember(null);
   };
 
+  // Convert JSON object structure into an array for iteration
+  const teamDataObject = t('team2', { returnObjects: true }) || {};
+  const teamData = Object.keys(teamDataObject)
+    .filter((key) => key.startsWith('teamMember'))
+    .map((key, index) => ({
+      ...teamDataObject[key],
+      id: index + 1,
+      image: teamImages[index],
+    }));
+
   return (
     <div className="page2-container-unique">
-      <h1 className="page2-title-unique">Our Team of potential abilities</h1>
-      <p className="page2-intro-unique">
-        Meet our dedicated team of professionals who are passionate about creating impactful
-        solutions and delivering excellence in every project.
-      </p>
+      <h1 className="page2-title-unique">{t('team2.title')}</h1>
+      <p className="page2-intro-unique">{t('team2.intro')}</p>
       <div className="page2-grid-unique">
         {teamData.map((member) => (
           <div
@@ -125,19 +72,19 @@ const Page2 = () => {
             />
             <h2 className="page2-modal-header-unique">{activeMember.name}</h2>
             <p className="page2-modal-details-unique">
-              <strong>Role:</strong> {activeMember.role}
+              <strong>{t('team2.role')}:</strong> {activeMember.role}
             </p>
             <p className="page2-modal-details-unique">
-              <strong>Experience:</strong> {activeMember.experience}
+              <strong>{t('team2.experience')}:</strong> {activeMember.experience}
             </p>
             <p className="page2-modal-details-unique">
-              <strong>Location:</strong> {activeMember.location}
+              <strong>{t('team2.location')}:</strong> {activeMember.location}
             </p>
             <p className="page2-modal-details-unique">
-              <strong>Email:</strong> {activeMember.email}
+              <strong>{t('team2.email')}:</strong> {activeMember.email}
             </p>
             <p className="page2-modal-details-unique">
-              <strong>Description:</strong> {activeMember.description}
+              <strong>{t('team2.description')}:</strong> {activeMember.description}
             </p>
           </div>
         </div>

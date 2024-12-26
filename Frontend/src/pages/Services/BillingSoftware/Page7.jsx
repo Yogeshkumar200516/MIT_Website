@@ -2,19 +2,22 @@ import React, { useEffect, useRef } from 'react';
 import image from '../../../assets/images/bill-img2.svg'; // Assuming a relevant image for Tax Calculation & Expense Management
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import './Page7.css'; // Import the CSS file for styling
+import { useTranslation } from "react-i18next";
 
 const Page7 = () => {
 
+    const { t } = useTranslation();
+
     const taxExpensePoints = [
-        'Automated tax calculation based on current regulations',
-        'Real-time expense tracking and categorization',
-        'Generating detailed financial reports for better insights',
-        'Integration with accounting software for seamless tax filing',
-        'Tracking business expenses and reimbursable costs',
-        'VAT, GST, and other tax type support',
-        'Budget management and forecasting based on expenses',
-        'Reducing manual errors in tax computation and filing',
-        'Ensuring compliance with tax laws and regulations',
+        t('billing8.features.feature1'),
+        t('billing8.features.feature2'),
+        t('billing8.features.feature3'),
+        t('billing8.features.feature4'),
+        t('billing8.features.feature5'),
+        t('billing8.features.feature6'),
+        t('billing8.features.feature7'),
+        t('billing8.features.feature8'),
+        t('billing8.features.feature9'),
     ];
 
     const imageRef = useRef(null);
@@ -39,13 +42,13 @@ const Page7 = () => {
         <div className="page8-container-web">
             <div className="page8-content-web">
                 <div className="page8-left-web">
-                <h2 className="page8-title-web">Tax Calculation & Expense Management</h2>
+                <h2 className="page8-title-web">{t('billing8.pageTitle')}</h2>
                 <p className="page8-description-web">
-                    At Mahisha India Technologies, we simplify the complexities of tax calculation and expense management for your business. Our automated solutions ensure accurate tax computations, seamless expense tracking, and compliance with the latest tax laws. With real-time tracking, you can categorize and monitor your business expenses, enabling better financial control and budgeting. Whether it’s VAT, GST, or income tax, our platform supports various tax types, helping you minimize errors and stay compliant. Generate detailed reports and integrate with your existing accounting software for a smooth tax filing process.
+                {t('billing8.pageDescription')}
                 </p>
 
                     <button className="page8-button-web">
-                        Get a Quote
+                    {t('billing8.buttonText')}
                         <ArrowForwardIcon style={{ marginLeft: '8px' }} />
                     </button>
                 </div>
