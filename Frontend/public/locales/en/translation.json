@@ -276,6 +276,11 @@
   "team2": {
     "title": "Our Team of potential abilities",
     "intro": "Meet our dedicated team of professionals who are passionate about creating impactful solutions and delivering excellence in every project.",
+    "role": "Role",
+    "experience": "Experience",
+    "location": "Location",
+    "email": "Email",
+    "description": "Description",
     "teamMember1": {
       "name": "Vignesh Vasanth",
       "role": "Fullstack Developer",

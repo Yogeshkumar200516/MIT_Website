@@ -276,6 +276,11 @@
   "team2": {
     "title": "Vårt teams potentialer",
     "intro": "Möt vårt dedikerade team av professionella som brinner för att skapa effektiva lösningar och leverera excellens i varje projekt.",
+    "role": "Roll",
+    "experience": "Erfarenhet",
+    "location": "Plats",
+    "email": "E-post",
+    "description": "Beskrivning",
     "teamMember1": {
       "name": "Vignesh Vasanth",
       "role": "Fullstack Developer",

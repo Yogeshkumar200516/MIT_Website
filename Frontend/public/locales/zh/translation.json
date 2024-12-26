@@ -276,6 +276,11 @@
   "team2": {
     "title": "我们的团队潜力",
     "intro": "我们的团队成员致力于创造影响力解决方案，并在每个项目中提供卓越表现。",
+    "role": "角色",
+    "experience": "经验",
+    "location": "位置",
+    "email": "电子邮件",
+    "description": "描述",
     "teamMember1": {
       "name": "Vignesh Vasanth",
       "role": "全栈开发人员",
