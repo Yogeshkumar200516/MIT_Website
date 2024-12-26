@@ -153,15 +153,15 @@ const Navbar = () => {
   ];
 
   const languageNamesInEnglish = {
-    en: 'English',
-    ta: 'Tamil',
-    ja: 'Japanese',
-    sv: 'Swedish',
-    zh: 'Chinese',
-    hi: 'Hindi',
-    kn: 'Kannada',
-    ml: 'Malayalam',
-    te: 'Telugu',
+    en: 'English (English)',
+    ta: 'Tamil (தமிழ்)',
+    ja: 'Japanese (日本語)',
+    sv: 'Swedish (Svenska)',
+    zh: 'Chinese (中文)',
+    hi: 'Hindi (हिंदी)',
+    kn: 'Kannada (ಕನ್ನಡ)',
+    ml: 'Malayalam (മലയാളം)',
+    te: 'Telugu (తెలుగు)',
   };
 
   return (
@@ -441,7 +441,7 @@ const Navbar = () => {
         {/* Selected Language */}
         <Box
           sx={{
-            width: '80px', // Fixed width to avoid layout shift
+            width: '200px', // Fixed width to avoid layout shift
             textAlign: 'left',
             overflow: 'hidden',
             whiteSpace: 'nowrap',
@@ -463,7 +463,7 @@ const Navbar = () => {
           top: '100%',
           left: 0,
           backgroundImage: 'linear-gradient(to right, #141E30, #243B55)',
-          width: '180px',
+          width: '220px',
           zIndex: 10,
           padding: '8px 0',
           maxHeight: languageOpen ? '235px' : '0',
@@ -549,7 +549,7 @@ const Navbar = () => {
       <Drawer anchor="right" open={drawerOpen} onClose={toggleDrawer(false)}>
       <Box
         sx={{
-          width: 240,
+          width: 250,
           backgroundColor: '#020220',
           color: 'white',
           height: '100vh',
@@ -699,7 +699,7 @@ const Navbar = () => {
                   />
                   <Box
                     sx={{
-                      width: '80px',
+                      width: '140px',
                       textAlign: 'left',
                       whiteSpace: 'nowrap',
                       overflow: 'hidden',
