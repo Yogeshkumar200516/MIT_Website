@@ -43,7 +43,7 @@ MIT (Mahisha India Technologies) is a **dynamic and interactive website** focuse
 
 ## 📸 **Screenshots**
 
-(Add your screenshots here)
+(Look for the Website pages and its UI to feel better)
 
 Example:
 1. ![Home](./Frontend/src/assets/images/GIT_Home.jpeg)
@@ -63,12 +63,12 @@ Example:
 
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/yourusername/mit-website.git
+git clone https://github.com/yourusername/Mit_Website.git
 ```
 
 2. **Navigate to the Project Directory:**
 ```bash
-cd mit-website
+cd Frontend
 ```
 
 3. **Install Dependencies:**
@@ -78,41 +78,13 @@ npm install
 
 4. **Run the Development Server:**
 ```bash
-npm start
+npm run dev
 ```
 
 5. Open your browser and navigate to:
 ```
-http://localhost:3000
+http://localhost:5173
 ```
-
----
-
-## 📂 **Folder Structure**
-```
-MIT-Website/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── styles/
-│   ├── App.js
-│   ├── index.js
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   ├── config/
-├── package.json
-└── README.md
-```
-
----
-
-## 🤝 **Contributing**
-
-Contributions are always welcome! Feel free to submit a pull request or raise an issue.
 
 ---
 
