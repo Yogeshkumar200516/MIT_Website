@@ -46,8 +46,13 @@ MIT (Mahisha India Technologies) is a **dynamic and interactive website** focuse
 (Add your screenshots here)
 
 Example:
-![Homepage](path_to_homepage_image)
+![Home](path_to_homepage_image)
 ![About Us](path_to_about_us_image)
+![Our Team](path_to_homepage_image)
+![Web Development](path_to_about_us_image)
+![Digital Marketing](path_to_homepage_image)
+![Mobile App Development](path_to_about_us_image)
+![Billing Software](path_to_about_us_image)
 
 ---
 
