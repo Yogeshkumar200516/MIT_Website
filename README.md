@@ -46,19 +46,79 @@ MIT (Mahisha India Technologies) is a **dynamic and interactive website** focuse
 (Add your screenshots here)
 
 Example:
-![Home](path_to_homepage_image)
-![About Us](path_to_about_us_image)
-![Our Team](path_to_homepage_image)
-![Web Development](path_to_about_us_image)
-![Digital Marketing](path_to_homepage_image)
-![Mobile App Development](path_to_about_us_image)
-![Billing Software](path_to_about_us_image)
+1. ![Homepage](path_to_homepage_image)
+2. ![About Us](path_to_about_us_image)
+3. ![Services Page](path_to_services_image)
+4. ![Portfolio Page](path_to_portfolio_image)
+5. ![Contact Us Page](path_to_contact_us_image)
+6. ![Language Selector](path_to_language_selector_image)
+7. ![Responsive Design](path_to_responsive_design_image)
+8. ![Animation Effects](path_to_animation_effects_image)
+9. ![Team Section](path_to_team_section_image)
+10. ![Footer Section](path_to_footer_section_image)
+
+---
+
+## 🚦 **How to Run the Project**
+
+1. **Clone the Repository:**
+```bash
+git clone https://github.com/yourusername/mit-website.git
+```
+
+2. **Navigate to the Project Directory:**
+```bash
+cd mit-website
+```
+
+3. **Install Dependencies:**
+```bash
+npm install
+```
+
+4. **Run the Development Server:**
+```bash
+npm start
+```
+
+5. Open your browser and navigate to:
+```
+http://localhost:3000
+```
+
+---
+
+## 📂 **Folder Structure**
+```
+MIT-Website/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.js
+│   ├── index.js
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── config/
+├── package.json
+└── README.md
+```
+
+---
+
+## 🤝 **Contributing**
+
+Contributions are always welcome! Feel free to submit a pull request or raise an issue.
 
 ---
 
 ## 📬 **Contact**
 - **Developer:** Your Name
-- **Email:** yogeshkumar.s.radha@gmail.com
+- **Email:** your.email@example.com
 - **LinkedIn:** [Your LinkedIn Profile](#)
 - **GitHub:** [Your GitHub Profile](#)
 
@@ -77,3 +137,4 @@ This project is licensed under the **MIT License**.
 ---
 
 *Developed with ❤️ by Mahisha India Technologies.*
+
