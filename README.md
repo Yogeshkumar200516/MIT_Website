@@ -46,16 +46,16 @@ MIT (Mahisha India Technologies) is a **dynamic and interactive website** focuse
 (Add your screenshots here)
 
 Example:
-1. ![Homepage](./Frontend/src/assets/images/GIT_Home.jpeg)
-2. ![About Us](path_to_about_us_image)
-3. ![Services Page](path_to_services_image)
-4. ![Portfolio Page](path_to_portfolio_image)
-5. ![Contact Us Page](path_to_contact_us_image)
-6. ![Language Selector](path_to_language_selector_image)
-7. ![Responsive Design](path_to_responsive_design_image)
-8. ![Animation Effects](path_to_animation_effects_image)
-9. ![Team Section](path_to_team_section_image)
-10. ![Footer Section](path_to_footer_section_image)
+1. ![Home](./Frontend/src/assets/images/GIT_Home.jpeg)
+2. ![Page1](./Frontend/src/assets/images/GIT1.jpeg)
+3. ![Page2](./Frontend/src/assets/images/GIT2.jpeg)
+4. ![Page3](./Frontend/src/assets/images/GIT3.jpeg)
+5. ![Page4](./Frontend/src/assets/images/GIT4.jpeg)
+6. ![Page5](./Frontend/src/assets/images/GIT5.jpeg)
+7. ![Page6](./Frontend/src/assets/images/GIT6.jpeg)
+8. ![Page7](./Frontend/src/assets/images/GIT7.jpeg)
+9. ![Page8](./Frontend/src/assets/images/GIT8.jpeg)
+10. ![Page9](./Frontend/src/assets/images/GIT9.jpeg)
 
 ---
 
