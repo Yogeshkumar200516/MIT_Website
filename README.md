@@ -89,10 +89,10 @@ http://localhost:5173
 ---
 
 ## 📬 **Contact**
-- **Developer:** Your Name
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your LinkedIn Profile](#)
-- **GitHub:** [Your GitHub Profile](#)
+- **Developer:** Yogesh Kumar S
+- **Email:** yogeshkumar.s.radha@gmail.com
+- **LinkedIn:** [https://www.linkedin.com/in/yogeshkumar2005/](#)
+- **GitHub:** [https://github.com/Yogeshkumar200516](#)
 
 ---
 
