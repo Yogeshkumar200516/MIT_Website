@@ -45,7 +45,7 @@ const Footer = () => {
       <div className="footer-middle">
         <div className="company-info">
           <h1 className="footer-logo">
-            <span className="nexus-info" style={{ color: 'white', fontSize: '28px' }}>Mahisha<span className="highlight"> India</span> Technologies</span>
+            <span className="nexus-info" style={{ color: 'white', fontSize: '28px' }}>Mahesha<span className="highlight"> India</span> Technologies</span>
           </h1>
           <p>{t('footer.company_info')}</p>
           <div className="social-icons">
